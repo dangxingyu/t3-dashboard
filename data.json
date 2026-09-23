@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790204490.0203001,
-  "generated_label": "2026-09-23 19:01 EDT",
+  "generated_at": 1790205367.1524596,
+  "generated_label": "2026-09-23 19:16 EDT",
   "slots": [
     {
       "name": "A",
@@ -13,12 +13,12 @@
     },
     {
       "name": "B",
-      "allocated": null,
-      "ours": null,
-      "other": null,
-      "warm": null,
-      "unknown": 32,
-      "next": "UNKNOWN"
+      "allocated": 32,
+      "ours": 6,
+      "other": 0,
+      "warm": 26,
+      "unknown": 0,
+      "next": "PENDING"
     }
   ],
   "runs": [
@@ -5006,13 +5006,13 @@
       "arm": "H1 · seed 1 · T³",
       "lr": 0.15,
       "outer": "raw SGD",
-      "status": "unconfirmed",
-      "step": 11782,
+      "status": "running",
+      "step": 13210,
       "horizon": 13466,
-      "passes": 1.7498886083469478,
+      "passes": 1.9619783157582058,
       "unique_batches": 6733,
-      "progress": 0.8749443041734739,
-      "eta_hours": null,
+      "progress": 0.9809891578791029,
+      "eta_hours": 0.07435810489786995,
       "curves": [
         {
           "step": 0,
@@ -5090,13 +5090,13 @@
       "arm": "H1 · seed 1 · zero",
       "lr": 0.15,
       "outer": "raw SGD",
-      "status": "unconfirmed",
-      "step": 11782,
+      "status": "running",
+      "step": 13209,
       "horizon": 13466,
-      "passes": 1.7498886083469478,
+      "passes": 1.9618297935541364,
       "unique_batches": 6733,
-      "progress": 0.8749443041734739,
-      "eta_hours": null,
+      "progress": 0.9809148967770682,
+      "eta_hours": 0.07467443435142437,
       "curves": [
         {
           "step": 0,
@@ -5174,13 +5174,13 @@
       "arm": "H4 · seed 1 · T³",
       "lr": 0.15,
       "outer": "raw SGD",
-      "status": "unconfirmed",
-      "step": 11782,
+      "status": "running",
+      "step": 13226,
       "horizon": 13466,
-      "passes": 1.7498886083469478,
+      "passes": 1.964354671023318,
       "unique_batches": 6733,
-      "progress": 0.8749443041734739,
-      "eta_hours": null,
+      "progress": 0.982177335511659,
+      "eta_hours": 0.06955753938915829,
       "curves": [
         {
           "step": 0,
@@ -5258,13 +5258,13 @@
       "arm": "H4 · seed 1 · zero",
       "lr": 0.15,
       "outer": "raw SGD",
-      "status": "unconfirmed",
-      "step": 11782,
+      "status": "running",
+      "step": 13189,
       "horizon": 13466,
-      "passes": 1.7498886083469478,
+      "passes": 1.9588593494727462,
       "unique_batches": 6733,
-      "progress": 0.8749443041734739,
-      "eta_hours": null,
+      "progress": 0.9794296747363731,
+      "eta_hours": 0.08058209053266586,
       "curves": [
         {
           "step": 0,
@@ -5342,13 +5342,13 @@
       "arm": "H7 · seed 1 · T³",
       "lr": 0.1,
       "outer": "raw SGD",
-      "status": "unconfirmed",
-      "step": 11782,
+      "status": "running",
+      "step": 13201,
       "horizon": 13466,
-      "passes": 1.7498886083469478,
+      "passes": 1.9606416159215803,
       "unique_batches": 6733,
-      "progress": 0.8749443041734739,
-      "eta_hours": null,
+      "progress": 0.9803208079607901,
+      "eta_hours": 0.07691837653595333,
       "curves": [
         {
           "step": 0,
@@ -5426,13 +5426,13 @@
       "arm": "H7 · seed 1 · zero",
       "lr": 0.1,
       "outer": "raw SGD",
-      "status": "unconfirmed",
-      "step": 11782,
+      "status": "running",
+      "step": 13206,
       "horizon": 13466,
-      "passes": 1.7498886083469478,
+      "passes": 1.9613842269419277,
       "unique_batches": 6733,
-      "progress": 0.8749443041734739,
-      "eta_hours": null,
+      "progress": 0.9806921134709639,
+      "eta_hours": 0.07553904684545058,
       "curves": [
         {
           "step": 0,
