@@ -27,7 +27,7 @@ jobs:
       - name: Stage only public website files
         run: |
           mkdir _site
-          cp index.html style.css app.js data.json .nojekyll complete56-development.pdf _site/
+          cp index.html style.css app.js data.json .nojekyll complete56-development.pdf complete56-external.pdf complete56-external.png _site/
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
