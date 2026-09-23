@@ -2,7 +2,7 @@
 let data, hidden = new Set();
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const names={running:'运行中',prepared:'已准备',trained:'训练完成 · 待接受',interrupted:'中断 / 待续跑',failed:'失败 · 待诊断',unconfirmed:'等待状态确认'};
+const names={running:'运行中',prepared:'已准备',trained:'训练完成 · 待接受',accepted:'结果已核验',interrupted:'中断 / 待续跑',failed:'失败 · 待诊断',unconfirmed:'等待状态确认'};
 const colors=['#16786a','#4976bc','#c07b34','#8b61ac','#65963f','#b35a71','#408d99','#927846'];
 const fmt=x=>Number(x).toPrecision(3), num=x=>Number(x).toLocaleString('en-US');
 const label=r=>`${r.arm} · ${r.outer} ${r.lr.toExponential(0)}${r.objective?' · '+r.objective:''}`;

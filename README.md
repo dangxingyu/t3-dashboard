@@ -13,3 +13,7 @@ Run locally with `python -m http.server 8766` and open `http://localhost:8766`.
 Serve the repository root through GitHub Pages for the published dashboard.
 
 Visual organization inspired by [Slow-Space Scaling](https://dangxingyu.github.io/slow-space-dashboard/).
+
+The complete 56-case CPT development and external-evaluation figures are public
+summary plots. The external figure includes every endpoint and all 32 adaptation
+contrasts, with document intervals and explicit single-seed/exploratory limits.
