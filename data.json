@@ -1,13 +1,13 @@
 {
-  "generated_at": 1790143302.3164842,
-  "generated_label": "2026-09-23 02:01 EDT",
+  "generated_at": 1790143604.373493,
+  "generated_label": "2026-09-23 02:06 EDT",
   "slots": [
     {
       "name": "A",
       "allocated": 32,
-      "ours": 12,
+      "ours": 0,
       "other": 0,
-      "warm": 20,
+      "warm": 32,
       "unknown": 0,
       "next": "PENDING"
     },
@@ -31,12 +31,12 @@
       "lr": 1e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 8385,
+      "step": 8467,
       "horizon": 13416,
-      "passes": 2.5,
+      "passes": 2.524448419797257,
       "unique_batches": 3354,
-      "progress": 0.625,
-      "eta_hours": 3.727995293970453,
+      "progress": 0.6311121049493142,
+      "eta_hours": 3.6842926041118336,
       "curves": [
         {
           "step": 0,
@@ -79,6 +79,12 @@
           "target": 1.141190267053312,
           "retention": 2.210291115079346,
           "forgetting": 0.02458381287067768
+        },
+        {
+          "step": 8385,
+          "target": 1.140046377755095,
+          "retention": 2.2119794866155327,
+          "forgetting": 0.02627218440686452
         }
       ],
       "scientifically_accepted": false
@@ -92,12 +98,12 @@
       "lr": 1e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 10994,
+      "step": 11131,
       "horizon": 13416,
-      "passes": 3.277877161598092,
+      "passes": 3.3187239117471674,
       "unique_batches": 3354,
-      "progress": 0.819469290399523,
-      "eta_hours": 1.4393794147736239,
+      "progress": 0.8296809779367919,
+      "eta_hours": 1.3581428763501915,
       "curves": [
         {
           "step": 0,
@@ -165,12 +171,12 @@
       "lr": 1e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 10664,
+      "step": 10798,
       "horizon": 13416,
-      "passes": 3.1794871794871793,
+      "passes": 3.2194394752534286,
       "unique_batches": 3354,
-      "progress": 0.7948717948717948,
-      "eta_hours": 1.6726706551553474,
+      "progress": 0.8048598688133571,
+      "eta_hours": 1.591301281605718,
       "curves": [
         {
           "step": 0,
@@ -238,12 +244,12 @@
       "lr": 3e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 8387,
+      "step": 8504,
       "horizon": 13416,
-      "passes": 2.5005963029218843,
+      "passes": 2.535480023852117,
       "unique_batches": 3354,
-      "progress": 0.6251490757304711,
-      "eta_hours": 3.69658882882058,
+      "progress": 0.6338700059630292,
+      "eta_hours": 3.609428410501116,
       "curves": [
         {
           "step": 0,
@@ -305,12 +311,12 @@
       "lr": 3e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 11005,
+      "step": 11142,
       "horizon": 13416,
-      "passes": 3.2811568276684557,
+      "passes": 3.322003577817531,
       "unique_batches": 3354,
-      "progress": 0.8202892069171139,
-      "eta_hours": 1.4337951194890128,
+      "progress": 0.8305008944543828,
+      "eta_hours": 1.3520063968840987,
       "curves": [
         {
           "step": 0,
@@ -378,12 +384,12 @@
       "lr": 3e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 10671,
+      "step": 10803,
       "horizon": 13416,
-      "passes": 3.1815742397137745,
+      "passes": 3.2209302325581395,
       "unique_batches": 3354,
-      "progress": 0.7953935599284436,
-      "eta_hours": 1.6761053447116865,
+      "progress": 0.8052325581395349,
+      "eta_hours": 1.5952122478311261,
       "curves": [
         {
           "step": 0,
@@ -450,13 +456,13 @@
       "arm": "Adam inner ×2 · zero",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "running",
+      "status": "trained",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
       "unique_batches": 3366,
       "progress": 1,
-      "eta_hours": 0.0,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -539,13 +545,13 @@
       "arm": "Adam inner ×2 · zero",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "running",
-      "step": 13426,
+      "status": "trained",
+      "step": 13464,
       "horizon": 13464,
-      "passes": 3.9887106357694595,
+      "passes": 4.0,
       "unique_batches": 3366,
-      "progress": 0.9971776589423649,
-      "eta_hours": 0.005594096278331967,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -606,6 +612,12 @@
           "target": 1.139143729174166,
           "retention": 2.808799174573287,
           "forgetting": 0.10768173037581219
+        },
+        {
+          "step": 13464,
+          "target": 1.138890845778888,
+          "retention": 2.8122155137970113,
+          "forgetting": 0.1110980695995365
         }
       ],
       "scientifically_accepted": false,
@@ -622,13 +634,13 @@
       "arm": "Adam inner ×2 · T³",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "running",
+      "status": "trained",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
       "unique_batches": 3366,
       "progress": 1,
-      "eta_hours": 0.0,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -711,13 +723,13 @@
       "arm": "Adam inner ×2 · T³",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "running",
+      "status": "trained",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
       "unique_batches": 3366,
       "progress": 1,
-      "eta_hours": 0.0,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -800,13 +812,13 @@
       "arm": "Adam inner ×2 · zero",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "running",
+      "status": "trained",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
       "unique_batches": 3366,
       "progress": 1,
-      "eta_hours": 0.0,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -867,6 +879,12 @@
           "target": 1.1650981758895254,
           "retention": 2.7268089015441648,
           "forgetting": 0.025691457346689983
+        },
+        {
+          "step": 13464,
+          "target": 1.164561732583545,
+          "retention": 2.7276996763575414,
+          "forgetting": 0.02658223216006661
         }
       ],
       "scientifically_accepted": false,
@@ -883,13 +901,13 @@
       "arm": "Adam inner ×2 · zero",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "running",
-      "step": 13450,
+      "status": "trained",
+      "step": 13464,
       "horizon": 13464,
-      "passes": 3.995840760546643,
+      "passes": 4.0,
       "unique_batches": 3366,
-      "progress": 0.9989601901366607,
-      "eta_hours": 0.0020654200311077554,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -950,6 +968,12 @@
           "target": 1.125151698579875,
           "retention": 2.8089763408920727,
           "forgetting": 0.10785889669459792
+        },
+        {
+          "step": 13464,
+          "target": 1.124605970147769,
+          "retention": 2.8123995501303334,
+          "forgetting": 0.11128210593285859
         }
       ],
       "scientifically_accepted": false,
@@ -966,13 +990,13 @@
       "arm": "Adam inner ×2 · T³",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "running",
+      "status": "trained",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
       "unique_batches": 3366,
       "progress": 1,
-      "eta_hours": 0.0,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -1055,13 +1079,13 @@
       "arm": "Adam inner ×2 · T³",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "running",
+      "status": "trained",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
       "unique_batches": 3366,
       "progress": 1,
-      "eta_hours": 0.0,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -2212,13 +2236,13 @@
       "arm": "Adam inner ×2 · zero",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "running",
+      "status": "trained",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
       "unique_batches": 3354,
       "progress": 1,
-      "eta_hours": 0.0,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -2301,13 +2325,13 @@
       "arm": "Adam inner ×2 · zero",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "running",
-      "step": 13280,
+      "status": "trained",
+      "step": 13416,
       "horizon": 13416,
-      "passes": 3.9594514013118665,
+      "passes": 4.0,
       "unique_batches": 3354,
-      "progress": 0.9898628503279666,
-      "eta_hours": 0.020635433529710603,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -2368,6 +2392,12 @@
           "target": 1.5164336202709476,
           "retention": 2.804546925273356,
           "forgetting": 0.10342948107588112
+        },
+        {
+          "step": 13416,
+          "target": 1.5163965298940278,
+          "retention": 2.806518195548236,
+          "forgetting": 0.1054007513507611
         }
       ],
       "scientifically_accepted": false,
@@ -2384,13 +2414,13 @@
       "arm": "Adam inner ×2 · T³",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "running",
+      "status": "trained",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
       "unique_batches": 3354,
       "progress": 1,
-      "eta_hours": 0.0,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -2473,13 +2503,13 @@
       "arm": "Adam inner ×2 · T³",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "running",
-      "step": 13407,
+      "status": "trained",
+      "step": 13416,
       "horizon": 13416,
-      "passes": 3.9973166368515205,
+      "passes": 4.0,
       "unique_batches": 3354,
-      "progress": 0.9993291592128801,
-      "eta_hours": 0.0013297905353829265,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -2540,6 +2570,12 @@
           "target": 1.516830670737829,
           "retention": 2.804523594220207,
           "forgetting": 0.10340615002273212
+        },
+        {
+          "step": 13416,
+          "target": 1.5168078440049115,
+          "retention": 2.8064980411570732,
+          "forgetting": 0.10538059695959845
         }
       ],
       "scientifically_accepted": false,
@@ -5449,7 +5485,7 @@
     },
     {
       "priority": "P1",
-      "title": "135M 评分精度检查 · 排队，等待当前训练完成",
+      "title": "135M 评分精度检查 · 已准备",
       "family": null,
       "why": "排除评分批大小或填充造成的小幅假收益，为完整学习—遗忘比较做准备。",
       "design": "相同的 8 段 development 文本，比较单独评分和分批评分；使用 1 张卡。",
