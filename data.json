@@ -1,5 +1,5 @@
 {
-  "generated_at": 1790145781.491557,
+  "generated_at": 1790145814.9060786,
   "generated_label": "2026-09-23 02:43 EDT",
   "slots": [
     {
@@ -31,12 +31,12 @@
       "lr": 1e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 9239,
+      "step": 9250,
       "horizon": 13416,
-      "passes": 2.7546213476446035,
+      "passes": 2.7579010137149673,
       "unique_batches": 3354,
-      "progress": 0.6886553369111509,
-      "eta_hours": 3.122182961795091,
+      "progress": 0.6894752534287418,
+      "eta_hours": 3.0825955646376437,
       "curves": [
         {
           "step": 0,
@@ -98,12 +98,12 @@
       "lr": 1e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 11995,
+      "step": 12003,
       "horizon": 13416,
-      "passes": 3.576326774001193,
+      "passes": 3.57871198568873,
       "unique_batches": 3354,
-      "progress": 0.8940816935002982,
-      "eta_hours": 0.8418402874537666,
+      "progress": 0.8946779964221825,
+      "eta_hours": 0.8396720495395129,
       "curves": [
         {
           "step": 0,
@@ -177,12 +177,12 @@
       "lr": 1e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 11726,
+      "step": 11737,
       "horizon": 13416,
-      "passes": 3.496124031007752,
+      "passes": 3.4994036970781157,
       "unique_batches": 3354,
-      "progress": 0.874031007751938,
-      "eta_hours": 1.033574150905608,
+      "progress": 0.8748509242695289,
+      "eta_hours": 1.0255753797039182,
       "curves": [
         {
           "step": 0,
@@ -250,12 +250,12 @@
       "lr": 3e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 9281,
+      "step": 9290,
       "horizon": 13416,
-      "passes": 2.767143709004174,
+      "passes": 2.7698270721526534,
       "unique_batches": 3354,
-      "progress": 0.6917859272510435,
-      "eta_hours": 3.0422229761270705,
+      "progress": 0.6924567680381634,
+      "eta_hours": 3.0329038386507374,
       "curves": [
         {
           "step": 0,
@@ -317,12 +317,12 @@
       "lr": 3e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 12002,
+      "step": 12016,
       "horizon": 13416,
-      "passes": 3.5784138342277876,
+      "passes": 3.582587954680978,
       "unique_batches": 3354,
-      "progress": 0.8946034585569469,
-      "eta_hours": 0.845054620499464,
+      "progress": 0.8956469886702445,
+      "eta_hours": 0.832223359340181,
       "curves": [
         {
           "step": 0,
@@ -396,12 +396,12 @@
       "lr": 3e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 11729,
+      "step": 11739,
       "horizon": 13416,
-      "passes": 3.4970184853905786,
+      "passes": 3.5,
       "unique_batches": 3354,
-      "progress": 0.8742546213476446,
-      "eta_hours": 1.0310778205616062,
+      "progress": 0.875,
+      "eta_hours": 1.0238211133715232,
       "curves": [
         {
           "step": 0,
@@ -5454,10 +5454,6 @@
     {
       "title": "32 组网格：完整训练超出最初时限",
       "detail": "全部通过模型、优化器和随机状态恢复检查；实测速度预测超过7200秒，因此在32步资格检查后停止。旧尝试共1533 GPU秒，已计入成本。完整配置与horizon不变，重新从相同base运行，单次预算调整为12000秒。"
-    },
-    {
-      "title": "56 组训练已完成：结果汇总遇到文件检查问题",
-      "detail": "汇总脚本拒绝了模型缓存中的符号链接，完整汇总尚未生成。训练结果保留；先修复并审查读取逻辑，再冻结候选与启动外部评分。"
     }
   ],
   "questions": [
@@ -5465,7 +5461,7 @@
       "priority": "P0",
       "title": "CPT：能否学得更多，同时忘得更少？",
       "why": "区分真正的适应收益，与学习率、优化器和 query-only 更新带来的差异。",
-      "next": "先读完整配对轨迹，再做目标学习相当时的遗忘比较；保留全部学习率。"
+      "next": "56组 development 已核验：适应相对 own-zero 的终点差异均小于0.001目标域NLL／0.00046 FineWeb NLL；暂无候选进入多seed，待完整外部评分。"
     },
     {
       "priority": "P0",
@@ -5489,7 +5485,7 @@
       "family": "factorial",
       "why": "旧 CPT 的大部分遗忘改善在去掉适应后仍存在。需要识别 T³ 自身的增量。",
       "design": "135M，代码／数学，AdamW／SGD，各 2 个 LR；query-only／retained-mean；Adam 两步适应／配对 zero。",
-      "decision": "保留 16 对结果；最多选 2 个 development 候选做独立验证，不依据外部测试挑参数。"
+      "decision": "完整 development 已核验，本轮冻结0个续跑候选；原计划全部56组仍进入外部审计，后续优先考虑适应幅度的混淆。"
     },
     {
       "priority": "P1",
@@ -5509,7 +5505,7 @@
     },
     {
       "priority": "P1",
-      "title": "56 组学习—遗忘评估 · 待启动：先修复汇总脚本的模型缓存文件检查",
+      "title": "56 组学习—遗忘评估 · 评分代码已审查，等待完整训练与精度检查",
       "family": null,
       "why": "检验临时适应能否带来独立收益，并比较目标域学习相当时的遗忘。",
       "design": "所有配置的 8 个固定 checkpoint，加上各自 development-best；配对 zero、ordinary 和一步／两步对照。",
