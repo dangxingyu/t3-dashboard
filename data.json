@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790147023.318702,
-  "generated_label": "2026-09-23 03:03 EDT",
+  "generated_at": 1790147120.7242749,
+  "generated_label": "2026-09-23 03:05 EDT",
   "slots": [
     {
       "name": "A",
@@ -5461,6 +5461,10 @@
     "Capacity observation unavailable"
   ],
   "incidents": [
+    {
+      "title": "外部评分启动失败：跨节点文件身份检查",
+      "detail": "56组训练和checkpoint完整。评分器把本机文件系统编号当作跨节点身份，全部任务在模型加载前退出，共计约170 GPU秒；修复与验证中，尚未生成外部结果。"
+    },
     {
       "title": "A 配套实验：共享调度中断",
       "detail": "24个配置共41次短尝试受到共享调度服务中断影响，消耗197 GPU秒，记录均保留。现使用独立任务清单和新的完整训练预算；这不是算法结果。"
