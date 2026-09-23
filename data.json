@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790185707.5620923,
-  "generated_label": "2026-09-23 13:48 EDT",
+  "generated_at": 1790186028.2302456,
+  "generated_label": "2026-09-23 13:53 EDT",
   "slots": [
     {
       "name": "A",
@@ -3388,7 +3388,7 @@
       "arm": "normalized-gradient · 0.1× radius",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -3463,7 +3463,7 @@
           "forgetting": 0.026511925843083706
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained-mean · target-only",
       "target_tokens_per_update": 8192,
       "inner_direction": "gradient",
@@ -3478,7 +3478,7 @@
       "arm": "normalized-gradient · 0.1× radius",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -3553,7 +3553,7 @@
           "forgetting": 0.11128732499485006
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained-mean · target-only",
       "target_tokens_per_update": 8192,
       "inner_direction": "gradient",
@@ -3568,7 +3568,7 @@
       "arm": "normalized-gradient · 0.1× radius",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -3643,7 +3643,7 @@
           "forgetting": 0.044542291060127415
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained-mean · target-only",
       "target_tokens_per_update": 8192,
       "inner_direction": "gradient",
@@ -3658,7 +3658,7 @@
       "arm": "normalized-gradient · 0.1× radius",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -3733,7 +3733,7 @@
           "forgetting": 0.10534005534082613
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained-mean · target-only",
       "target_tokens_per_update": 8192,
       "inner_direction": "gradient",
@@ -10161,11 +10161,19 @@
   "plans": [
     {
       "priority": "P0",
+      "title": "历史配方逐项阶梯 · 16 组准备中",
+      "family": null,
+      "why": "定位历史配方的自身适应收益在哪个改动后改变；不把跨实验差距直接归因于算法。",
+      "design": "H0历史参考 → 数值后端 → 内层LR日程 → 重复support → 固定support → clip → outerLR → warmup；每格配own-zero。",
+      "decision": "CPU/GPU旧实现一致性、完整状态与时限检查通过后启动B。该第一阶段尚未覆盖batch、query位置、数据重复策略及outerAdamW。"
+    },
+    {
+      "priority": "P0",
       "title": "Normalized 0.1× · 4 组",
       "family": "smallradius",
       "why": "局部 probe 显示减小半径能减少临时旧域损害；检验这是否改善最终训练。",
       "design": "代码／数学 × 两个 LR；沿用同一 trainer 与已核验的 zero、1×、ordinary 对照，只将 normalized 半径降至 0.1×。",
-      "decision": "先比较 own-zero；只比 1× 少损害不算 T³ 收益。位移误差超阈值即停止该项；0.01× 暂受 FP32 精度限制，不加新 seed。"
+      "decision": "C50 已核验：4/4 比 1× 两项区间均改善；相对 own-zero 只有2/4两项区间改善，最大终点遗忘改善0.00008857 NLL。预定学习匹配仅2/4通过；math较大LR的匹配遗忘反而差0.002040。单seed、已观察holdout；不扩seed或更小半径，转向历史配方阶梯。"
     },
     {
       "priority": "P0",
@@ -10291,7 +10299,8 @@
       "C44 · Muon secondary evaluation",
       "C46 · repeated-data 1.7B CPT: adverse own-zero effects",
       "C47 · direction and dose CPT: all outcomes retained",
-      "C49 · matched replay CPT: small retention increments"
+      "C49 · matched replay CPT: small retention increments",
+      "C50 · normalized0.1 CPT: small conditional increments"
     ]
   }
 }
