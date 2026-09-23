@@ -1,15 +1,15 @@
 {
-  "generated_at": 1790193897.8225942,
-  "generated_label": "2026-09-23 16:04 EDT",
+  "generated_at": 1790194827.9640777,
+  "generated_label": "2026-09-23 16:20 EDT",
   "slots": [
     {
       "name": "A",
       "allocated": 32,
-      "ours": 8,
-      "other": 0,
-      "warm": 24,
-      "unknown": 0,
-      "next": "PENDING"
+      "ours": null,
+      "other": null,
+      "warm": null,
+      "unknown": 32,
+      "next": "UNKNOWN"
     },
     {
       "name": "B",
@@ -3389,12 +3389,12 @@
       "lr": 0.15,
       "outer": "raw SGD",
       "status": "running",
-      "step": 8987,
+      "step": 10647,
       "horizon": 13466,
-      "passes": 1.334769047972672,
+      "passes": 1.5813159067280558,
       "unique_batches": 6733,
-      "progress": 0.667384523986336,
-      "eta_hours": 0.6904262444749475,
+      "progress": 0.7906579533640279,
+      "eta_hours": 0.43494730319750186,
       "curves": [
         {
           "step": 0,
@@ -3443,6 +3443,12 @@
           "target": 1.1269467353731775,
           "retention": 2.751407297660949,
           "forgetting": 0.050289853463474365
+        },
+        {
+          "step": 10099,
+          "target": 1.1194881517122386,
+          "retention": 2.7511228784196065,
+          "forgetting": 0.05000543422213166
         }
       ],
       "scientifically_accepted": false,
@@ -3460,12 +3466,12 @@
       "lr": 0.15,
       "outer": "raw SGD",
       "status": "running",
-      "step": 8999,
+      "step": 10659,
       "horizon": 13466,
-      "passes": 1.336551314421506,
+      "passes": 1.58309817317689,
       "unique_batches": 6733,
-      "progress": 0.668275657210753,
-      "eta_hours": 0.6879169279053652,
+      "progress": 0.791549086588445,
+      "eta_hours": 0.4322775991702737,
       "curves": [
         {
           "step": 0,
@@ -3514,6 +3520,12 @@
           "target": 1.1288223449860493,
           "retention": 2.758696788796477,
           "forgetting": 0.05757934459900227
+        },
+        {
+          "step": 10099,
+          "target": 1.1213593599572151,
+          "retention": 2.7589544647286783,
+          "forgetting": 0.05783702053120354
         }
       ],
       "scientifically_accepted": false,
@@ -3531,12 +3543,12 @@
       "lr": 0.15,
       "outer": "raw SGD",
       "status": "running",
-      "step": 4788,
+      "step": 5668,
       "horizon": 13466,
-      "passes": 0.7111243130848062,
+      "passes": 0.8418238526659736,
       "unique_batches": 6733,
-      "progress": 0.3555621565424031,
-      "eta_hours": 2.5275238637327373,
+      "progress": 0.4209119263329868,
+      "eta_hours": 2.272766042228969,
       "curves": [
         {
           "step": 0,
@@ -3567,6 +3579,12 @@
           "target": 1.170836504432215,
           "retention": 2.7670240920262286,
           "forgetting": 0.06590664782875377
+        },
+        {
+          "step": 5049,
+          "target": 1.1514945360158981,
+          "retention": 2.761770558380545,
+          "forgetting": 0.0606531141830704
         }
       ],
       "scientifically_accepted": false,
@@ -3584,12 +3602,12 @@
       "lr": 0.15,
       "outer": "raw SGD",
       "status": "running",
-      "step": 4818,
+      "step": 5704,
       "horizon": 13466,
-      "passes": 0.7155799792068914,
+      "passes": 0.8471706520124759,
       "unique_batches": 6733,
-      "progress": 0.3577899896034457,
-      "eta_hours": 2.497092295463921,
+      "progress": 0.42358532600623794,
+      "eta_hours": 2.249841683126805,
       "curves": [
         {
           "step": 0,
@@ -3620,6 +3638,12 @@
           "target": 1.1708093800405768,
           "retention": 2.7685152827664865,
           "forgetting": 0.06739783856901171
+        },
+        {
+          "step": 5049,
+          "target": 1.1509011564984024,
+          "retention": 2.7639272726024346,
+          "forgetting": 0.06280982840495986
         }
       ],
       "scientifically_accepted": false,
@@ -3637,12 +3661,12 @@
       "lr": 0.15,
       "outer": "raw SGD",
       "status": "running",
-      "step": 4803,
+      "step": 5687,
       "horizon": 13466,
-      "passes": 0.7133521461458489,
+      "passes": 0.8446457745432943,
       "unique_batches": 6733,
-      "progress": 0.3566760730729244,
-      "eta_hours": 2.5088870217418946,
+      "progress": 0.42232288727164713,
+      "eta_hours": 2.256458335116816,
       "curves": [
         {
           "step": 0,
@@ -3673,6 +3697,12 @@
           "target": 1.186005194204937,
           "retention": 2.7988898428444333,
           "forgetting": 0.09777239864695852
+        },
+        {
+          "step": 5049,
+          "target": 1.1511419998381478,
+          "retention": 2.7632676613142033,
+          "forgetting": 0.06215021711672852
         }
       ],
       "scientifically_accepted": false,
@@ -3690,12 +3720,12 @@
       "lr": 0.15,
       "outer": "raw SGD",
       "status": "running",
-      "step": 4785,
+      "step": 5665,
       "horizon": 13466,
-      "passes": 0.7106787464725977,
+      "passes": 0.8413782860537651,
       "unique_batches": 6733,
-      "progress": 0.35533937323629883,
-      "eta_hours": 2.5243350672074465,
+      "progress": 0.42068914302688254,
+      "eta_hours": 2.27279521878065,
       "curves": [
         {
           "step": 0,
@@ -3726,6 +3756,12 @@
           "target": 1.1708093800405768,
           "retention": 2.7685152827664865,
           "forgetting": 0.06739783856901171
+        },
+        {
+          "step": 5049,
+          "target": 1.1509011564984024,
+          "retention": 2.7639272726024346,
+          "forgetting": 0.06280982840495986
         }
       ],
       "scientifically_accepted": false,
@@ -3743,12 +3779,12 @@
       "lr": 0.15,
       "outer": "raw SGD",
       "status": "running",
-      "step": 4808,
+      "step": 5692,
       "horizon": 13466,
-      "passes": 0.7140947571661963,
+      "passes": 0.8453883855636418,
       "unique_batches": 6733,
-      "progress": 0.35704737858309815,
-      "eta_hours": 2.506689419391332,
+      "progress": 0.4226941927818209,
+      "eta_hours": 2.250692026321,
       "curves": [
         {
           "step": 0,
@@ -3779,6 +3815,12 @@
           "target": 1.1707482361178712,
           "retention": 2.7657343494337425,
           "forgetting": 0.06461690523626773
+        },
+        {
+          "step": 5049,
+          "target": 1.1515559980064314,
+          "retention": 2.7641152384595005,
+          "forgetting": 0.06299779426202567
         }
       ],
       "scientifically_accepted": false,
@@ -3796,12 +3838,12 @@
       "lr": 0.15,
       "outer": "raw SGD",
       "status": "running",
-      "step": 4794,
+      "step": 5676,
       "horizon": 13466,
-      "passes": 0.7120154463092232,
+      "passes": 0.8430120302985297,
       "unique_batches": 6733,
-      "progress": 0.3560077231546116,
-      "eta_hours": 2.5178322663903234,
+      "progress": 0.42150601514926483,
+      "eta_hours": 2.2621510491182564,
       "curves": [
         {
           "step": 0,
@@ -3832,6 +3874,12 @@
           "target": 1.1708093800405768,
           "retention": 2.7685152827664865,
           "forgetting": 0.06739783856901171
+        },
+        {
+          "step": 5049,
+          "target": 1.1509011564984024,
+          "retention": 2.7639272726024346,
+          "forgetting": 0.06280982840495986
         }
       ],
       "scientifically_accepted": false,
@@ -3849,12 +3897,12 @@
       "lr": 0.15,
       "outer": "raw SGD",
       "status": "running",
-      "step": 4794,
+      "step": 5677,
       "horizon": 13466,
-      "passes": 0.7120154463092232,
+      "passes": 0.8431605525025991,
       "unique_batches": 6733,
-      "progress": 0.3560077231546116,
-      "eta_hours": 2.515252926869111,
+      "progress": 0.42158027625129957,
+      "eta_hours": 2.2610989577797267,
       "curves": [
         {
           "step": 0,
@@ -3885,6 +3933,12 @@
           "target": 1.1742672112598675,
           "retention": 2.7788543282531384,
           "forgetting": 0.07773688405566359
+        },
+        {
+          "step": 5049,
+          "target": 1.1540695290358762,
+          "retention": 2.7746109284867866,
+          "forgetting": 0.0734934842893118
         }
       ],
       "scientifically_accepted": false,
@@ -3902,12 +3956,12 @@
       "lr": 0.15,
       "outer": "raw SGD",
       "status": "running",
-      "step": 4777,
+      "step": 5655,
       "horizon": 13466,
-      "passes": 0.7094905688400416,
+      "passes": 0.83989306401307,
       "unique_batches": 6733,
-      "progress": 0.3547452844200208,
-      "eta_hours": 2.532114029561635,
+      "progress": 0.419946532006535,
+      "eta_hours": 2.2751703425378462,
       "curves": [
         {
           "step": 0,
@@ -3938,6 +3992,12 @@
           "target": 1.1708093800405768,
           "retention": 2.7685152827664865,
           "forgetting": 0.06739783856901171
+        },
+        {
+          "step": 5049,
+          "target": 1.1509011564984024,
+          "retention": 2.7639272726024346,
+          "forgetting": 0.06280982840495986
         }
       ],
       "scientifically_accepted": false,
@@ -3955,12 +4015,12 @@
       "lr": 0.15,
       "outer": "raw SGD",
       "status": "running",
-      "step": 4786,
+      "step": 5669,
       "horizon": 13466,
-      "passes": 0.7108272686766671,
+      "passes": 0.8419723748700431,
       "unique_batches": 6733,
-      "progress": 0.35541363433833356,
-      "eta_hours": 2.515652382712708,
+      "progress": 0.42098618743502153,
+      "eta_hours": 2.2645426188694544,
       "curves": [
         {
           "step": 0,
@@ -3991,6 +4051,12 @@
           "target": 1.1740538413912642,
           "retention": 2.756961940637499,
           "forgetting": 0.055844496440024205
+        },
+        {
+          "step": 5049,
+          "target": 1.1528221485854901,
+          "retention": 2.7523229555330126,
+          "forgetting": 0.05120551133553786
         }
       ],
       "scientifically_accepted": false,
@@ -4008,12 +4074,12 @@
       "lr": 0.15,
       "outer": "raw SGD",
       "status": "running",
-      "step": 4813,
+      "step": 5700,
       "horizon": 13466,
-      "passes": 0.7148373681865439,
+      "passes": 0.8465765631961978,
       "unique_batches": 6733,
-      "progress": 0.35741868409327193,
-      "eta_hours": 2.5053076614517744,
+      "progress": 0.4232882815980989,
+      "eta_hours": 2.242306121379758,
       "curves": [
         {
           "step": 0,
@@ -4044,6 +4110,12 @@
           "target": 1.1734565865963342,
           "retention": 2.7539626719414354,
           "forgetting": 0.05284522774396061
+        },
+        {
+          "step": 5049,
+          "target": 1.1525767351728737,
+          "retention": 2.7547403100986276,
+          "forgetting": 0.05362286590115284
         }
       ],
       "scientifically_accepted": false,
@@ -4061,12 +4133,12 @@
       "lr": 0.1,
       "outer": "raw SGD",
       "status": "running",
-      "step": 4796,
+      "step": 5679,
       "horizon": 13466,
-      "passes": 0.7123124907173622,
+      "passes": 0.8434575969107382,
       "unique_batches": 6733,
-      "progress": 0.3561562453586811,
-      "eta_hours": 2.5126617819846917,
+      "progress": 0.4217287984553691,
+      "eta_hours": 2.258012148165532,
       "curves": [
         {
           "step": 0,
@@ -4097,6 +4169,12 @@
           "target": 1.1795135070625775,
           "retention": 2.7371597266822443,
           "forgetting": 0.03604228248476948
+        },
+        {
+          "step": 5049,
+          "target": 1.161955506094327,
+          "retention": 2.7382024849348414,
+          "forgetting": 0.037085040737366626
         }
       ],
       "scientifically_accepted": false,
@@ -4114,12 +4192,12 @@
       "lr": 0.1,
       "outer": "raw SGD",
       "status": "running",
-      "step": 4804,
+      "step": 5691,
       "horizon": 13466,
-      "passes": 0.7135006683499183,
+      "passes": 0.8452398633595722,
       "unique_batches": 6733,
-      "progress": 0.35675033417495916,
-      "eta_hours": 2.4999410974755625,
+      "progress": 0.4226199316797861,
+      "eta_hours": 2.2463230466738526,
       "curves": [
         {
           "step": 0,
@@ -4150,6 +4228,12 @@
           "target": 1.1826187988171182,
           "retention": 2.738796574218816,
           "forgetting": 0.037679130021341045
+        },
+        {
+          "step": 5049,
+          "target": 1.162094728475693,
+          "retention": 2.7402263452014703,
+          "forgetting": 0.039108901003995555
         }
       ],
       "scientifically_accepted": false,
@@ -4167,12 +4251,12 @@
       "lr": 0.1,
       "outer": "raw SGD",
       "status": "running",
-      "step": 4824,
+      "step": 5712,
       "horizon": 13466,
-      "passes": 0.7164711124313085,
+      "passes": 0.848358829645032,
       "unique_batches": 6733,
-      "progress": 0.3582355562156542,
-      "eta_hours": 2.4951974752995496,
+      "progress": 0.424179414822516,
+      "eta_hours": 2.2396414992448666,
       "curves": [
         {
           "step": 0,
@@ -4203,6 +4287,12 @@
           "target": 1.1801935154994552,
           "retention": 2.7392194795028475,
           "forgetting": 0.038102035305372706
+        },
+        {
+          "step": 5049,
+          "target": 1.1630391978928165,
+          "retention": 2.738798411077928,
+          "forgetting": 0.037680966880453415
         }
       ],
       "scientifically_accepted": false,
@@ -4220,12 +4310,12 @@
       "lr": 0.1,
       "outer": "raw SGD",
       "status": "running",
-      "step": 4772,
+      "step": 5649,
       "horizon": 13466,
-      "passes": 0.708747957819694,
+      "passes": 0.8390019307886529,
       "unique_batches": 6733,
-      "progress": 0.354373978909847,
-      "eta_hours": 2.548059629421914,
+      "progress": 0.41950096539432646,
+      "eta_hours": 2.2867406644301567,
       "curves": [
         {
           "step": 0,
@@ -4256,6 +4346,12 @@
           "target": 1.1874788098519473,
           "retention": 2.7398481081053254,
           "forgetting": 0.038730663907850627
+        },
+        {
+          "step": 5049,
+          "target": 1.163538506399433,
+          "retention": 2.7408299493528356,
+          "forgetting": 0.039712505155360844
         }
       ],
       "scientifically_accepted": false,
@@ -4272,13 +4368,13 @@
       "arm": "H0 · seed 1 · T³",
       "lr": 0.15,
       "outer": "raw SGD",
-      "status": "running",
-      "step": 8602,
+      "status": "unconfirmed",
+      "step": 10099,
       "horizon": 13466,
-      "passes": 1.2775879994059112,
+      "passes": 1.4999257388979652,
       "unique_batches": 6733,
-      "progress": 0.6387939997029556,
-      "eta_hours": 0.7479010973208481,
+      "progress": 0.7499628694489826,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -4327,6 +4423,12 @@
           "target": 1.126413142280068,
           "retention": 2.757084178289773,
           "forgetting": 0.05596673409229824
+        },
+        {
+          "step": 10099,
+          "target": 1.1174933671212912,
+          "retention": 2.7500940831459437,
+          "forgetting": 0.04897663894846893
         }
       ],
       "scientifically_accepted": false,
@@ -4343,13 +4445,13 @@
       "arm": "H0 · seed 1 · zero",
       "lr": 0.15,
       "outer": "raw SGD",
-      "status": "running",
-      "step": 8552,
+      "status": "unconfirmed",
+      "step": 10099,
       "horizon": 13466,
-      "passes": 1.2701618892024358,
+      "passes": 1.4999257388979652,
       "unique_batches": 6733,
-      "progress": 0.6350809446012179,
-      "eta_hours": 0.7600729390571359,
+      "progress": 0.7499628694489826,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -4398,6 +4500,12 @@
           "target": 1.12872698740771,
           "retention": 2.7663530908463905,
           "forgetting": 0.06523564664891568
+        },
+        {
+          "step": 10099,
+          "target": 1.1199807712970382,
+          "retention": 2.7592236799140446,
+          "forgetting": 0.05810623571656981
         }
       ],
       "scientifically_accepted": false,
@@ -4414,13 +4522,13 @@
       "arm": "H1 · seed 1 · T³",
       "lr": 0.15,
       "outer": "raw SGD",
-      "status": "running",
-      "step": 4576,
+      "status": "unconfirmed",
+      "step": 5049,
       "horizon": 13466,
-      "passes": 0.6796376058220704,
+      "passes": 0.7498886083469478,
       "unique_batches": 6733,
-      "progress": 0.3398188029110352,
-      "eta_hours": 2.5788825450038226,
+      "progress": 0.3749443041734739,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -4451,6 +4559,12 @@
           "target": 1.1642417718918774,
           "retention": 2.7772945186581066,
           "forgetting": 0.07617707446063182
+        },
+        {
+          "step": 5049,
+          "target": 1.1497203188403042,
+          "retention": 2.7661439432454196,
+          "forgetting": 0.06502649904794477
         }
       ],
       "scientifically_accepted": false,
@@ -4467,13 +4581,13 @@
       "arm": "H1 · seed 1 · zero",
       "lr": 0.15,
       "outer": "raw SGD",
-      "status": "running",
-      "step": 4590,
+      "status": "unconfirmed",
+      "step": 5049,
       "horizon": 13466,
-      "passes": 0.6817169166790435,
+      "passes": 0.7498886083469478,
       "unique_batches": 6733,
-      "progress": 0.3408584583395218,
-      "eta_hours": 2.561172556197012,
+      "progress": 0.3749443041734739,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -4504,6 +4618,12 @@
           "target": 1.171416445393019,
           "retention": 2.777236226327354,
           "forgetting": 0.07611878212987921
+        },
+        {
+          "step": 5049,
+          "target": 1.1463091817035398,
+          "retention": 2.758636545088239,
+          "forgetting": 0.057519100890764285
         }
       ],
       "scientifically_accepted": false,
@@ -4520,13 +4640,13 @@
       "arm": "H4 · seed 1 · T³",
       "lr": 0.15,
       "outer": "raw SGD",
-      "status": "running",
-      "step": 4597,
+      "status": "unconfirmed",
+      "step": 5049,
       "horizon": 13466,
-      "passes": 0.68275657210753,
+      "passes": 0.7498886083469478,
       "unique_batches": 6733,
-      "progress": 0.341378286053765,
-      "eta_hours": 2.570309753507673,
+      "progress": 0.3749443041734739,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -4557,6 +4677,12 @@
           "target": 1.1696640188011223,
           "retention": 2.7738594267116867,
           "forgetting": 0.07274198251421193
+        },
+        {
+          "step": 5049,
+          "target": 1.1468082251079408,
+          "retention": 2.7594770191228384,
+          "forgetting": 0.05835957492536359
         }
       ],
       "scientifically_accepted": false,
@@ -4573,13 +4699,13 @@
       "arm": "H4 · seed 1 · zero",
       "lr": 0.15,
       "outer": "raw SGD",
-      "status": "running",
-      "step": 4588,
+      "status": "unconfirmed",
+      "step": 5049,
       "horizon": 13466,
-      "passes": 0.6814198722709045,
+      "passes": 0.7498886083469478,
       "unique_batches": 6733,
-      "progress": 0.34070993613545225,
-      "eta_hours": 2.5735977010095183,
+      "progress": 0.3749443041734739,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -4610,6 +4736,12 @@
           "target": 1.171416445393019,
           "retention": 2.777236226327354,
           "forgetting": 0.07611878212987921
+        },
+        {
+          "step": 5049,
+          "target": 1.1463091817035398,
+          "retention": 2.758636545088239,
+          "forgetting": 0.057519100890764285
         }
       ],
       "scientifically_accepted": false,
@@ -4626,13 +4758,13 @@
       "arm": "H7 · seed 1 · T³",
       "lr": 0.1,
       "outer": "raw SGD",
-      "status": "running",
-      "step": 4587,
+      "status": "unconfirmed",
+      "step": 5049,
       "horizon": 13466,
-      "passes": 0.681271350066835,
+      "passes": 0.7498886083469478,
       "unique_batches": 6733,
-      "progress": 0.3406356750334175,
-      "eta_hours": 2.5741098789623034,
+      "progress": 0.3749443041734739,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -4663,6 +4795,12 @@
           "target": 1.1718709875241224,
           "retention": 2.7403430701043128,
           "forgetting": 0.03922562590683798
+        },
+        {
+          "step": 5049,
+          "target": 1.1581892834166372,
+          "retention": 2.737759900946882,
+          "forgetting": 0.03664245674940725
         }
       ],
       "scientifically_accepted": false,
@@ -4679,13 +4817,13 @@
       "arm": "H7 · seed 1 · zero",
       "lr": 0.1,
       "outer": "raw SGD",
-      "status": "running",
-      "step": 4576,
+      "status": "unconfirmed",
+      "step": 5049,
       "horizon": 13466,
-      "passes": 0.6796376058220704,
+      "passes": 0.7498886083469478,
       "unique_batches": 6733,
-      "progress": 0.3398188029110352,
-      "eta_hours": 2.582289409601233,
+      "progress": 0.3749443041734739,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -4716,6 +4854,12 @@
           "target": 1.168743531412593,
           "retention": 2.739562538473693,
           "forgetting": 0.03844509427621823
+        },
+        {
+          "step": 5049,
+          "target": 1.1586921053364803,
+          "retention": 2.7393888021721784,
+          "forgetting": 0.0382713579747036
         }
       ],
       "scientifically_accepted": false,
