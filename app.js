@@ -6,7 +6,7 @@ const names={running:'运行中',prepared:'已准备',trained:'训练完成 · �
 const colors=['#16786a','#4976bc','#c07b34','#8b61ac','#65963f','#b35a71','#408d99','#927846'];
 const fmt=x=>Number(x).toPrecision(3), num=x=>Number(x).toLocaleString('en-US');
 const label=r=>`${r.arm} · ${r.outer} ${r.lr.toExponential(0)}${r.objective?' · '+r.objective:''}`;
-function freshness(){if(!data)return;const m=(Date.now()/1000-data.generated_at)/60;$('freshness').textContent=m>15?`快照已过期 · ${Math.floor(m)} 分钟前`:`快照年龄 ${Math.max(0,Math.floor(m))} 分钟`;$('freshness').className=m>15?'stale':'';}
+function freshness(){if(!data)return;const m=(Date.now()/1000-data.generated_at)/60;$('freshness').textContent=m>45?`快照已过期 · ${Math.floor(m)} 分钟前`:`快照年龄 ${Math.max(0,Math.floor(m))} 分钟`;$('freshness').className=m>45?'stale':'';}
 function render(){
  $('updated').textContent='数据更新：'+data.generated_label;freshness();
  $('incidents').innerHTML=(data.incidents||[]).map(i=>`<details class="incident"><summary>${esc(i.title)}</summary><p>${esc(i.detail)}</p></details>`).join('');
@@ -28,4 +28,4 @@ for(const id of ['family','status','search'])$(id).addEventListener('input',()=>
 for(const id of ['curve-family','curve-domain'])$(id).addEventListener('change',()=>{rates();curves()});$('curve-lr').onchange=curves;$('refresh').onclick=load;
 try{const theme=localStorage.getItem('t3-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.dataset.theme=theme}catch{}
 $('theme').onclick=()=>{const t=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=t;try{localStorage.setItem('t3-theme',t)}catch{}};
-load();setInterval(load,300000);setInterval(freshness,30000);
+load();setInterval(load,900000);setInterval(freshness,30000);
