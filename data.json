@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790151252.9118779,
-  "generated_label": "2026-09-23 04:14 EDT",
+  "generated_at": 1790152165.334465,
+  "generated_label": "2026-09-23 04:29 EDT",
   "slots": [
     {
       "name": "A",
@@ -31,12 +31,12 @@
       "lr": 1e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 11116,
+      "step": 11449,
       "horizon": 13416,
-      "passes": 3.314251639833035,
+      "passes": 3.413536076326774,
       "unique_batches": 3354,
-      "progress": 0.8285629099582588,
-      "eta_hours": 1.7104298086552363,
+      "progress": 0.8533840190816935,
+      "eta_hours": 1.4658781487170038,
       "curves": [
         {
           "step": 0,
@@ -274,12 +274,12 @@
       "lr": 3e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 11188,
+      "step": 11519,
       "horizon": 13416,
-      "passes": 3.3357185450208706,
+      "passes": 3.434406678592725,
       "unique_batches": 3354,
-      "progress": 0.8339296362552177,
-      "eta_hours": 1.6382999144416923,
+      "progress": 0.8586016696481813,
+      "eta_hours": 1.3943539223807035,
       "curves": [
         {
           "step": 0,
@@ -516,7 +516,7 @@
       "arm": "Adam inner ×2 · zero",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -591,7 +591,7 @@
           "forgetting": 0.024319814784473426
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 2,
       "inner_lr": 0.0,
@@ -605,7 +605,7 @@
       "arm": "Adam inner ×2 · zero",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -680,7 +680,7 @@
           "forgetting": 0.1110980695995365
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 2,
       "inner_lr": 0.0,
@@ -694,7 +694,7 @@
       "arm": "Adam inner ×2 · T³",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -769,7 +769,7 @@
           "forgetting": 0.024266216535407725
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 2,
       "inner_lr": 1e-05,
@@ -783,7 +783,7 @@
       "arm": "Adam inner ×2 · T³",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -858,7 +858,7 @@
           "forgetting": 0.11091024230408175
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 2,
       "inner_lr": 1e-05,
@@ -872,7 +872,7 @@
       "arm": "Adam inner ×2 · zero",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -947,7 +947,7 @@
           "forgetting": 0.02658223216006661
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 2,
       "inner_lr": 0.0,
@@ -961,7 +961,7 @@
       "arm": "Adam inner ×2 · zero",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -1036,7 +1036,7 @@
           "forgetting": 0.11128210593285859
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 2,
       "inner_lr": 0.0,
@@ -1050,7 +1050,7 @@
       "arm": "Adam inner ×2 · T³",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -1125,7 +1125,7 @@
           "forgetting": 0.026525241008750644
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 2,
       "inner_lr": 1e-05,
@@ -1139,7 +1139,7 @@
       "arm": "Adam inner ×2 · T³",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -1214,7 +1214,7 @@
           "forgetting": 0.11117388061790567
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 2,
       "inner_lr": 1e-05,
@@ -1228,7 +1228,7 @@
       "arm": "Adam inner ×2 · zero",
       "lr": 0.03,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -1303,7 +1303,7 @@
           "forgetting": 0.019987826303177414
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 2,
       "inner_lr": 0.0,
@@ -1317,7 +1317,7 @@
       "arm": "Adam inner ×2 · zero",
       "lr": 0.1,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -1392,7 +1392,7 @@
           "forgetting": 0.041674644270456085
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 2,
       "inner_lr": 0.0,
@@ -1406,7 +1406,7 @@
       "arm": "Adam inner ×2 · T³",
       "lr": 0.03,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -1481,7 +1481,7 @@
           "forgetting": 0.02014059907761645
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 2,
       "inner_lr": 1e-05,
@@ -1495,7 +1495,7 @@
       "arm": "Adam inner ×2 · T³",
       "lr": 0.1,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -1570,7 +1570,7 @@
           "forgetting": 0.04142359417391761
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 2,
       "inner_lr": 1e-05,
@@ -1584,7 +1584,7 @@
       "arm": "Adam inner ×2 · zero",
       "lr": 0.03,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -1659,7 +1659,7 @@
           "forgetting": 0.01995610248242219
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 2,
       "inner_lr": 0.0,
@@ -1673,7 +1673,7 @@
       "arm": "Adam inner ×2 · zero",
       "lr": 0.1,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -1748,7 +1748,7 @@
           "forgetting": 0.03938174186993004
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 2,
       "inner_lr": 0.0,
@@ -1762,7 +1762,7 @@
       "arm": "Adam inner ×2 · T³",
       "lr": 0.03,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -1837,7 +1837,7 @@
           "forgetting": 0.02001058768242414
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 2,
       "inner_lr": 1e-05,
@@ -1851,7 +1851,7 @@
       "arm": "Adam inner ×2 · T³",
       "lr": 0.1,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -1926,7 +1926,7 @@
           "forgetting": 0.038923161290310926
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 2,
       "inner_lr": 1e-05,
@@ -1940,7 +1940,7 @@
       "arm": "Adam inner ×2 · zero",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -2015,7 +2015,7 @@
           "forgetting": 0.04272985715695965
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 2,
       "inner_lr": 0.0,
@@ -2029,7 +2029,7 @@
       "arm": "Adam inner ×2 · zero",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -2104,7 +2104,7 @@
           "forgetting": 0.10810763638738718
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 2,
       "inner_lr": 0.0,
@@ -2118,7 +2118,7 @@
       "arm": "Adam inner ×2 · T³",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -2193,7 +2193,7 @@
           "forgetting": 0.04271766681768563
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 2,
       "inner_lr": 1e-05,
@@ -2207,7 +2207,7 @@
       "arm": "Adam inner ×2 · T³",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -2282,7 +2282,7 @@
           "forgetting": 0.10815351523351113
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 2,
       "inner_lr": 1e-05,
@@ -2296,7 +2296,7 @@
       "arm": "Adam inner ×2 · zero",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -2371,7 +2371,7 @@
           "forgetting": 0.044553652272305566
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 2,
       "inner_lr": 0.0,
@@ -2385,7 +2385,7 @@
       "arm": "Adam inner ×2 · zero",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -2460,7 +2460,7 @@
           "forgetting": 0.1054007513507611
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 2,
       "inner_lr": 0.0,
@@ -2474,7 +2474,7 @@
       "arm": "Adam inner ×2 · T³",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -2549,7 +2549,7 @@
           "forgetting": 0.044536036352211816
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 2,
       "inner_lr": 1e-05,
@@ -2563,7 +2563,7 @@
       "arm": "Adam inner ×2 · T³",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -2638,7 +2638,7 @@
           "forgetting": 0.10538059695959845
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 2,
       "inner_lr": 1e-05,
@@ -2652,7 +2652,7 @@
       "arm": "Adam inner ×2 · zero",
       "lr": 0.03,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -2727,7 +2727,7 @@
           "forgetting": 0.054416031737202886
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 2,
       "inner_lr": 0.0,
@@ -2741,7 +2741,7 @@
       "arm": "Adam inner ×2 · zero",
       "lr": 0.1,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -2816,7 +2816,7 @@
           "forgetting": 0.07134845315324023
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 2,
       "inner_lr": 0.0,
@@ -2830,7 +2830,7 @@
       "arm": "Adam inner ×2 · T³",
       "lr": 0.03,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -2905,7 +2905,7 @@
           "forgetting": 0.054691653156562214
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 2,
       "inner_lr": 1e-05,
@@ -2919,7 +2919,7 @@
       "arm": "Adam inner ×2 · T³",
       "lr": 0.1,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -2994,7 +2994,7 @@
           "forgetting": 0.0716685638271164
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 2,
       "inner_lr": 1e-05,
@@ -3008,7 +3008,7 @@
       "arm": "Adam inner ×2 · zero",
       "lr": 0.03,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -3083,7 +3083,7 @@
           "forgetting": 0.053460922331007854
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 2,
       "inner_lr": 0.0,
@@ -3097,7 +3097,7 @@
       "arm": "Adam inner ×2 · zero",
       "lr": 0.1,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -3172,7 +3172,7 @@
           "forgetting": 0.06794181822940848
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 2,
       "inner_lr": 0.0,
@@ -3186,7 +3186,7 @@
       "arm": "Adam inner ×2 · T³",
       "lr": 0.03,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -3261,7 +3261,7 @@
           "forgetting": 0.05359082829106221
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 2,
       "inner_lr": 1e-05,
@@ -3275,7 +3275,7 @@
       "arm": "Adam inner ×2 · T³",
       "lr": 0.1,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -3350,7 +3350,7 @@
           "forgetting": 0.06800935190135649
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 2,
       "inner_lr": 1e-05,
@@ -3364,7 +3364,7 @@
       "arm": "Adam inner ×1 · T³",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -3439,7 +3439,7 @@
           "forgetting": 0.02429105238510809
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 1,
       "inner_lr": 1e-05,
@@ -3453,7 +3453,7 @@
       "arm": "Adam inner ×1 · T³",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -3528,7 +3528,7 @@
           "forgetting": 0.11101819387409373
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 1,
       "inner_lr": 1e-05,
@@ -3542,7 +3542,7 @@
       "arm": "ordinary",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -3617,7 +3617,7 @@
           "forgetting": 0.026582215741886017
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "ordinary_full_batch",
       "inner_steps": 0,
       "inner_lr": 0.0,
@@ -3631,7 +3631,7 @@
       "arm": "ordinary",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -3706,7 +3706,7 @@
           "forgetting": 0.11128217603908697
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "ordinary_full_batch",
       "inner_steps": 0,
       "inner_lr": 0.0,
@@ -3720,7 +3720,7 @@
       "arm": "Adam inner ×1 · T³",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -3795,7 +3795,7 @@
           "forgetting": 0.02655256433403652
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 1,
       "inner_lr": 1e-05,
@@ -3809,7 +3809,7 @@
       "arm": "Adam inner ×1 · T³",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -3884,7 +3884,7 @@
           "forgetting": 0.11122533598760187
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 1,
       "inner_lr": 1e-05,
@@ -3898,7 +3898,7 @@
       "arm": "Adam inner ×1 · T³",
       "lr": 0.03,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -3973,7 +3973,7 @@
           "forgetting": 0.020017652063797797
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 1,
       "inner_lr": 1e-05,
@@ -3987,7 +3987,7 @@
       "arm": "Adam inner ×1 · T³",
       "lr": 0.1,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -4062,7 +4062,7 @@
           "forgetting": 0.041579454155317386
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 1,
       "inner_lr": 1e-05,
@@ -4076,7 +4076,7 @@
       "arm": "ordinary",
       "lr": 0.03,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -4151,7 +4151,7 @@
           "forgetting": 0.0199482749958384
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "ordinary_full_batch",
       "inner_steps": 0,
       "inner_lr": 0.0,
@@ -4165,7 +4165,7 @@
       "arm": "ordinary",
       "lr": 0.1,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -4240,7 +4240,7 @@
           "forgetting": 0.039313813738429015
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "ordinary_full_batch",
       "inner_steps": 0,
       "inner_lr": 0.0,
@@ -4254,7 +4254,7 @@
       "arm": "Adam inner ×1 · T³",
       "lr": 0.03,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -4329,7 +4329,7 @@
           "forgetting": 0.0200065624489989
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 1,
       "inner_lr": 1e-05,
@@ -4343,7 +4343,7 @@
       "arm": "Adam inner ×1 · T³",
       "lr": 0.1,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13464,
       "horizon": 13464,
       "passes": 4.0,
@@ -4418,7 +4418,7 @@
           "forgetting": 0.03915405820876572
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 1,
       "inner_lr": 1e-05,
@@ -4432,7 +4432,7 @@
       "arm": "Adam inner ×1 · T³",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -4507,7 +4507,7 @@
           "forgetting": 0.04271798494343182
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 1,
       "inner_lr": 1e-05,
@@ -4521,7 +4521,7 @@
       "arm": "Adam inner ×1 · T³",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -4596,7 +4596,7 @@
           "forgetting": 0.1081191506041761
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 1,
       "inner_lr": 1e-05,
@@ -4610,7 +4610,7 @@
       "arm": "ordinary",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -4685,7 +4685,7 @@
           "forgetting": 0.044553599146584855
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "ordinary_full_batch",
       "inner_steps": 0,
       "inner_lr": 0.0,
@@ -4699,7 +4699,7 @@
       "arm": "ordinary",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -4774,7 +4774,7 @@
           "forgetting": 0.1054008113352154
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "ordinary_full_batch",
       "inner_steps": 0,
       "inner_lr": 0.0,
@@ -4788,7 +4788,7 @@
       "arm": "Adam inner ×1 · T³",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -4863,7 +4863,7 @@
           "forgetting": 0.04454349702398552
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 1,
       "inner_lr": 1e-05,
@@ -4877,7 +4877,7 @@
       "arm": "Adam inner ×1 · T³",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -4952,7 +4952,7 @@
           "forgetting": 0.10538775670657685
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 1,
       "inner_lr": 1e-05,
@@ -4966,7 +4966,7 @@
       "arm": "Adam inner ×1 · T³",
       "lr": 0.03,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -5041,7 +5041,7 @@
           "forgetting": 0.05455395829859011
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 1,
       "inner_lr": 1e-05,
@@ -5055,7 +5055,7 @@
       "arm": "Adam inner ×1 · T³",
       "lr": 0.1,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -5130,7 +5130,7 @@
           "forgetting": 0.07155051915338628
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query_only",
       "inner_steps": 1,
       "inner_lr": 1e-05,
@@ -5144,7 +5144,7 @@
       "arm": "ordinary",
       "lr": 0.03,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -5219,7 +5219,7 @@
           "forgetting": 0.053460922295784474
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "ordinary_full_batch",
       "inner_steps": 0,
       "inner_lr": 0.0,
@@ -5233,7 +5233,7 @@
       "arm": "ordinary",
       "lr": 0.1,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -5308,7 +5308,7 @@
           "forgetting": 0.06791695432793032
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "ordinary_full_batch",
       "inner_steps": 0,
       "inner_lr": 0.0,
@@ -5322,7 +5322,7 @@
       "arm": "Adam inner ×1 · T³",
       "lr": 0.03,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -5397,7 +5397,7 @@
           "forgetting": 0.053526324345492426
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 1,
       "inner_lr": 1e-05,
@@ -5411,7 +5411,7 @@
       "arm": "Adam inner ×1 · T³",
       "lr": 0.1,
       "outer": "sgd",
-      "status": "trained",
+      "status": "accepted",
       "step": 13416,
       "horizon": 13416,
       "passes": 4.0,
@@ -5486,7 +5486,7 @@
           "forgetting": 0.06792552852298206
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "retained_mean",
       "inner_steps": 1,
       "inner_lr": 1e-05,
@@ -5509,7 +5509,7 @@
       "priority": "P0",
       "title": "CPT：能否学得更多，同时忘得更少？",
       "why": "区分真正的适应收益，与学习率、优化器和 query-only 更新带来的差异。",
-      "next": "56组 development 已核验：适应相对 own-zero 的终点差异均小于0.001目标域NLL／0.00046 FineWeb NLL；暂无候选进入多seed，待完整外部评分。"
+      "next": "56组外部结果已核验：代码10/16组两项点估计均改善；数学16/16组均变差。相对 own-zero 最大遗忘改善仅0.000349 NLL。单seed探索性证据；继续完成1.7B对照。"
     },
     {
       "priority": "P0",
@@ -5533,7 +5533,7 @@
       "family": "factorial",
       "why": "旧 CPT 的大部分遗忘改善在去掉适应后仍存在。需要识别 T³ 自身的增量。",
       "design": "135M，代码／数学，AdamW／SGD，各 2 个 LR；query-only／retained-mean；Adam 两步适应／配对 zero。",
-      "decision": "完整 development 已核验，本轮冻结0个续跑候选；原计划全部56组仍进入外部审计，后续优先考虑适应幅度的混淆。"
+      "decision": "完整外部结果已核验；适应增量小且依赖域。保留此前冻结的0个续跑候选，下一步区分方向与位移幅度。"
     },
     {
       "priority": "P1",
@@ -5553,7 +5553,7 @@
     },
     {
       "priority": "P1",
-      "title": "56 组学习—遗忘评估 · 56 组执行完成，待汇总验收",
+      "title": "56 组学习—遗忘评估 · 56 组完整外部结果已核验",
       "family": null,
       "why": "检验临时适应能否带来独立收益，并比较目标域学习相当时的遗忘。",
       "design": "所有配置的 8 个固定 checkpoint，加上各自 development-best；配对 zero、ordinary 和一步／两步对照。",
@@ -5565,7 +5565,7 @@
       "family": null,
       "why": "当前一步／两步 Adam 适应同时改变位移大小和计算量，不能据此判断 normalized gradient 是否特殊。",
       "design": "拟在相同临时参数位移下比较 normalized-gradient 与 reset-Adam 方向，保留各自 zero 和 ordinary；先固定小规模幅度网格与预算。",
-      "decision": "先收齐当前外部评估。若方向在同幅度下相近，优先解释为幅度效应；若均无独立收益，则收窄 CPT 主张。"
+      "decision": "当前外部评估已收齐；新方案仍未冻结。若方向在同幅度下相近，优先解释为幅度效应；若均无独立收益，则收窄 CPT 主张。"
     },
     {
       "priority": "P2",
