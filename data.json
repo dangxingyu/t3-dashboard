@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790143905.34375,
-  "generated_label": "2026-09-23 02:11 EDT",
+  "generated_at": 1790143947.9860828,
+  "generated_label": "2026-09-23 02:12 EDT",
   "slots": [
     {
       "name": "A",
@@ -9,7 +9,7 @@
       "other": null,
       "warm": null,
       "unknown": 32,
-      "next": "PENDING"
+      "next": "UNKNOWN"
     },
     {
       "name": "B",
@@ -31,12 +31,12 @@
       "lr": 1e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 8574,
+      "step": 8587,
       "horizon": 13416,
-      "passes": 2.556350626118068,
+      "passes": 2.5602265951103163,
       "unique_batches": 3354,
-      "progress": 0.639087656529517,
-      "eta_hours": 3.6015739974367897,
+      "progress": 0.6400566487775791,
+      "eta_hours": 3.6056168461384046,
       "curves": [
         {
           "step": 0,
@@ -98,12 +98,12 @@
       "lr": 1e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 11264,
+      "step": 11281,
       "horizon": 13416,
-      "passes": 3.3583780560524747,
+      "passes": 3.3634466308884914,
       "unique_batches": 3354,
-      "progress": 0.8395945140131187,
-      "eta_hours": 1.278522663626613,
+      "progress": 0.8408616577221228,
+      "eta_hours": 1.268508749039352,
       "curves": [
         {
           "step": 0,
@@ -171,12 +171,12 @@
       "lr": 1e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 10928,
+      "step": 10944,
       "horizon": 13416,
-      "passes": 3.2581991651759092,
+      "passes": 3.262969588550984,
       "unique_batches": 3354,
-      "progress": 0.8145497912939773,
-      "eta_hours": 1.5120826980487132,
+      "progress": 0.815742397137746,
+      "eta_hours": 1.502329486901872,
       "curves": [
         {
           "step": 0,
@@ -244,12 +244,12 @@
       "lr": 3e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 8612,
+      "step": 8625,
       "horizon": 13416,
-      "passes": 2.56768038163387,
+      "passes": 2.571556350626118,
       "unique_batches": 3354,
-      "progress": 0.6419200954084675,
-      "eta_hours": 3.5288121575365463,
+      "progress": 0.6428890876565295,
+      "eta_hours": 3.5210681352444224,
       "curves": [
         {
           "step": 0,
@@ -311,12 +311,12 @@
       "lr": 3e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 11275,
+      "step": 11291,
       "horizon": 13416,
-      "passes": 3.3616577221228385,
+      "passes": 3.366428145497913,
       "unique_batches": 3354,
-      "progress": 0.8404144305307096,
-      "eta_hours": 1.2728573858415864,
+      "progress": 0.8416070363744782,
+      "eta_hours": 1.2637872555933427,
       "curves": [
         {
           "step": 0,
@@ -384,12 +384,12 @@
       "lr": 3e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 10933,
+      "step": 10949,
       "horizon": 13416,
-      "passes": 3.25968992248062,
+      "passes": 3.264460345855695,
       "unique_batches": 3354,
-      "progress": 0.814922480620155,
-      "eta_hours": 1.5157181678577196,
+      "progress": 0.8161150864639237,
+      "eta_hours": 1.5058681187494787,
       "curves": [
         {
           "step": 0,
@@ -5442,6 +5442,10 @@
     {
       "title": "32 组网格：完整训练超出最初时限",
       "detail": "全部通过模型、优化器和随机状态恢复检查；实测速度预测超过7200秒，因此在32步资格检查后停止。旧尝试共1533 GPU秒，已计入成本。完整配置与horizon不变，重新从相同base运行，单次预算调整为12000秒。"
+    },
+    {
+      "title": "56 组训练已完成：结果汇总遇到文件检查问题",
+      "detail": "汇总脚本拒绝了模型缓存中的符号链接，完整汇总尚未生成。训练结果保留；先修复并审查读取逻辑，再冻结候选与启动外部评分。"
     }
   ],
   "questions": [
@@ -5493,7 +5497,7 @@
     },
     {
       "priority": "P1",
-      "title": "56 组学习—遗忘评估 · 评分代码已审查，等待完整训练与精度检查",
+      "title": "56 组学习—遗忘评估 · 待启动：先修复汇总脚本的模型缓存文件检查",
       "family": null,
       "why": "检验临时适应能否带来独立收益，并比较目标域学习相当时的遗忘。",
       "design": "所有配置的 8 个固定 checkpoint，加上各自 development-best；配对 zero、ordinary 和一步／两步对照。",
