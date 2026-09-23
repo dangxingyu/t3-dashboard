@@ -1,23 +1,23 @@
 {
-  "generated_at": 1790155795.3183959,
-  "generated_label": "2026-09-23 05:29 EDT",
+  "generated_at": 1790156701.0045724,
+  "generated_label": "2026-09-23 05:45 EDT",
   "slots": [
     {
       "name": "A",
       "allocated": 32,
-      "ours": null,
-      "other": null,
-      "warm": null,
-      "unknown": 32,
+      "ours": 0,
+      "other": 0,
+      "warm": 32,
+      "unknown": 0,
       "next": "PENDING"
     },
     {
       "name": "B",
       "allocated": 32,
-      "ours": null,
-      "other": null,
-      "warm": null,
-      "unknown": 32,
+      "ours": 0,
+      "other": 0,
+      "warm": 16,
+      "unknown": 16,
       "next": "PENDING"
     }
   ],
@@ -30,12 +30,12 @@
       "arm": "ordinary",
       "lr": 1e-06,
       "outer": "adamw",
-      "status": "unconfirmed",
-      "step": 11739,
+      "status": "interrupted",
+      "step": 12599,
       "horizon": 13416,
-      "passes": 3.5,
+      "passes": 3.7564102564102564,
       "unique_batches": 3354,
-      "progress": 0.875,
+      "progress": 0.9391025641025641,
       "eta_hours": null,
       "curves": [
         {
@@ -99,7 +99,8 @@
           "forgetting": 0.02786353159374766
         }
       ],
-      "scientifically_accepted": false
+      "scientifically_accepted": false,
+      "previous_attempt_status": "Reached fixed task time limit; checkpoint retained for continuation"
     },
     {
       "id": "s1700--math--quarter_four_passes--adamw-1e-06--forced_split_zero--s0",
@@ -279,12 +280,12 @@
       "arm": "ordinary",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "unconfirmed",
-      "step": 11739,
+      "status": "interrupted",
+      "step": 12691,
       "horizon": 13416,
-      "passes": 3.5,
+      "passes": 3.783840190816935,
       "unique_batches": 3354,
-      "progress": 0.875,
+      "progress": 0.9459600477042337,
       "eta_hours": null,
       "curves": [
         {
@@ -348,7 +349,8 @@
           "forgetting": 0.05591690631804269
         }
       ],
-      "scientifically_accepted": false
+      "scientifically_accepted": false,
+      "previous_attempt_status": "Reached fixed task time limit; checkpoint retained for continuation"
     },
     {
       "id": "s1700--math--quarter_four_passes--adamw-3e-06--forced_split_zero--s0",
