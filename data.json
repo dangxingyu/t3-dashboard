@@ -1,14 +1,14 @@
 {
-  "generated_at": 1790146115.318874,
-  "generated_label": "2026-09-23 02:48 EDT",
+  "generated_at": 1790146418.310538,
+  "generated_label": "2026-09-23 02:53 EDT",
   "slots": [
     {
       "name": "A",
       "allocated": 32,
-      "ours": null,
-      "other": null,
-      "warm": null,
-      "unknown": 32,
+      "ours": 0,
+      "other": 0,
+      "warm": 32,
+      "unknown": 0,
       "next": "PENDING"
     },
     {
@@ -31,12 +31,12 @@
       "lr": 1e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 9359,
+      "step": 9466,
       "horizon": 13416,
-      "passes": 2.7903995229576624,
+      "passes": 2.8223017292784736,
       "unique_batches": 3354,
-      "progress": 0.6975998807394156,
-      "eta_hours": 3.006989122726696,
+      "progress": 0.7055754323196184,
+      "eta_hours": 2.932492445843915,
       "curves": [
         {
           "step": 0,
@@ -98,12 +98,12 @@
       "lr": 1e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 12140,
+      "step": 12274,
       "horizon": 13416,
-      "passes": 3.6195587358378054,
+      "passes": 3.6595110316040547,
       "unique_batches": 3354,
-      "progress": 0.9048896839594514,
-      "eta_hours": 0.7582345525977305,
+      "progress": 0.9148777579010137,
+      "eta_hours": 0.675433673076461,
       "curves": [
         {
           "step": 0,
@@ -177,12 +177,12 @@
       "lr": 1e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 11778,
+      "step": 11909,
       "horizon": 13416,
-      "passes": 3.511627906976744,
+      "passes": 3.550685748360167,
       "unique_batches": 3354,
-      "progress": 0.877906976744186,
-      "eta_hours": 0.995706395386951,
+      "progress": 0.8876714370900417,
+      "eta_hours": 0.9160669686477114,
       "curves": [
         {
           "step": 0,
@@ -256,12 +256,12 @@
       "lr": 3e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 9407,
+      "step": 9515,
       "horizon": 13416,
-      "passes": 2.804710793082886,
+      "passes": 2.836911150864639,
       "unique_batches": 3354,
-      "progress": 0.7011776982707215,
-      "eta_hours": 2.9474383516714444,
+      "progress": 0.7092277877161598,
+      "eta_hours": 2.865616337531052,
       "curves": [
         {
           "step": 0,
@@ -323,12 +323,12 @@
       "lr": 3e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 12152,
+      "step": 12286,
       "horizon": 13416,
-      "passes": 3.6231365533691116,
+      "passes": 3.663088849135361,
       "unique_batches": 3354,
-      "progress": 0.9057841383422779,
-      "eta_hours": 0.7514475751564734,
+      "progress": 0.9157722122838402,
+      "eta_hours": 0.6717906333874756,
       "curves": [
         {
           "step": 0,
@@ -402,12 +402,12 @@
       "lr": 3e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 11787,
+      "step": 11917,
       "horizon": 13416,
-      "passes": 3.5143112701252237,
+      "passes": 3.5530709600477044,
       "unique_batches": 3354,
-      "progress": 0.8785778175313059,
-      "eta_hours": 0.9945400253502885,
+      "progress": 0.8882677400119261,
+      "eta_hours": 0.9149573164864624,
       "curves": [
         {
           "step": 0,
@@ -5517,7 +5517,7 @@
     },
     {
       "priority": "P1",
-      "title": "56 组学习—遗忘评估 · 已排队，等待评估条件满足",
+      "title": "56 组学习—遗忘评估 · 评分代码已审查，等待完整训练与精度检查",
       "family": null,
       "why": "检验临时适应能否带来独立收益，并比较目标域学习相当时的遗忘。",
       "design": "所有配置的 8 个固定 checkpoint，加上各自 development-best；配对 zero、ordinary 和一步／两步对照。",
