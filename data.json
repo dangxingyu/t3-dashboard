@@ -1,24 +1,24 @@
 {
-  "generated_at": 1790147325.3111396,
-  "generated_label": "2026-09-23 03:08 EDT",
+  "generated_at": 1790147570.7261517,
+  "generated_label": "2026-09-23 03:12 EDT",
   "slots": [
     {
       "name": "A",
-      "allocated": 32,
-      "ours": 0,
-      "other": 4,
-      "warm": 28,
-      "unknown": 0,
-      "next": "PENDING"
+      "allocated": 0,
+      "ours": null,
+      "other": null,
+      "warm": null,
+      "unknown": 32,
+      "next": "UNKNOWN"
     },
     {
       "name": "B",
-      "allocated": 32,
-      "ours": 6,
-      "other": 0,
-      "warm": 26,
-      "unknown": 0,
-      "next": "PENDING"
+      "allocated": 0,
+      "ours": null,
+      "other": null,
+      "warm": null,
+      "unknown": 32,
+      "next": "UNKNOWN"
     }
   ],
   "runs": [
@@ -30,13 +30,13 @@
       "arm": "ordinary",
       "lr": 1e-06,
       "outer": "adamw",
-      "status": "running",
-      "step": 9791,
+      "status": "unconfirmed",
+      "step": 8385,
       "horizon": 13416,
-      "passes": 2.919200954084675,
+      "passes": 2.5,
       "unique_batches": 3354,
-      "progress": 0.7298002385211687,
-      "eta_hours": 2.692888263182896,
+      "progress": 0.625,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -97,13 +97,13 @@
       "arm": "split-zero",
       "lr": 1e-06,
       "outer": "adamw",
-      "status": "running",
-      "step": 12673,
+      "status": "unconfirmed",
+      "step": 11739,
       "horizon": 13416,
-      "passes": 3.7784734645199762,
+      "passes": 3.5,
       "unique_batches": 3354,
-      "progress": 0.9446183661299941,
-      "eta_hours": 0.4414434549782244,
+      "progress": 0.875,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -176,13 +176,13 @@
       "arm": "normalized T³",
       "lr": 1e-06,
       "outer": "adamw",
-      "status": "running",
-      "step": 12296,
+      "status": "unconfirmed",
+      "step": 11739,
       "horizon": 13416,
-      "passes": 3.6660703637447822,
+      "passes": 3.5,
       "unique_batches": 3354,
-      "progress": 0.9165175909361956,
-      "eta_hours": 0.6836681033691598,
+      "progress": 0.875,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -255,13 +255,13 @@
       "arm": "ordinary",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "running",
-      "step": 9837,
+      "status": "unconfirmed",
+      "step": 8385,
       "horizon": 13416,
-      "passes": 2.9329159212880143,
+      "passes": 2.5,
       "unique_batches": 3354,
-      "progress": 0.7332289803220036,
-      "eta_hours": 2.6303886052007632,
+      "progress": 0.625,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -322,13 +322,13 @@
       "arm": "split-zero",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "running",
-      "step": 12683,
+      "status": "unconfirmed",
+      "step": 11739,
       "horizon": 13416,
-      "passes": 3.7814549791293977,
+      "passes": 3.5,
       "unique_batches": 3354,
-      "progress": 0.9453637447823494,
-      "eta_hours": 0.43570429858596377,
+      "progress": 0.875,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -401,13 +401,13 @@
       "arm": "normalized T³",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "running",
-      "step": 12304,
+      "status": "unconfirmed",
+      "step": 11739,
       "horizon": 13416,
-      "passes": 3.66845557543232,
+      "passes": 3.5,
       "unique_batches": 3354,
-      "progress": 0.91711389385808,
-      "eta_hours": 0.6786164431025584,
+      "progress": 0.875,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -5457,11 +5457,13 @@
       "previous_attempt_status": "technical interruption; retained and charged"
     }
   ],
-  "errors": [],
+  "errors": [
+    "Capacity observation unavailable"
+  ],
   "incidents": [
     {
       "title": "外部评分启动失败：跨节点文件身份检查",
-      "detail": "56组训练和checkpoint完整。评分器把本机文件系统编号当作跨节点身份，全部任务在模型加载前退出，共计约170 GPU秒；修复与验证中，尚未生成外部结果。"
+      "detail": "56组训练和checkpoint完整。此前评分任务全部在模型加载前退出，共计约170 GPU秒；记录及成本保留。当前评分进度：56 组执行失败，保留记录。"
     },
     {
       "title": "A 配套实验：共享调度中断",
