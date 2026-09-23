@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790148232.3080304,
-  "generated_label": "2026-09-23 03:23 EDT",
+  "generated_at": 1790148361.7636065,
+  "generated_label": "2026-09-23 03:26 EDT",
   "slots": [
     {
       "name": "A",
@@ -31,12 +31,12 @@
       "lr": 1e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 10062,
+      "step": 10081,
       "horizon": 13416,
-      "passes": 3.0,
+      "passes": 3.005664877757901,
       "unique_batches": 3354,
-      "progress": 0.75,
-      "eta_hours": 2.491189498119056,
+      "progress": 0.7514162194394752,
+      "eta_hours": 2.481042217894315,
       "curves": [
         {
           "step": 0,
@@ -85,6 +85,12 @@
           "target": 1.140046377755095,
           "retention": 2.2119794866155327,
           "forgetting": 0.02627218440686452
+        },
+        {
+          "step": 10062,
+          "target": 1.1391565061376296,
+          "retention": 2.2129663209319084,
+          "forgetting": 0.027259018723240214
         }
       ],
       "scientifically_accepted": false
@@ -98,12 +104,12 @@
       "lr": 1e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 13074,
+      "step": 13138,
       "horizon": 13416,
-      "passes": 3.8980322003577816,
+      "passes": 3.91711389385808,
       "unique_batches": 3354,
-      "progress": 0.9745080500894454,
-      "eta_hours": 0.20224017373402603,
+      "progress": 0.97927847346452,
+      "eta_hours": 0.1644535534222248,
       "curves": [
         {
           "step": 0,
@@ -177,12 +183,12 @@
       "lr": 1e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 12687,
+      "step": 12749,
       "horizon": 13416,
-      "passes": 3.782647584973166,
+      "passes": 3.8011329755515804,
       "unique_batches": 3354,
-      "progress": 0.9456618962432916,
-      "eta_hours": 0.4450129212636966,
+      "progress": 0.9502832438878951,
+      "eta_hours": 0.4074278925031993,
       "curves": [
         {
           "step": 0,
@@ -256,12 +262,12 @@
       "lr": 3e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 10089,
+      "step": 10141,
       "horizon": 13416,
-      "passes": 3.0080500894454385,
+      "passes": 3.0235539654144303,
       "unique_batches": 3354,
-      "progress": 0.7520125223613596,
-      "eta_hours": 2.44580907394023,
+      "progress": 0.7558884913536076,
+      "eta_hours": 2.4080047304936065,
       "curves": [
         {
           "step": 0,
@@ -329,12 +335,12 @@
       "lr": 3e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 13084,
+      "step": 13147,
       "horizon": 13416,
-      "passes": 3.9010137149672035,
+      "passes": 3.919797257006559,
       "unique_batches": 3354,
-      "progress": 0.9752534287418009,
-      "eta_hours": 0.19734887682418856,
+      "progress": 0.9799493142516398,
+      "eta_hours": 0.15991869531151476,
       "curves": [
         {
           "step": 0,
@@ -408,12 +414,12 @@
       "lr": 3e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 12695,
+      "step": 12757,
       "horizon": 13416,
-      "passes": 3.785032796660704,
+      "passes": 3.8035181872391175,
       "unique_batches": 3354,
-      "progress": 0.946258199165176,
-      "eta_hours": 0.44004487432241957,
+      "progress": 0.9508795468097794,
+      "eta_hours": 0.4023111039662682,
       "curves": [
         {
           "step": 0,
@@ -5467,7 +5473,7 @@
   "incidents": [
     {
       "title": "外部评分启动失败：跨节点文件身份检查",
-      "detail": "56组训练和checkpoint完整。此前评分任务全部在模型加载前退出，共计约170 GPU秒；记录及成本保留。当前评分进度：评分代码已审查，等待启动条件满足。"
+      "detail": "56组训练和checkpoint完整。此前评分任务全部在模型加载前退出，共计约170 GPU秒；记录及成本保留。当前评分进度：已排队，等待评估条件满足。"
     },
     {
       "title": "A 配套实验：共享调度中断",
@@ -5527,7 +5533,7 @@
     },
     {
       "priority": "P1",
-      "title": "56 组学习—遗忘评估 · 评分代码已审查，等待启动条件满足",
+      "title": "56 组学习—遗忘评估 · 已排队，等待评估条件满足",
       "family": null,
       "why": "检验临时适应能否带来独立收益，并比较目标域学习相当时的遗忘。",
       "design": "所有配置的 8 个固定 checkpoint，加上各自 development-best；配对 zero、ordinary 和一步／两步对照。",
