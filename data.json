@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790168465.3309069,
-  "generated_label": "2026-09-23 09:01 EDT",
+  "generated_at": 1790169375.3192122,
+  "generated_label": "2026-09-23 09:16 EDT",
   "slots": [
     {
       "name": "A",
@@ -8432,12 +8432,12 @@
       "decision": "先冻结 development 候选再读外部评分。报告配对文档区间；这批已看过的外部数据属于探索性证据，不作为新的独立确认。"
     },
     {
-      "priority": "P1",
-      "title": "等位移方向 × 幅度 · 32 组，方案已冻结",
+      "priority": "P0",
+      "title": "等位移方向 × 幅度 · 32 组",
       "family": "directiondose",
       "why": "当前一步／两步 Adam 适应同时改变位移大小和计算量，不能据此判断 normalized gradient 是否特殊。",
       "design": "135M 代码／数学 × AdamW 两个 LR × normalized-gradient／等位移重缩放 reset-Adam × 0／1／10／100 倍位移；24 正半径＋8 own-zero，复用四条同设置 ordinary。",
-      "decision": "独立于 1.7B 在 A 执行；实际运行状态见清单。同幅度响应相近支持幅度解释；只改变损失不算成功。保留全部失败，0.01 遗忘改善须同时满足冻结的目标学习匹配规则。"
+      "decision": "32 组完整训练已完成；正在核验 checkpoint 并准备外部评估。同幅度响应相近支持幅度解释；只改变损失不算成功。保留全部失败，0.01 遗忘改善须同时满足冻结的目标学习匹配规则。"
     },
     {
       "priority": "P2",
