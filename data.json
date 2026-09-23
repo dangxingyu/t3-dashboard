@@ -1,24 +1,24 @@
 {
-  "generated_at": 1790147570.7261517,
-  "generated_label": "2026-09-23 03:12 EDT",
+  "generated_at": 1790147627.3117068,
+  "generated_label": "2026-09-23 03:13 EDT",
   "slots": [
     {
       "name": "A",
-      "allocated": 0,
-      "ours": null,
-      "other": null,
-      "warm": null,
-      "unknown": 32,
-      "next": "UNKNOWN"
+      "allocated": 32,
+      "ours": 0,
+      "other": 4,
+      "warm": 28,
+      "unknown": 0,
+      "next": "PENDING"
     },
     {
       "name": "B",
-      "allocated": 0,
-      "ours": null,
-      "other": null,
-      "warm": null,
-      "unknown": 32,
-      "next": "UNKNOWN"
+      "allocated": 32,
+      "ours": 6,
+      "other": 0,
+      "warm": 26,
+      "unknown": 0,
+      "next": "PENDING"
     }
   ],
   "runs": [
@@ -30,13 +30,13 @@
       "arm": "ordinary",
       "lr": 1e-06,
       "outer": "adamw",
-      "status": "unconfirmed",
-      "step": 8385,
+      "status": "running",
+      "step": 9898,
       "horizon": 13416,
-      "passes": 2.5,
+      "passes": 2.951103160405486,
       "unique_batches": 3354,
-      "progress": 0.625,
-      "eta_hours": null,
+      "progress": 0.7377757901013715,
+      "eta_hours": 2.615033657772648,
       "curves": [
         {
           "step": 0,
@@ -97,13 +97,13 @@
       "arm": "split-zero",
       "lr": 1e-06,
       "outer": "adamw",
-      "status": "unconfirmed",
-      "step": 11739,
+      "status": "running",
+      "step": 12807,
       "horizon": 13416,
-      "passes": 3.5,
+      "passes": 3.8184257602862255,
       "unique_batches": 3354,
-      "progress": 0.875,
-      "eta_hours": null,
+      "progress": 0.9546064400715564,
+      "eta_hours": 0.3618440082417025,
       "curves": [
         {
           "step": 0,
@@ -176,13 +176,13 @@
       "arm": "normalized T³",
       "lr": 1e-06,
       "outer": "adamw",
-      "status": "unconfirmed",
-      "step": 11739,
+      "status": "running",
+      "step": 12427,
       "horizon": 13416,
-      "passes": 3.5,
+      "passes": 3.7051282051282053,
       "unique_batches": 3354,
-      "progress": 0.875,
-      "eta_hours": null,
+      "progress": 0.9262820512820513,
+      "eta_hours": 0.6009113742030846,
       "curves": [
         {
           "step": 0,
@@ -255,13 +255,13 @@
       "arm": "ordinary",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "unconfirmed",
-      "step": 8385,
+      "status": "running",
+      "step": 9945,
       "horizon": 13416,
-      "passes": 2.5,
+      "passes": 2.9651162790697674,
       "unique_batches": 3354,
-      "progress": 0.625,
-      "eta_hours": null,
+      "progress": 0.7412790697674418,
+      "eta_hours": 2.5510225995998677,
       "curves": [
         {
           "step": 0,
@@ -322,13 +322,13 @@
       "arm": "split-zero",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "unconfirmed",
-      "step": 11739,
+      "status": "running",
+      "step": 12816,
       "horizon": 13416,
-      "passes": 3.5,
+      "passes": 3.821109123434705,
       "unique_batches": 3354,
-      "progress": 0.875,
-      "eta_hours": null,
+      "progress": 0.9552772808586762,
+      "eta_hours": 0.3566834004983927,
       "curves": [
         {
           "step": 0,
@@ -401,13 +401,13 @@
       "arm": "normalized T³",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "unconfirmed",
-      "step": 11739,
+      "status": "running",
+      "step": 12434,
       "horizon": 13416,
-      "passes": 3.5,
+      "passes": 3.7072152653548,
       "unique_batches": 3354,
-      "progress": 0.875,
-      "eta_hours": null,
+      "progress": 0.9268038163387,
+      "eta_hours": 0.5998827437416184,
       "curves": [
         {
           "step": 0,
@@ -5457,9 +5457,7 @@
       "previous_attempt_status": "technical interruption; retained and charged"
     }
   ],
-  "errors": [
-    "Capacity observation unavailable"
-  ],
+  "errors": [],
   "incidents": [
     {
       "title": "外部评分启动失败：跨节点文件身份检查",
