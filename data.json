@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790187525.5729206,
-  "generated_label": "2026-09-23 14:18 EDT",
+  "generated_at": 1790188481.8649178,
+  "generated_label": "2026-09-23 14:34 EDT",
   "slots": [
     {
       "name": "A",
@@ -14,9 +14,9 @@
     {
       "name": "B",
       "allocated": 32,
-      "ours": 4,
+      "ours": 0,
       "other": 0,
-      "warm": 28,
+      "warm": 32,
       "unknown": 0,
       "next": "PENDING"
     }
@@ -10501,7 +10501,7 @@
       "family": "recipebridge",
       "why": "定位历史配方的自身适应收益在哪个改动后改变；不把跨实验差距直接归因于算法。",
       "design": "H0历史参考 → 数值后端 → 内层LR日程 → 重复support → 固定support → clip → outerLR → warmup；每格配own-zero。",
-      "decision": "CPU/GPU旧实现一致性、完整状态与时限检查通过后启动B。该第一阶段尚未覆盖batch、query位置、数据重复策略及outerAdamW。"
+      "decision": "4组GPU数值与重放检查全部通过；严格后端约1.05秒/步，超出原3.5小时时限，因此两条短测按规则停止。正在单独审查运行预算：严格后端6小时上限，科学配置和horizon不变。第一阶段尚未覆盖batch、query位置、数据重复策略及outerAdamW。"
     },
     {
       "priority": "P0",
