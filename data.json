@@ -1,14 +1,14 @@
 {
-  "generated_at": 1790150345.3220086,
-  "generated_label": "2026-09-23 03:59 EDT",
+  "generated_at": 1790151252.9118779,
+  "generated_label": "2026-09-23 04:14 EDT",
   "slots": [
     {
       "name": "A",
       "allocated": 32,
-      "ours": 0,
-      "other": 0,
-      "warm": 32,
-      "unknown": 0,
+      "ours": null,
+      "other": null,
+      "warm": null,
+      "unknown": 32,
       "next": "PENDING"
     },
     {
@@ -31,12 +31,12 @@
       "lr": 1e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 10789,
+      "step": 11116,
       "horizon": 13416,
-      "passes": 3.2167561121049495,
+      "passes": 3.314251639833035,
       "unique_batches": 3354,
-      "progress": 0.8041890280262374,
-      "eta_hours": 1.955943520021392,
+      "progress": 0.8285629099582588,
+      "eta_hours": 1.7104298086552363,
       "curves": [
         {
           "step": 0,
@@ -274,12 +274,12 @@
       "lr": 3e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 10851,
+      "step": 11188,
       "horizon": 13416,
-      "passes": 3.235241502683363,
+      "passes": 3.3357185450208706,
       "unique_batches": 3354,
-      "progress": 0.8088103756708408,
-      "eta_hours": 1.8863020338176284,
+      "progress": 0.8339296362552177,
+      "eta_hours": 1.6382999144416923,
       "curves": [
         {
           "step": 0,
