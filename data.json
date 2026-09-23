@@ -1,22 +1,22 @@
 {
-  "generated_at": 1790188481.8649178,
-  "generated_label": "2026-09-23 14:34 EDT",
+  "generated_at": 1790189130.643762,
+  "generated_label": "2026-09-23 14:45 EDT",
   "slots": [
     {
       "name": "A",
       "allocated": 32,
-      "ours": 0,
+      "ours": 8,
       "other": 0,
-      "warm": 32,
+      "warm": 24,
       "unknown": 0,
       "next": "PENDING"
     },
     {
       "name": "B",
       "allocated": 32,
-      "ours": 0,
+      "ours": 16,
       "other": 0,
-      "warm": 32,
+      "warm": 16,
       "unknown": 0,
       "next": "PENDING"
     }
@@ -3385,20 +3385,40 @@
       "family": "recipebridge",
       "model": "135M",
       "domain": "code",
-      "arm": "H0 · T³",
+      "arm": "H0 · seed 0 · T³",
       "lr": 0.15,
       "outer": "raw SGD",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 493,
       "horizon": 13466,
-      "passes": 0.0,
+      "passes": 0.07322144660626764,
       "unique_batches": 6733,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.03661072330313382,
+      "eta_hours": 2.003313171662416,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2889795222437301,
+          "retention": 2.761346902420745,
+          "forgetting": 0.06022945822327008
+        },
+        {
+          "step": 32,
+          "target": 3.0215829781331007,
+          "retention": 4.7507045560032575,
+          "forgetting": 2.0495871118057827
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · full-corpus two passes",
       "stage": 0,
+      "seed": 0,
       "inner_lr": 1e-05
     },
     {
@@ -3406,20 +3426,40 @@
       "family": "recipebridge",
       "model": "135M",
       "domain": "code",
-      "arm": "H0 · zero",
+      "arm": "H0 · seed 0 · zero",
       "lr": 0.15,
       "outer": "raw SGD",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 492,
       "horizon": 13466,
-      "passes": 0.0,
+      "passes": 0.07307292440219813,
       "unique_batches": 6733,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.03653646220109907,
+      "eta_hours": 1.9960082577221976,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.288899457469193,
+          "retention": 2.761224705771704,
+          "forgetting": 0.0601072615742293
+        },
+        {
+          "step": 32,
+          "target": 2.0627167953736203,
+          "retention": 3.6060556698208273,
+          "forgetting": 0.9049382256233525
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · full-corpus two passes",
       "stage": 0,
+      "seed": 0,
       "inner_lr": 0.0
     },
     {
@@ -3427,20 +3467,40 @@
       "family": "recipebridge",
       "model": "135M",
       "domain": "code",
-      "arm": "H1 · T³",
+      "arm": "H1 · seed 0 · T³",
       "lr": 0.15,
       "outer": "raw SGD",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 260,
       "horizon": 13466,
-      "passes": 0.0,
+      "passes": 0.038615773058072185,
       "unique_batches": 6733,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.019307886529036093,
+      "eta_hours": 3.8449331472069024,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2893569152846447,
+          "retention": 2.761851766748134,
+          "forgetting": 0.06073432255065914
+        },
+        {
+          "step": 32,
+          "target": 1.9223075941160845,
+          "retention": 3.2136263406160004,
+          "forgetting": 0.5125088964185256
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · full-corpus two passes",
       "stage": 1,
+      "seed": 0,
       "inner_lr": 1e-05
     },
     {
@@ -3448,20 +3508,40 @@
       "family": "recipebridge",
       "model": "135M",
       "domain": "code",
-      "arm": "H1 · zero",
+      "arm": "H1 · seed 0 · zero",
       "lr": 0.15,
       "outer": "raw SGD",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 260,
       "horizon": 13466,
-      "passes": 0.0,
+      "passes": 0.038615773058072185,
       "unique_batches": 6733,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.019307886529036093,
+      "eta_hours": 3.8371794315020087,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2891079496947,
+          "retention": 2.761417657435819,
+          "forgetting": 0.060300213238344114
+        },
+        {
+          "step": 32,
+          "target": 1.9991353259556637,
+          "retention": 3.7863797611325847,
+          "forgetting": 1.0852623169351099
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · full-corpus two passes",
       "stage": 1,
+      "seed": 0,
       "inner_lr": 0.0
     },
     {
@@ -3469,20 +3549,40 @@
       "family": "recipebridge",
       "model": "135M",
       "domain": "code",
-      "arm": "H2 · T³",
+      "arm": "H2 · seed 0 · T³",
       "lr": 0.15,
       "outer": "raw SGD",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 259,
       "horizon": 13466,
-      "passes": 0.0,
+      "passes": 0.038467250854002676,
       "unique_batches": 6733,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.019233625427001338,
+      "eta_hours": 3.8303411125288886,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2894795588567083,
+          "retention": 2.7619928163729495,
+          "forgetting": 0.060875372175474673
+        },
+        {
+          "step": 32,
+          "target": 2.7340296629410514,
+          "retention": 3.3324828815141787,
+          "forgetting": 0.6313654373167039
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · full-corpus two passes",
       "stage": 2,
+      "seed": 0,
       "inner_lr": 1e-05
     },
     {
@@ -3490,20 +3590,40 @@
       "family": "recipebridge",
       "model": "135M",
       "domain": "code",
-      "arm": "H2 · zero",
+      "arm": "H2 · seed 0 · zero",
       "lr": 0.15,
       "outer": "raw SGD",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 257,
       "horizon": 13466,
-      "passes": 0.0,
+      "passes": 0.03817020644586366,
       "unique_batches": 6733,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.01908510322293183,
+      "eta_hours": 3.8442117223223127,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2891079496947,
+          "retention": 2.761417657435819,
+          "forgetting": 0.060300213238344114
+        },
+        {
+          "step": 32,
+          "target": 1.9991353259556637,
+          "retention": 3.7863797611325847,
+          "forgetting": 1.0852623169351099
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · full-corpus two passes",
       "stage": 2,
+      "seed": 0,
       "inner_lr": 0.0
     },
     {
@@ -3511,20 +3631,40 @@
       "family": "recipebridge",
       "model": "135M",
       "domain": "code",
-      "arm": "H3 · T³",
+      "arm": "H3 · seed 0 · T³",
       "lr": 0.15,
       "outer": "raw SGD",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 258,
       "horizon": 13466,
-      "passes": 0.0,
+      "passes": 0.038318728649933166,
       "unique_batches": 6733,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.019159364324966583,
+      "eta_hours": 3.8262492432233155,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.289672898751932,
+          "retention": 2.7622738030006677,
+          "forgetting": 0.06115635880319292
+        },
+        {
+          "step": 32,
+          "target": 4.475417580577419,
+          "retention": 6.514062509517559,
+          "forgetting": 3.812945065320084
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · full-corpus two passes",
       "stage": 3,
+      "seed": 0,
       "inner_lr": 1e-05
     },
     {
@@ -3532,20 +3672,40 @@
       "family": "recipebridge",
       "model": "135M",
       "domain": "code",
-      "arm": "H3 · zero",
+      "arm": "H3 · seed 0 · zero",
       "lr": 0.15,
       "outer": "raw SGD",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 258,
       "horizon": 13466,
-      "passes": 0.0,
+      "passes": 0.038318728649933166,
       "unique_batches": 6733,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.019159364324966583,
+      "eta_hours": 3.8373340899476576,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2891079496947,
+          "retention": 2.761417657435819,
+          "forgetting": 0.060300213238344114
+        },
+        {
+          "step": 32,
+          "target": 1.9991353259556637,
+          "retention": 3.7863797611325847,
+          "forgetting": 1.0852623169351099
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · full-corpus two passes",
       "stage": 3,
+      "seed": 0,
       "inner_lr": 0.0
     },
     {
@@ -3553,20 +3713,40 @@
       "family": "recipebridge",
       "model": "135M",
       "domain": "code",
-      "arm": "H4 · T³",
+      "arm": "H4 · seed 0 · T³",
       "lr": 0.15,
       "outer": "raw SGD",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 261,
       "horizon": 13466,
-      "passes": 0.0,
+      "passes": 0.03876429526214169,
       "unique_batches": 6733,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.019382147631070844,
+      "eta_hours": 3.8378046020044065,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.295614328362648,
+          "retention": 2.7671138120898964,
+          "forgetting": 0.06599636789242158
+        },
+        {
+          "step": 32,
+          "target": 2.7771470707846166,
+          "retention": 4.626940127887496,
+          "forgetting": 1.9258226836900216
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · full-corpus two passes",
       "stage": 4,
+      "seed": 0,
       "inner_lr": 1e-05
     },
     {
@@ -3574,20 +3754,40 @@
       "family": "recipebridge",
       "model": "135M",
       "domain": "code",
-      "arm": "H4 · zero",
+      "arm": "H4 · seed 0 · zero",
       "lr": 0.15,
       "outer": "raw SGD",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 259,
       "horizon": 13466,
-      "passes": 0.0,
+      "passes": 0.038467250854002676,
       "unique_batches": 6733,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.019233625427001338,
+      "eta_hours": 3.859877449339967,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2891079496947,
+          "retention": 2.761417657435819,
+          "forgetting": 0.060300213238344114
+        },
+        {
+          "step": 32,
+          "target": 1.9991353259556637,
+          "retention": 3.7863797611325847,
+          "forgetting": 1.0852623169351099
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · full-corpus two passes",
       "stage": 4,
+      "seed": 0,
       "inner_lr": 0.0
     },
     {
@@ -3595,20 +3795,40 @@
       "family": "recipebridge",
       "model": "135M",
       "domain": "code",
-      "arm": "H5 · T³",
+      "arm": "H5 · seed 0 · T³",
       "lr": 0.15,
       "outer": "raw SGD",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 259,
       "horizon": 13466,
-      "passes": 0.0,
+      "passes": 0.038467250854002676,
       "unique_batches": 6733,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.019233625427001338,
+      "eta_hours": 3.8539255714977885,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2692817811395345,
+          "retention": 2.74517520567935,
+          "forgetting": 0.044057761481875346
+        },
+        {
+          "step": 32,
+          "target": 1.2951061262473618,
+          "retention": 2.830173684974746,
+          "forgetting": 0.1290562407772713
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · full-corpus two passes",
       "stage": 5,
+      "seed": 0,
       "inner_lr": 1e-05
     },
     {
@@ -3616,20 +3836,40 @@
       "family": "recipebridge",
       "model": "135M",
       "domain": "code",
-      "arm": "H5 · zero",
+      "arm": "H5 · seed 0 · zero",
       "lr": 0.15,
       "outer": "raw SGD",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 259,
       "horizon": 13466,
-      "passes": 0.0,
+      "passes": 0.038467250854002676,
       "unique_batches": 6733,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.019233625427001338,
+      "eta_hours": 3.8265017865281292,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.265167934582288,
+          "retention": 2.741663046458575,
+          "forgetting": 0.04054560226110038
+        },
+        {
+          "step": 32,
+          "target": 1.2878477671698005,
+          "retention": 2.806648421870491,
+          "forgetting": 0.10553097767301622
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · full-corpus two passes",
       "stage": 5,
+      "seed": 0,
       "inner_lr": 0.0
     },
     {
@@ -3637,20 +3877,40 @@
       "family": "recipebridge",
       "model": "135M",
       "domain": "code",
-      "arm": "H6 · T³",
+      "arm": "H6 · seed 0 · T³",
       "lr": 0.1,
       "outer": "raw SGD",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 258,
       "horizon": 13466,
-      "passes": 0.0,
+      "passes": 0.038318728649933166,
       "unique_batches": 6733,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.019159364324966583,
+      "eta_hours": 3.8321436472604464,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.240558326051741,
+          "retention": 2.7213978700196853,
+          "forgetting": 0.020280425822210457
+        },
+        {
+          "step": 32,
+          "target": 1.2472866996371212,
+          "retention": 2.745543375150408,
+          "forgetting": 0.044425930952933346
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · full-corpus two passes",
       "stage": 6,
+      "seed": 0,
       "inner_lr": 1e-05
     },
     {
@@ -3658,20 +3918,40 @@
       "family": "recipebridge",
       "model": "135M",
       "domain": "code",
-      "arm": "H6 · zero",
+      "arm": "H6 · seed 0 · zero",
       "lr": 0.1,
       "outer": "raw SGD",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 259,
       "horizon": 13466,
-      "passes": 0.0,
+      "passes": 0.038467250854002676,
       "unique_batches": 6733,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.019233625427001338,
+      "eta_hours": 3.8157097523285644,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2385466427577094,
+          "retention": 2.719780745794325,
+          "forgetting": 0.018663301596850257
+        },
+        {
+          "step": 32,
+          "target": 1.2474302156695771,
+          "retention": 2.7439823118122972,
+          "forgetting": 0.042864867614822444
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · full-corpus two passes",
       "stage": 6,
+      "seed": 0,
       "inner_lr": 0.0
     },
     {
@@ -3679,20 +3959,40 @@
       "family": "recipebridge",
       "model": "135M",
       "domain": "code",
-      "arm": "H7 · T³",
+      "arm": "H7 · seed 0 · T³",
       "lr": 0.1,
       "outer": "raw SGD",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 259,
       "horizon": 13466,
-      "passes": 0.0,
+      "passes": 0.038467250854002676,
       "unique_batches": 6733,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.019233625427001338,
+      "eta_hours": 3.8188043949987818,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2164847168180544,
+          "retention": 2.701119728305515,
+          "forgetting": 2.2841080400404223e-06
+        },
+        {
+          "step": 32,
+          "target": 1.2152509490225785,
+          "retention": 2.701330612463816,
+          "forgetting": 0.0002131682663413237
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · full-corpus two passes",
       "stage": 7,
+      "seed": 0,
       "inner_lr": 1e-05
     },
     {
@@ -3700,20 +4000,368 @@
       "family": "recipebridge",
       "model": "135M",
       "domain": "code",
-      "arm": "H7 · zero",
+      "arm": "H7 · seed 0 · zero",
       "lr": 0.1,
       "outer": "raw SGD",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 256,
       "horizon": 13466,
-      "passes": 0.0,
+      "passes": 0.03802168424179415,
       "unique_batches": 6733,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.019010842120897074,
+      "eta_hours": 3.867844253081906,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2164842303049321,
+          "retention": 2.701119882445282,
+          "forgetting": 2.43824780721269e-06
+        },
+        {
+          "step": 32,
+          "target": 1.2151541327914919,
+          "retention": 2.7013162271411617,
+          "forgetting": 0.00019878294368691485
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · full-corpus two passes",
       "stage": 7,
+      "seed": 0,
+      "inner_lr": 0.0
+    },
+    {
+      "id": "s135-code-h0-nonzero-s1",
+      "family": "recipebridge",
+      "model": "135M",
+      "domain": "code",
+      "arm": "H0 · seed 1 · T³",
+      "lr": 0.15,
+      "outer": "raw SGD",
+      "status": "running",
+      "step": 88,
+      "horizon": 13466,
+      "passes": 0.01306995395811674,
+      "unique_batches": 6733,
+      "progress": 0.00653497697905837,
+      "eta_hours": 2.0595860430069215,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2496358453814023,
+          "retention": 2.7239331528582653,
+          "forgetting": 0.022815708660790524
+        },
+        {
+          "step": 32,
+          "target": 2.117031125026852,
+          "retention": 4.000631992345929,
+          "forgetting": 1.2995145481484545
+        }
+      ],
+      "scientifically_accepted": false,
+      "objective": "query-only · full-corpus two passes",
+      "stage": 0,
+      "seed": 1,
+      "inner_lr": 1e-05
+    },
+    {
+      "id": "s135-code-h0-zero-s1",
+      "family": "recipebridge",
+      "model": "135M",
+      "domain": "code",
+      "arm": "H0 · seed 1 · zero",
+      "lr": 0.15,
+      "outer": "raw SGD",
+      "status": "running",
+      "step": 86,
+      "horizon": 13466,
+      "passes": 0.012772909549977722,
+      "unique_batches": 6733,
+      "progress": 0.006386454774988861,
+      "eta_hours": 2.0803398536207776,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2498090010641485,
+          "retention": 2.7235205023127653,
+          "forgetting": 0.02240305811529053
+        },
+        {
+          "step": 32,
+          "target": 4.079987909173555,
+          "retention": 8.054741625023444,
+          "forgetting": 5.353624180825969
+        }
+      ],
+      "scientifically_accepted": false,
+      "objective": "query-only · full-corpus two passes",
+      "stage": 0,
+      "seed": 1,
+      "inner_lr": 0.0
+    },
+    {
+      "id": "s135-code-h1-nonzero-s1",
+      "family": "recipebridge",
+      "model": "135M",
+      "domain": "code",
+      "arm": "H1 · seed 1 · T³",
+      "lr": 0.15,
+      "outer": "raw SGD",
+      "status": "running",
+      "step": 44,
+      "horizon": 13466,
+      "passes": 0.00653497697905837,
+      "unique_batches": 6733,
+      "progress": 0.003267488489529185,
+      "eta_hours": 3.9047813991391256,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2504083376304234,
+          "retention": 2.72647392999681,
+          "forgetting": 0.02535648579933536
+        },
+        {
+          "step": 32,
+          "target": 2.2942747858135712,
+          "retention": 3.915023380753692,
+          "forgetting": 1.213905936556217
+        }
+      ],
+      "scientifically_accepted": false,
+      "objective": "query-only · full-corpus two passes",
+      "stage": 1,
+      "seed": 1,
+      "inner_lr": 1e-05
+    },
+    {
+      "id": "s135-code-h1-zero-s1",
+      "family": "recipebridge",
+      "model": "135M",
+      "domain": "code",
+      "arm": "H1 · seed 1 · zero",
+      "lr": 0.15,
+      "outer": "raw SGD",
+      "status": "running",
+      "step": 44,
+      "horizon": 13466,
+      "passes": 0.00653497697905837,
+      "unique_batches": 6733,
+      "progress": 0.003267488489529185,
+      "eta_hours": 3.899030097791304,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2497563798696234,
+          "retention": 2.7233993064930466,
+          "forgetting": 0.02228186229557183
+        },
+        {
+          "step": 32,
+          "target": 4.125459819944782,
+          "retention": 6.345052965120628,
+          "forgetting": 3.643935520923153
+        }
+      ],
+      "scientifically_accepted": false,
+      "objective": "query-only · full-corpus two passes",
+      "stage": 1,
+      "seed": 1,
+      "inner_lr": 0.0
+    },
+    {
+      "id": "s135-code-h4-nonzero-s1",
+      "family": "recipebridge",
+      "model": "135M",
+      "domain": "code",
+      "arm": "H4 · seed 1 · T³",
+      "lr": 0.15,
+      "outer": "raw SGD",
+      "status": "running",
+      "step": 44,
+      "horizon": 13466,
+      "passes": 0.00653497697905837,
+      "unique_batches": 6733,
+      "progress": 0.003267488489529185,
+      "eta_hours": 3.886450876176823,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2542044819083848,
+          "retention": 2.730445855841677,
+          "forgetting": 0.0293284116442023
+        },
+        {
+          "step": 32,
+          "target": 2.1979978278039374,
+          "retention": 4.010715113799482,
+          "forgetting": 1.3095976696020073
+        }
+      ],
+      "scientifically_accepted": false,
+      "objective": "query-only · full-corpus two passes",
+      "stage": 4,
+      "seed": 1,
+      "inner_lr": 1e-05
+    },
+    {
+      "id": "s135-code-h4-zero-s1",
+      "family": "recipebridge",
+      "model": "135M",
+      "domain": "code",
+      "arm": "H4 · seed 1 · zero",
+      "lr": 0.15,
+      "outer": "raw SGD",
+      "status": "running",
+      "step": 43,
+      "horizon": 13466,
+      "passes": 0.006386454774988861,
+      "unique_batches": 6733,
+      "progress": 0.0031932273874944305,
+      "eta_hours": 3.897251951870987,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2497563798696234,
+          "retention": 2.7233993064930466,
+          "forgetting": 0.02228186229557183
+        },
+        {
+          "step": 32,
+          "target": 4.125459819944782,
+          "retention": 6.345052965120628,
+          "forgetting": 3.643935520923153
+        }
+      ],
+      "scientifically_accepted": false,
+      "objective": "query-only · full-corpus two passes",
+      "stage": 4,
+      "seed": 1,
+      "inner_lr": 0.0
+    },
+    {
+      "id": "s135-code-h7-nonzero-s1",
+      "family": "recipebridge",
+      "model": "135M",
+      "domain": "code",
+      "arm": "H7 · seed 1 · T³",
+      "lr": 0.1,
+      "outer": "raw SGD",
+      "status": "running",
+      "step": 43,
+      "horizon": 13466,
+      "passes": 0.006386454774988861,
+      "unique_batches": 6733,
+      "progress": 0.0031932273874944305,
+      "eta_hours": 3.891296514164941,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2164798021644583,
+          "retention": 2.701118730015042,
+          "forgetting": 1.285817567087122e-06
+        },
+        {
+          "step": 32,
+          "target": 1.216184255264774,
+          "retention": 2.701565385412842,
+          "forgetting": 0.0004479412153672868
+        }
+      ],
+      "scientifically_accepted": false,
+      "objective": "query-only · full-corpus two passes",
+      "stage": 7,
+      "seed": 1,
+      "inner_lr": 1e-05
+    },
+    {
+      "id": "s135-code-h7-zero-s1",
+      "family": "recipebridge",
+      "model": "135M",
+      "domain": "code",
+      "arm": "H7 · seed 1 · zero",
+      "lr": 0.1,
+      "outer": "raw SGD",
+      "status": "running",
+      "step": 43,
+      "horizon": 13466,
+      "passes": 0.006386454774988861,
+      "unique_batches": 6733,
+      "progress": 0.0031932273874944305,
+      "eta_hours": 3.8912721621121618,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2164825583860113,
+          "retention": 2.70111888151321,
+          "forgetting": 1.4373157353197996e-06
+        },
+        {
+          "step": 32,
+          "target": 1.2160278502110236,
+          "retention": 2.7015118481899556,
+          "forgetting": 0.0003944039924808074
+        }
+      ],
+      "scientifically_accepted": false,
+      "objective": "query-only · full-corpus two passes",
+      "stage": 7,
+      "seed": 1,
       "inner_lr": 0.0
     },
     {
@@ -10497,11 +11145,11 @@
   "plans": [
     {
       "priority": "P0",
-      "title": "历史配方逐项阶梯 · 16 组",
+      "title": "历史配方阶梯 · 16 组 + 第二 seed 8 个锚点",
       "family": "recipebridge",
       "why": "定位历史配方的自身适应收益在哪个改动后改变；不把跨实验差距直接归因于算法。",
       "design": "H0历史参考 → 数值后端 → 内层LR日程 → 重复support → 固定support → clip → outerLR → warmup；每格配own-zero。",
-      "decision": "4组GPU数值与重放检查全部通过；严格后端约1.05秒/步，超出原3.5小时时限，因此两条短测按规则停止。正在单独审查运行预算：严格后端6小时上限，科学配置和horizon不变。第一阶段尚未覆盖batch、query位置、数据重复策略及outerAdamW。"
+      "decision": "4组GPU数值与重放检查全部通过；保留两条原预算不足的短测失败，严格后端新上限6小时。第二seed预先固定H0/H1/H4/H7各配own-zero，检查后端、内层和外层三个变化区间是否稳定；细分阶梯仍单seed。固定预训练模型，seed主要改变训练数据顺序。实际启动状态见下方运行表；第一阶段尚未覆盖batch、query位置、数据重复策略及outerAdamW。"
     },
     {
       "priority": "P0",
