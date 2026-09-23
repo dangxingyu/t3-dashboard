@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790152165.334465,
-  "generated_label": "2026-09-23 04:29 EDT",
+  "generated_at": 1790153072.311941,
+  "generated_label": "2026-09-23 04:44 EDT",
   "slots": [
     {
       "name": "A",
@@ -31,12 +31,12 @@
       "lr": 1e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 11449,
+      "step": 11739,
       "horizon": 13416,
-      "passes": 3.413536076326774,
+      "passes": 3.5,
       "unique_batches": 3354,
-      "progress": 0.8533840190816935,
-      "eta_hours": 1.4658781487170038,
+      "progress": 0.875,
+      "eta_hours": 1.2468370758241507,
       "curves": [
         {
           "step": 0,
@@ -274,12 +274,12 @@
       "lr": 3e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 11519,
+      "step": 11765,
       "horizon": 13416,
-      "passes": 3.434406678592725,
+      "passes": 3.507751937984496,
       "unique_batches": 3354,
-      "progress": 0.8586016696481813,
-      "eta_hours": 1.3943539223807035,
+      "progress": 0.876937984496124,
+      "eta_hours": 1.2130494056912398,
       "curves": [
         {
           "step": 0,
@@ -334,6 +334,12 @@
           "target": 1.1354117608235963,
           "retention": 2.239313131439757,
           "forgetting": 0.05360582923108881
+        },
+        {
+          "step": 11739,
+          "target": 1.137358793972543,
+          "retention": 2.241624208526711,
+          "forgetting": 0.05591690631804269
         }
       ],
       "scientifically_accepted": false
