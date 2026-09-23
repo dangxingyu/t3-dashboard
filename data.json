@@ -1,13 +1,13 @@
 {
-  "generated_at": 1790147930.3250308,
-  "generated_label": "2026-09-23 03:18 EDT",
+  "generated_at": 1790148232.3080304,
+  "generated_label": "2026-09-23 03:23 EDT",
   "slots": [
     {
       "name": "A",
       "allocated": 32,
       "ours": 0,
-      "other": 4,
-      "warm": 28,
+      "other": 0,
+      "warm": 32,
       "unknown": 0,
       "next": "PENDING"
     },
@@ -31,12 +31,12 @@
       "lr": 1e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 10020,
+      "step": 10062,
       "horizon": 13416,
-      "passes": 2.987477638640429,
+      "passes": 3.0,
       "unique_batches": 3354,
-      "progress": 0.7468694096601073,
-      "eta_hours": 2.527147253829365,
+      "progress": 0.75,
+      "eta_hours": 2.491189498119056,
       "curves": [
         {
           "step": 0,
@@ -98,12 +98,12 @@
       "lr": 1e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 12959,
+      "step": 13074,
       "horizon": 13416,
-      "passes": 3.8637447823494333,
+      "passes": 3.8980322003577816,
       "unique_batches": 3354,
-      "progress": 0.9659361955873583,
-      "eta_hours": 0.27151970212690585,
+      "progress": 0.9745080500894454,
+      "eta_hours": 0.20224017373402603,
       "curves": [
         {
           "step": 0,
@@ -177,12 +177,12 @@
       "lr": 1e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 12575,
+      "step": 12687,
       "horizon": 13416,
-      "passes": 3.7492546213476445,
+      "passes": 3.782647584973166,
       "unique_batches": 3354,
-      "progress": 0.9373136553369111,
-      "eta_hours": 0.5135340061126044,
+      "progress": 0.9456618962432916,
+      "eta_hours": 0.4450129212636966,
       "curves": [
         {
           "step": 0,
@@ -256,12 +256,12 @@
       "lr": 3e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 10062,
+      "step": 10089,
       "horizon": 13416,
-      "passes": 3.0,
+      "passes": 3.0080500894454385,
       "unique_batches": 3354,
-      "progress": 0.75,
-      "eta_hours": 2.4647170038269057,
+      "progress": 0.7520125223613596,
+      "eta_hours": 2.44580907394023,
       "curves": [
         {
           "step": 0,
@@ -310,6 +310,12 @@
           "target": 1.1357269385023496,
           "retention": 2.2370114567489052,
           "forgetting": 0.05130415454023707
+        },
+        {
+          "step": 10062,
+          "target": 1.1354117608235963,
+          "retention": 2.239313131439757,
+          "forgetting": 0.05360582923108881
         }
       ],
       "scientifically_accepted": false
@@ -323,12 +329,12 @@
       "lr": 3e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 12968,
+      "step": 13084,
       "horizon": 13416,
-      "passes": 3.866428145497913,
+      "passes": 3.9010137149672035,
       "unique_batches": 3354,
-      "progress": 0.9666070363744782,
-      "eta_hours": 0.2663627997164925,
+      "progress": 0.9752534287418009,
+      "eta_hours": 0.19734887682418856,
       "curves": [
         {
           "step": 0,
@@ -402,12 +408,12 @@
       "lr": 3e-06,
       "outer": "adamw",
       "status": "running",
-      "step": 12582,
+      "step": 12695,
       "horizon": 13416,
-      "passes": 3.7513416815742398,
+      "passes": 3.785032796660704,
       "unique_batches": 3354,
-      "progress": 0.9378354203935599,
-      "eta_hours": 0.5092650736654953,
+      "progress": 0.946258199165176,
+      "eta_hours": 0.44004487432241957,
       "curves": [
         {
           "step": 0,
@@ -5526,6 +5532,14 @@
       "why": "检验临时适应能否带来独立收益，并比较目标域学习相当时的遗忘。",
       "design": "所有配置的 8 个固定 checkpoint，加上各自 development-best；配对 zero、ordinary 和一步／两步对照。",
       "decision": "先冻结 development 候选再读外部评分。报告配对文档区间；这批已看过的外部数据属于探索性证据，不作为新的独立确认。"
+    },
+    {
+      "priority": "P1",
+      "title": "适应方向还是幅度？· 方案待冻结，未启动",
+      "family": null,
+      "why": "当前一步／两步 Adam 适应同时改变位移大小和计算量，不能据此判断 normalized gradient 是否特殊。",
+      "design": "拟在相同临时参数位移下比较 normalized-gradient 与 reset-Adam 方向，保留各自 zero 和 ordinary；先固定小规模幅度网格与预算。",
+      "decision": "先收齐当前外部评估。若方向在同幅度下相近，优先解释为幅度效应；若均无独立收益，则收窄 CPT 主张。"
     },
     {
       "priority": "P2",
