@@ -1,13 +1,13 @@
 {
-  "generated_at": 1790170284.3212342,
-  "generated_label": "2026-09-23 09:31 EDT",
+  "generated_at": 1790171185.323338,
+  "generated_label": "2026-09-23 09:46 EDT",
   "slots": [
     {
       "name": "A",
       "allocated": 32,
-      "ours": 16,
+      "ours": 0,
       "other": 0,
-      "warm": 16,
+      "warm": 32,
       "unknown": 0,
       "next": "PENDING"
     },
@@ -8437,7 +8437,7 @@
       "family": "directiondose",
       "why": "当前一步／两步 Adam 适应同时改变位移大小和计算量，不能据此判断 normalized gradient 是否特殊。",
       "design": "135M 代码／数学 × AdamW 两个 LR × normalized-gradient／等位移重缩放 reset-Adam × 0／1／10／100 倍位移；24 正半径＋8 own-zero，复用四条同设置 ordinary。",
-      "decision": "外部评估：16 组运行，16/32 组完成，0 组失败；完整结果尚待验收。同幅度响应相近支持幅度解释；只改变损失不算成功。保留全部失败，0.01 遗忘改善须同时满足冻结的目标学习匹配规则。"
+      "decision": "外部评估：0 组运行，32/32 组完成，0 组失败；完整结果尚待验收。同幅度响应相近支持幅度解释；只改变损失不算成功。保留全部失败，0.01 遗忘改善须同时满足冻结的目标学习匹配规则。"
     },
     {
       "priority": "P2",
