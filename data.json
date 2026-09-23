@@ -1,24 +1,24 @@
 {
-  "generated_at": 1790146720.3127217,
-  "generated_label": "2026-09-23 02:58 EDT",
+  "generated_at": 1790147023.318702,
+  "generated_label": "2026-09-23 03:03 EDT",
   "slots": [
     {
       "name": "A",
-      "allocated": 32,
-      "ours": 0,
-      "other": 0,
-      "warm": 32,
-      "unknown": 0,
-      "next": "PENDING"
+      "allocated": 0,
+      "ours": null,
+      "other": null,
+      "warm": null,
+      "unknown": 32,
+      "next": "UNKNOWN"
     },
     {
       "name": "B",
-      "allocated": 32,
-      "ours": 6,
-      "other": 0,
-      "warm": 26,
-      "unknown": 0,
-      "next": "PENDING"
+      "allocated": 0,
+      "ours": null,
+      "other": null,
+      "warm": null,
+      "unknown": 32,
+      "next": "UNKNOWN"
     }
   ],
   "runs": [
@@ -30,13 +30,13 @@
       "arm": "ordinary",
       "lr": 1e-06,
       "outer": "adamw",
-      "status": "running",
-      "step": 9573,
+      "status": "unconfirmed",
+      "step": 8385,
       "horizon": 13416,
-      "passes": 2.8542039355992843,
+      "passes": 2.5,
       "unique_batches": 3354,
-      "progress": 0.7135509838998211,
-      "eta_hours": 2.8582977563678287,
+      "progress": 0.625,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -97,13 +97,13 @@
       "arm": "split-zero",
       "lr": 1e-06,
       "outer": "adamw",
-      "status": "running",
-      "step": 12407,
+      "status": "unconfirmed",
+      "step": 11739,
       "horizon": 13416,
-      "passes": 3.699165175909362,
+      "passes": 3.5,
       "unique_batches": 3354,
-      "progress": 0.9247912939773405,
-      "eta_hours": 0.5995579477499188,
+      "progress": 0.875,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -176,13 +176,13 @@
       "arm": "normalized T³",
       "lr": 1e-06,
       "outer": "adamw",
-      "status": "running",
-      "step": 12038,
+      "status": "unconfirmed",
+      "step": 11739,
       "horizon": 13416,
-      "passes": 3.5891472868217056,
+      "passes": 3.5,
       "unique_batches": 3354,
-      "progress": 0.8972868217054264,
-      "eta_hours": 0.8415958753585194,
+      "progress": 0.875,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -255,13 +255,13 @@
       "arm": "ordinary",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "running",
-      "step": 9623,
+      "status": "unconfirmed",
+      "step": 8385,
       "horizon": 13416,
-      "passes": 2.8691115086463923,
+      "passes": 2.5,
       "unique_batches": 3354,
-      "progress": 0.7172778771615981,
-      "eta_hours": 2.7889459552216835,
+      "progress": 0.625,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -322,13 +322,13 @@
       "arm": "split-zero",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "running",
-      "step": 12419,
+      "status": "unconfirmed",
+      "step": 11739,
       "horizon": 13416,
-      "passes": 3.7027429934406677,
+      "passes": 3.5,
       "unique_batches": 3354,
-      "progress": 0.9256857483601669,
-      "eta_hours": 0.5928493928906715,
+      "progress": 0.875,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -401,13 +401,13 @@
       "arm": "normalized T³",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "running",
-      "step": 12047,
+      "status": "unconfirmed",
+      "step": 11739,
       "horizon": 13416,
-      "passes": 3.5918306499701846,
+      "passes": 3.5,
       "unique_batches": 3354,
-      "progress": 0.8979576624925462,
-      "eta_hours": 0.8355936581545069,
+      "progress": 0.875,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -5457,7 +5457,9 @@
       "previous_attempt_status": "technical interruption; retained and charged"
     }
   ],
-  "errors": [],
+  "errors": [
+    "Capacity observation unavailable"
+  ],
   "incidents": [
     {
       "title": "A 配套实验：共享调度中断",
@@ -5517,7 +5519,7 @@
     },
     {
       "priority": "P1",
-      "title": "56 组学习—遗忘评估 · 评分代码已审查，等待完整训练与精度检查",
+      "title": "56 组学习—遗忘评估 · 56 组执行失败，保留记录",
       "family": null,
       "why": "检验临时适应能否带来独立收益，并比较目标域学习相当时的遗忘。",
       "design": "所有配置的 8 个固定 checkpoint，加上各自 development-best；配对 zero、ordinary 和一步／两步对照。",
