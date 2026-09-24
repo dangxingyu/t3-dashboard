@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790208253.1014585,
-  "generated_label": "2026-09-23 20:04 EDT",
+  "generated_at": 1790209207.037272,
+  "generated_label": "2026-09-23 20:20 EDT",
   "slots": [
     {
       "name": "A",
@@ -9,7 +9,7 @@
       "other": null,
       "warm": null,
       "unknown": 32,
-      "next": "PENDING"
+      "next": "UNKNOWN"
     },
     {
       "name": "B",
