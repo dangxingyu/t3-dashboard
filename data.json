@@ -1,13 +1,13 @@
 {
-  "generated_at": 1790262247.4313533,
-  "generated_label": "2026-09-24 11:04 EDT",
+  "generated_at": 1790263034.5915496,
+  "generated_label": "2026-09-24 11:17 EDT",
   "slots": [
     {
       "name": "A",
       "allocated": 32,
-      "ours": 0,
+      "ours": 8,
       "other": 0,
-      "warm": 32,
+      "warm": 24,
       "unknown": 0,
       "next": "PENDING"
     },
@@ -15818,14 +15818,27 @@
       "arm": "own-zero · one-pass",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 27,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.004025044722719142,
       "unique_batches": 6708,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.004025044722719142,
+      "eta_hours": 1.922188110302474,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.641251742034051,
+          "retention": 2.701117307298901,
+          "forgetting": -1.368985738103845e-07
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · one-pass",
       "inner_lr": 0.0,
@@ -15840,14 +15853,27 @@
       "arm": "T³ · correction gain 1 · one-pass",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 24,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.0035778175313059034,
       "unique_batches": 6708,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.0035778175313059034,
+      "eta_hours": 1.9228628619899972,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.6412521133971518,
+          "retention": 2.70111732532836,
+          "forgetting": -1.1886911499559005e-07
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · one-pass",
       "inner_lr": 3e-05,
@@ -15862,14 +15888,27 @@
       "arm": "T³ · correction gain 10 · one-pass",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 15,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.0022361359570661895,
       "unique_batches": 6708,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.0022361359570661895,
+      "eta_hours": 3.1108646266305975,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.6412571569699228,
+          "retention": 2.7011175708566406,
+          "forgetting": 1.2665916582221826e-07
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · one-pass",
       "inner_lr": 3e-05,
@@ -15884,14 +15923,27 @@
       "arm": "own-zero · quarter ×4",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 24,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.014311270125223614,
       "unique_batches": 1677,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.0035778175313059034,
+      "eta_hours": 1.9304642057123904,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.641257120451901,
+          "retention": 2.701116898727526,
+          "forgetting": -5.454699487650316e-07
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · quarter ×4",
       "inner_lr": 0.0,
@@ -15906,14 +15958,27 @@
       "arm": "T³ · correction gain 1 · quarter ×4",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 23,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.013714967203339297,
       "unique_batches": 1677,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.003428741800834824,
+      "eta_hours": 1.9303409776268785,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.6412575211108706,
+          "retention": 2.7011168148202036,
+          "forgetting": -6.293772711885026e-07
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · quarter ×4",
       "inner_lr": 3e-05,
@@ -15928,14 +15993,27 @@
       "arm": "T³ · correction gain 10 · quarter ×4",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 15,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.008944543828264758,
       "unique_batches": 1677,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.0022361359570661895,
+      "eta_hours": 3.100209842272452,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.641261522819912,
+          "retention": 2.701116910999774,
+          "forgetting": -5.331977006584054e-07
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · quarter ×4",
       "inner_lr": 3e-05,
@@ -15950,14 +16028,27 @@
       "arm": "ordinary AdamW · sixteenth ×16 +4 updates",
       "lr": 1e-06,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 0,
+      "status": "unconfirmed",
+      "step": 1,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.002386634844868735,
       "unique_batches": 419,
-      "progress": 0.0,
+      "progress": 0.0001490757304710793,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.6412672401002264,
+          "retention": 2.701117465749783,
+          "forgetting": 2.1552308382410956e-08
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · sixteenth ×16 +4 updates",
       "inner_lr": 0.0,
@@ -15972,14 +16063,27 @@
       "arm": "ordinary AdamW · sixteenth ×16 +4 updates",
       "lr": 3e-06,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 0,
+      "status": "unconfirmed",
+      "step": 1,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.002386634844868735,
       "unique_batches": 419,
-      "progress": 0.0,
+      "progress": 0.0001490757304710793,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.6412667344613583,
+          "retention": 2.7011174153712267,
+          "forgetting": -2.8826248055224823e-08
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · sixteenth ×16 +4 updates",
       "inner_lr": 0.0,
@@ -15994,14 +16098,33 @@
       "arm": "ordinary AdamW · sixteenth ×16 +4 updates",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 0,
+      "status": "unconfirmed",
+      "step": 32,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.07637231503579953,
       "unique_batches": 419,
-      "progress": 0.0,
+      "progress": 0.004770423375074538,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.6412644006874189,
+          "retention": 2.701117257351043,
+          "forgetting": -1.8684643166011483e-07
+        },
+        {
+          "step": 32,
+          "target": 1.6391386427426575,
+          "retention": 2.7010930152804615,
+          "forgetting": -2.4428917013263884e-05
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · sixteenth ×16 +4 updates",
       "inner_lr": 0.0,
@@ -16016,14 +16139,27 @@
       "arm": "ordinary AdamW · sixteenth ×16 +4 updates",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 0,
+      "status": "unconfirmed",
+      "step": 1,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.002386634844868735,
       "unique_batches": 419,
-      "progress": 0.0,
+      "progress": 0.0001490757304710793,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.641258600804052,
+          "retention": 2.7011168154293945,
+          "forgetting": -6.287680802685713e-07
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · sixteenth ×16 +4 updates",
       "inner_lr": 0.0,
@@ -16038,14 +16174,27 @@
       "arm": "own-zero · sixteenth ×16 +4 updates",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 24,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.057279236276849645,
       "unique_batches": 419,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.0035778175313059034,
+      "eta_hours": 1.928224614644423,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.6412644006874189,
+          "retention": 2.701117257351043,
+          "forgetting": -1.8684643166011483e-07
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · sixteenth ×16 +4 updates",
       "inner_lr": 0.0,
@@ -16060,14 +16209,27 @@
       "arm": "T³ · correction gain 1 · sixteenth ×16 +4 updates",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 0,
+      "status": "running",
+      "step": 24,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.057279236276849645,
       "unique_batches": 419,
-      "progress": 0.0,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.0035778175313059034,
+      "eta_hours": 1.9264184770577897,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.641264532264612,
+          "retention": 2.70111726566533,
+          "forgetting": -1.7853214462348888e-07
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · sixteenth ×16 +4 updates",
       "inner_lr": 3e-05,
@@ -16082,14 +16244,27 @@
       "arm": "T³ · correction gain 10 · sixteenth ×16 +4 updates",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 0,
+      "status": "unconfirmed",
+      "step": 1,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.002386634844868735,
       "unique_batches": 419,
-      "progress": 0.0,
+      "progress": 0.0001490757304710793,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.641265967673547,
+          "retention": 2.701117323818314,
+          "forgetting": -1.2037916086171663e-07
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · sixteenth ×16 +4 updates",
       "inner_lr": 3e-05,
@@ -16104,14 +16279,27 @@
       "arm": "own-zero · sixteenth ×16 +4 updates",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 0,
+      "status": "unconfirmed",
+      "step": 1,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.002386634844868735,
       "unique_batches": 419,
-      "progress": 0.0,
+      "progress": 0.0001490757304710793,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.641258600804052,
+          "retention": 2.7011168154293945,
+          "forgetting": -6.287680802685713e-07
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · sixteenth ×16 +4 updates",
       "inner_lr": 0.0,
@@ -16126,14 +16314,27 @@
       "arm": "T³ · correction gain 1 · sixteenth ×16 +4 updates",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 0,
+      "status": "unconfirmed",
+      "step": 1,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.002386634844868735,
       "unique_batches": 419,
-      "progress": 0.0,
+      "progress": 0.0001490757304710793,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.6412590210688496,
+          "retention": 2.701116852588575,
+          "forgetting": -5.916088996471558e-07
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · sixteenth ×16 +4 updates",
       "inner_lr": 3e-05,
@@ -16148,14 +16349,27 @@
       "arm": "T³ · correction gain 10 · sixteenth ×16 +4 updates",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 0,
+      "status": "unconfirmed",
+      "step": 1,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.002386634844868735,
       "unique_batches": 419,
-      "progress": 0.0,
+      "progress": 0.0001490757304710793,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.641263276394968,
+          "retention": 2.7011169885132067,
+          "forgetting": -4.556842680969453e-07
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · sixteenth ×16 +4 updates",
       "inner_lr": 3e-05,
@@ -22921,7 +23135,7 @@
     "automatic_agent_followup": false,
     "last_agent_check_at": 1790259452.5652802,
     "last_agent_check_label": "2026-09-24 10:17 EDT",
-    "agent_check_age_minutes": 46.58110121885935
+    "agent_check_age_minutes": 59.700437823931374
   },
   "incidents": [
     {
@@ -22958,7 +23172,7 @@
       "family": "fieldgain",
       "why": "局部TRAIN上的学习代价不能回答最终泛化，也缺少中段优化器状态。",
       "design": "数学：原一次遍历／四分之一数据四遍 × gains0/1/10；outer AdamW3e-5；固定四个曲线点并挑战全部已测普通AdamW点。",
-      "decision": "配置已准备 6/6；运行 0，训练完成 0，失败／中断 0。四条重复对照用于实现匹配和中段状态保存，不是新seed。无优势则关闭本配方的放大分支。"
+      "decision": "配置已准备 6/6；运行 6，训练完成 0，失败／中断 0。四条重复对照用于实现匹配和中段状态保存，不是新seed。无优势则关闭本配方的放大分支。"
     },
     {
       "priority": "P0",
@@ -22966,7 +23180,7 @@
       "family": "scarcity",
       "why": "测试少量新域数据反复学习时，适应能否比调参普通训练保留更多旧知识。",
       "design": "数学419批数据：16遍加4步；普通AdamW四档LR，两档LR各配gains0/1/10。全部共享同一query顺序，评估40个固定checkpoint。",
-      "decision": "配置已准备 10/10；运行 0，训练完成 0，失败／中断 0。候选须改善自身zero并接受完整普通训练曲线挑战；单seed探索，不自动扩网格。"
+      "decision": "配置已准备 10/10；运行 2，训练完成 0，失败／中断 0。候选须改善自身zero并接受完整普通训练曲线挑战；单seed探索，不自动扩网格。"
     },
     {
       "priority": "P0",
