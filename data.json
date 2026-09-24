@@ -1,24 +1,24 @@
 {
-  "generated_at": 1790238564.5243962,
-  "generated_label": "2026-09-24 04:29 EDT",
+  "generated_at": 1790239246.3966098,
+  "generated_label": "2026-09-24 04:40 EDT",
   "slots": [
     {
       "name": "A",
       "allocated": 32,
-      "ours": 0,
+      "ours": 32,
       "other": 0,
-      "warm": 32,
+      "warm": 0,
       "unknown": 0,
       "next": "PENDING"
     },
     {
       "name": "B",
-      "allocated": null,
+      "allocated": 32,
       "ours": null,
       "other": null,
       "warm": null,
       "unknown": 32,
-      "next": "UNKNOWN"
+      "next": "PENDING"
     }
   ],
   "runs": [
@@ -6570,13 +6570,13 @@
       "arm": "ordinary AdamW · strict backend · one-pass",
       "lr": 1e-06,
       "outer": "adamw",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 797,
       "horizon": 6732,
-      "passes": 0.004753416518122401,
+      "passes": 0.11838978015448604,
       "unique_batches": 6732,
-      "progress": 0.004753416518122401,
-      "eta_hours": null,
+      "progress": 0.11838978015448604,
+      "eta_hours": 1.0042857315271654,
       "curves": [
         {
           "step": 0,
@@ -6600,7 +6600,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
-      "backend": "strict_math"
+      "backend": "strict_math",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-code-one_pass-ordinary-adamw3e-06",
@@ -6610,13 +6611,13 @@
       "arm": "ordinary AdamW · strict backend · one-pass",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 797,
       "horizon": 6732,
-      "passes": 0.004753416518122401,
+      "passes": 0.11838978015448604,
       "unique_batches": 6732,
-      "progress": 0.004753416518122401,
-      "eta_hours": null,
+      "progress": 0.11838978015448604,
+      "eta_hours": 1.0041108845277147,
       "curves": [
         {
           "step": 0,
@@ -6640,7 +6641,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
-      "backend": "strict_math"
+      "backend": "strict_math",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-code-one_pass-ordinary-adamw1e-05",
@@ -6650,13 +6652,13 @@
       "arm": "ordinary AdamW · strict backend · one-pass",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 799,
       "horizon": 6732,
-      "passes": 0.004753416518122401,
+      "passes": 0.11868686868686869,
       "unique_batches": 6732,
-      "progress": 0.004753416518122401,
-      "eta_hours": null,
+      "progress": 0.11868686868686869,
+      "eta_hours": 1.002561733124312,
       "curves": [
         {
           "step": 0,
@@ -6680,7 +6682,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
-      "backend": "strict_math"
+      "backend": "strict_math",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-code-one_pass-ordinary-adamw3e-05",
@@ -6690,13 +6693,13 @@
       "arm": "ordinary AdamW · strict backend · one-pass",
       "lr": 3e-05,
       "outer": "adamw",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 797,
       "horizon": 6732,
-      "passes": 0.004753416518122401,
+      "passes": 0.11838978015448604,
       "unique_batches": 6732,
-      "progress": 0.004753416518122401,
-      "eta_hours": null,
+      "progress": 0.11838978015448604,
+      "eta_hours": 1.0025087839099192,
       "curves": [
         {
           "step": 0,
@@ -6720,7 +6723,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
-      "backend": "strict_math"
+      "backend": "strict_math",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-code-quarter_four_passes-sgd0.03-inner0",
@@ -7754,13 +7758,13 @@
       "arm": "ordinary AdamW · strict backend · quarter ×4",
       "lr": 1e-06,
       "outer": "adamw",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 796,
       "horizon": 6732,
-      "passes": 0.019013666072489603,
+      "passes": 0.47296494355317886,
       "unique_batches": 1683,
-      "progress": 0.004753416518122401,
-      "eta_hours": null,
+      "progress": 0.11824123588829472,
+      "eta_hours": 1.0048997743752424,
       "curves": [
         {
           "step": 0,
@@ -7784,7 +7788,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
-      "backend": "strict_math"
+      "backend": "strict_math",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-code-quarter_four_passes-ordinary-adamw3e-06",
@@ -7794,13 +7799,13 @@
       "arm": "ordinary AdamW · strict backend · quarter ×4",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 797,
       "horizon": 6732,
-      "passes": 0.019013666072489603,
+      "passes": 0.47355912061794414,
       "unique_batches": 1683,
-      "progress": 0.004753416518122401,
-      "eta_hours": null,
+      "progress": 0.11838978015448604,
+      "eta_hours": 1.0035593631505537,
       "curves": [
         {
           "step": 0,
@@ -7824,7 +7829,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
-      "backend": "strict_math"
+      "backend": "strict_math",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-code-quarter_four_passes-ordinary-adamw1e-05",
@@ -7834,13 +7840,13 @@
       "arm": "ordinary AdamW · strict backend · quarter ×4",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 803,
       "horizon": 6732,
-      "passes": 0.019013666072489603,
+      "passes": 0.477124183006536,
       "unique_batches": 1683,
-      "progress": 0.004753416518122401,
-      "eta_hours": null,
+      "progress": 0.119281045751634,
+      "eta_hours": 1.0003767257208205,
       "curves": [
         {
           "step": 0,
@@ -7864,7 +7870,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
-      "backend": "strict_math"
+      "backend": "strict_math",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-code-quarter_four_passes-ordinary-adamw3e-05",
@@ -7874,13 +7881,13 @@
       "arm": "ordinary AdamW · strict backend · quarter ×4",
       "lr": 3e-05,
       "outer": "adamw",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 800,
       "horizon": 6732,
-      "passes": 0.019013666072489603,
+      "passes": 0.47534165181224003,
       "unique_batches": 1683,
-      "progress": 0.004753416518122401,
-      "eta_hours": null,
+      "progress": 0.11883541295306001,
+      "eta_hours": 0.9987166297857443,
       "curves": [
         {
           "step": 0,
@@ -7904,7 +7911,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
-      "backend": "strict_math"
+      "backend": "strict_math",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-math-one_pass-sgd0.03-inner0",
@@ -8938,13 +8946,13 @@
       "arm": "ordinary AdamW · strict backend · one-pass",
       "lr": 1e-06,
       "outer": "adamw",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 800,
       "horizon": 6708,
-      "passes": 0.004770423375074538,
+      "passes": 0.11926058437686345,
       "unique_batches": 6708,
-      "progress": 0.004770423375074538,
-      "eta_hours": null,
+      "progress": 0.11926058437686345,
+      "eta_hours": 0.9987717738380242,
       "curves": [
         {
           "step": 0,
@@ -8968,7 +8976,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
-      "backend": "strict_math"
+      "backend": "strict_math",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-math-one_pass-ordinary-adamw3e-06",
@@ -8978,13 +8987,13 @@
       "arm": "ordinary AdamW · strict backend · one-pass",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 798,
       "horizon": 6708,
-      "passes": 0.004770423375074538,
+      "passes": 0.11896243291592129,
       "unique_batches": 6708,
-      "progress": 0.004770423375074538,
-      "eta_hours": null,
+      "progress": 0.11896243291592129,
+      "eta_hours": 0.9975624062567173,
       "curves": [
         {
           "step": 0,
@@ -9008,7 +9017,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
-      "backend": "strict_math"
+      "backend": "strict_math",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-math-one_pass-ordinary-adamw1e-05",
@@ -9018,13 +9028,13 @@
       "arm": "ordinary AdamW · strict backend · one-pass",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 799,
       "horizon": 6708,
-      "passes": 0.004770423375074538,
+      "passes": 0.11911150864639236,
       "unique_batches": 6708,
-      "progress": 0.004770423375074538,
-      "eta_hours": null,
+      "progress": 0.11911150864639236,
+      "eta_hours": 0.9994365850678878,
       "curves": [
         {
           "step": 0,
@@ -9048,7 +9058,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
-      "backend": "strict_math"
+      "backend": "strict_math",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-math-one_pass-ordinary-adamw3e-05",
@@ -9058,13 +9069,13 @@
       "arm": "ordinary AdamW · strict backend · one-pass",
       "lr": 3e-05,
       "outer": "adamw",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 798,
       "horizon": 6708,
-      "passes": 0.004770423375074538,
+      "passes": 0.11896243291592129,
       "unique_batches": 6708,
-      "progress": 0.004770423375074538,
-      "eta_hours": null,
+      "progress": 0.11896243291592129,
+      "eta_hours": 0.9961976082258237,
       "curves": [
         {
           "step": 0,
@@ -9088,7 +9099,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
-      "backend": "strict_math"
+      "backend": "strict_math",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-math-quarter_four_passes-sgd0.03-inner0",
@@ -10122,13 +10134,13 @@
       "arm": "ordinary AdamW · strict backend · quarter ×4",
       "lr": 1e-06,
       "outer": "adamw",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 797,
       "horizon": 6708,
-      "passes": 0.01908169350029815,
+      "passes": 0.4752534287418008,
       "unique_batches": 1677,
-      "progress": 0.004770423375074538,
-      "eta_hours": null,
+      "progress": 0.1188133571854502,
+      "eta_hours": 1.001113973153794,
       "curves": [
         {
           "step": 0,
@@ -10152,7 +10164,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
-      "backend": "strict_math"
+      "backend": "strict_math",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-math-quarter_four_passes-ordinary-adamw3e-06",
@@ -10162,13 +10175,13 @@
       "arm": "ordinary AdamW · strict backend · quarter ×4",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 799,
       "horizon": 6708,
-      "passes": 0.01908169350029815,
+      "passes": 0.47644603458556944,
       "unique_batches": 1677,
-      "progress": 0.004770423375074538,
-      "eta_hours": null,
+      "progress": 0.11911150864639236,
+      "eta_hours": 0.9946401904691529,
       "curves": [
         {
           "step": 0,
@@ -10192,7 +10205,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
-      "backend": "strict_math"
+      "backend": "strict_math",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-math-quarter_four_passes-ordinary-adamw1e-05",
@@ -10202,13 +10216,13 @@
       "arm": "ordinary AdamW · strict backend · quarter ×4",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 797,
       "horizon": 6708,
-      "passes": 0.01908169350029815,
+      "passes": 0.4752534287418008,
       "unique_batches": 1677,
-      "progress": 0.004770423375074538,
-      "eta_hours": null,
+      "progress": 0.1188133571854502,
+      "eta_hours": 1.0039139268322874,
       "curves": [
         {
           "step": 0,
@@ -10232,7 +10246,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
-      "backend": "strict_math"
+      "backend": "strict_math",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-math-quarter_four_passes-ordinary-adamw3e-05",
@@ -10242,13 +10257,13 @@
       "arm": "ordinary AdamW · strict backend · quarter ×4",
       "lr": 3e-05,
       "outer": "adamw",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 797,
       "horizon": 6708,
-      "passes": 0.01908169350029815,
+      "passes": 0.4752534287418008,
       "unique_batches": 1677,
-      "progress": 0.004770423375074538,
-      "eta_hours": null,
+      "progress": 0.1188133571854502,
+      "eta_hours": 0.9954643968858807,
       "curves": [
         {
           "step": 0,
@@ -10272,7 +10287,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
-      "backend": "strict_math"
+      "backend": "strict_math",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-code-one_pass-legacy-sgd0.1-inner0",
@@ -10282,13 +10298,13 @@
       "arm": "own-zero · legacy backend · one-pass",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 885,
       "horizon": 6732,
-      "passes": 0.004753416518122401,
+      "passes": 0.13146167557932265,
       "unique_batches": 6732,
-      "progress": 0.004753416518122401,
-      "eta_hours": null,
+      "progress": 0.13146167557932265,
+      "eta_hours": 0.9005979058515126,
       "curves": [
         {
           "step": 0,
@@ -10312,7 +10328,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
-      "backend": "legacy_high"
+      "backend": "legacy_high",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-code-one_pass-legacy-sgd0.1-inner1e-05",
@@ -10322,13 +10339,13 @@
       "arm": "T³ · inner 1e-05 · legacy backend · one-pass",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 882,
       "horizon": 6732,
-      "passes": 0.004753416518122401,
+      "passes": 0.13101604278074866,
       "unique_batches": 6732,
-      "progress": 0.004753416518122401,
-      "eta_hours": null,
+      "progress": 0.13101604278074866,
+      "eta_hours": 0.9046689209353644,
       "curves": [
         {
           "step": 0,
@@ -10352,7 +10369,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 1e-05,
-      "backend": "legacy_high"
+      "backend": "legacy_high",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-code-one_pass-legacy-sgd0.15-inner0",
@@ -10362,13 +10380,13 @@
       "arm": "own-zero · legacy backend · one-pass",
       "lr": 0.15,
       "outer": "raw_sgd",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 879,
       "horizon": 6732,
-      "passes": 0.004753416518122401,
+      "passes": 0.1305704099821747,
       "unique_batches": 6732,
-      "progress": 0.004753416518122401,
-      "eta_hours": null,
+      "progress": 0.1305704099821747,
+      "eta_hours": 0.9053007159446134,
       "curves": [
         {
           "step": 0,
@@ -10392,7 +10410,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
-      "backend": "legacy_high"
+      "backend": "legacy_high",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-code-one_pass-legacy-sgd0.15-inner1e-05",
@@ -10402,13 +10421,13 @@
       "arm": "T³ · inner 1e-05 · legacy backend · one-pass",
       "lr": 0.15,
       "outer": "raw_sgd",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 880,
       "horizon": 6732,
-      "passes": 0.004753416518122401,
+      "passes": 0.13071895424836602,
       "unique_batches": 6732,
-      "progress": 0.004753416518122401,
-      "eta_hours": null,
+      "progress": 0.13071895424836602,
+      "eta_hours": 0.9062243959481,
       "curves": [
         {
           "step": 0,
@@ -10432,7 +10451,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 1e-05,
-      "backend": "legacy_high"
+      "backend": "legacy_high",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-code-quarter_four_passes-legacy-sgd0.1-inner0",
@@ -10442,13 +10462,13 @@
       "arm": "own-zero · legacy backend · quarter ×4",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 883,
       "horizon": 6732,
-      "passes": 0.019013666072489603,
+      "passes": 0.5246583481877599,
       "unique_batches": 1683,
-      "progress": 0.004753416518122401,
-      "eta_hours": null,
+      "progress": 0.13116458704693998,
+      "eta_hours": 0.9050762925150048,
       "curves": [
         {
           "step": 0,
@@ -10472,7 +10492,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
-      "backend": "legacy_high"
+      "backend": "legacy_high",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-code-quarter_four_passes-legacy-sgd0.1-inner1e-05",
@@ -10482,13 +10503,13 @@
       "arm": "T³ · inner 1e-05 · legacy backend · quarter ×4",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 883,
       "horizon": 6732,
-      "passes": 0.019013666072489603,
+      "passes": 0.5246583481877599,
       "unique_batches": 1683,
-      "progress": 0.004753416518122401,
-      "eta_hours": null,
+      "progress": 0.13116458704693998,
+      "eta_hours": 0.9166113426410124,
       "curves": [
         {
           "step": 0,
@@ -10512,7 +10533,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 1e-05,
-      "backend": "legacy_high"
+      "backend": "legacy_high",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-code-quarter_four_passes-legacy-sgd0.15-inner0",
@@ -10522,13 +10544,13 @@
       "arm": "own-zero · legacy backend · quarter ×4",
       "lr": 0.15,
       "outer": "raw_sgd",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 884,
       "horizon": 6732,
-      "passes": 0.019013666072489603,
+      "passes": 0.5252525252525253,
       "unique_batches": 1683,
-      "progress": 0.004753416518122401,
-      "eta_hours": null,
+      "progress": 0.13131313131313133,
+      "eta_hours": 0.9009526347919341,
       "curves": [
         {
           "step": 0,
@@ -10552,7 +10574,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
-      "backend": "legacy_high"
+      "backend": "legacy_high",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-code-quarter_four_passes-legacy-sgd0.15-inner1e-05",
@@ -10562,13 +10585,13 @@
       "arm": "T³ · inner 1e-05 · legacy backend · quarter ×4",
       "lr": 0.15,
       "outer": "raw_sgd",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 881,
       "horizon": 6732,
-      "passes": 0.019013666072489603,
+      "passes": 0.5234699940582294,
       "unique_batches": 1683,
-      "progress": 0.004753416518122401,
-      "eta_hours": null,
+      "progress": 0.13086749851455734,
+      "eta_hours": 0.9042508531045153,
       "curves": [
         {
           "step": 0,
@@ -10592,7 +10615,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 1e-05,
-      "backend": "legacy_high"
+      "backend": "legacy_high",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-math-one_pass-legacy-sgd0.1-inner0",
@@ -10602,13 +10626,13 @@
       "arm": "own-zero · legacy backend · one-pass",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 881,
       "horizon": 6708,
-      "passes": 0.004770423375074538,
+      "passes": 0.13133571854502088,
       "unique_batches": 6708,
-      "progress": 0.004770423375074538,
-      "eta_hours": null,
+      "progress": 0.13133571854502088,
+      "eta_hours": 0.9006925199590882,
       "curves": [
         {
           "step": 0,
@@ -10632,7 +10656,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
-      "backend": "legacy_high"
+      "backend": "legacy_high",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-math-one_pass-legacy-sgd0.1-inner1e-05",
@@ -10642,13 +10667,13 @@
       "arm": "T³ · inner 1e-05 · legacy backend · one-pass",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 880,
       "horizon": 6708,
-      "passes": 0.004770423375074538,
+      "passes": 0.13118664281454978,
       "unique_batches": 6708,
-      "progress": 0.004770423375074538,
-      "eta_hours": null,
+      "progress": 0.13118664281454978,
+      "eta_hours": 0.9037175914008791,
       "curves": [
         {
           "step": 0,
@@ -10672,7 +10697,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 1e-05,
-      "backend": "legacy_high"
+      "backend": "legacy_high",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-math-one_pass-legacy-sgd0.15-inner0",
@@ -10682,13 +10708,13 @@
       "arm": "own-zero · legacy backend · one-pass",
       "lr": 0.15,
       "outer": "raw_sgd",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 880,
       "horizon": 6708,
-      "passes": 0.004770423375074538,
+      "passes": 0.13118664281454978,
       "unique_batches": 6708,
-      "progress": 0.004770423375074538,
-      "eta_hours": null,
+      "progress": 0.13118664281454978,
+      "eta_hours": 0.9016797468198153,
       "curves": [
         {
           "step": 0,
@@ -10712,7 +10738,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
-      "backend": "legacy_high"
+      "backend": "legacy_high",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-math-one_pass-legacy-sgd0.15-inner1e-05",
@@ -10722,13 +10749,13 @@
       "arm": "T³ · inner 1e-05 · legacy backend · one-pass",
       "lr": 0.15,
       "outer": "raw_sgd",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 883,
       "horizon": 6708,
-      "passes": 0.004770423375074538,
+      "passes": 0.13163387000596302,
       "unique_batches": 6708,
-      "progress": 0.004770423375074538,
-      "eta_hours": null,
+      "progress": 0.13163387000596302,
+      "eta_hours": 0.8958851411055851,
       "curves": [
         {
           "step": 0,
@@ -10752,7 +10779,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 1e-05,
-      "backend": "legacy_high"
+      "backend": "legacy_high",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-math-quarter_four_passes-legacy-sgd0.1-inner0",
@@ -10762,13 +10790,13 @@
       "arm": "own-zero · legacy backend · quarter ×4",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 883,
       "horizon": 6708,
-      "passes": 0.01908169350029815,
+      "passes": 0.5265354800238521,
       "unique_batches": 1677,
-      "progress": 0.004770423375074538,
-      "eta_hours": null,
+      "progress": 0.13163387000596302,
+      "eta_hours": 0.9002465223230602,
       "curves": [
         {
           "step": 0,
@@ -10792,7 +10820,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
-      "backend": "legacy_high"
+      "backend": "legacy_high",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-math-quarter_four_passes-legacy-sgd0.1-inner1e-05",
@@ -10802,13 +10831,13 @@
       "arm": "T³ · inner 1e-05 · legacy backend · quarter ×4",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 884,
       "horizon": 6708,
-      "passes": 0.01908169350029815,
+      "passes": 0.5271317829457365,
       "unique_batches": 1677,
-      "progress": 0.004770423375074538,
-      "eta_hours": null,
+      "progress": 0.13178294573643412,
+      "eta_hours": 0.897609467316005,
       "curves": [
         {
           "step": 0,
@@ -10832,7 +10861,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 1e-05,
-      "backend": "legacy_high"
+      "backend": "legacy_high",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-math-quarter_four_passes-legacy-sgd0.15-inner0",
@@ -10842,13 +10872,13 @@
       "arm": "own-zero · legacy backend · quarter ×4",
       "lr": 0.15,
       "outer": "raw_sgd",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 882,
       "horizon": 6708,
-      "passes": 0.01908169350029815,
+      "passes": 0.5259391771019678,
       "unique_batches": 1677,
-      "progress": 0.004770423375074538,
-      "eta_hours": null,
+      "progress": 0.13148479427549195,
+      "eta_hours": 0.8979792949933714,
       "curves": [
         {
           "step": 0,
@@ -10872,7 +10902,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
-      "backend": "legacy_high"
+      "backend": "legacy_high",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-math-quarter_four_passes-legacy-sgd0.15-inner1e-05",
@@ -10882,13 +10913,13 @@
       "arm": "T³ · inner 1e-05 · legacy backend · quarter ×4",
       "lr": 0.15,
       "outer": "raw_sgd",
-      "status": "failed",
-      "step": 32,
+      "status": "running",
+      "step": 876,
       "horizon": 6708,
-      "passes": 0.01908169350029815,
+      "passes": 0.5223613595706619,
       "unique_batches": 1677,
-      "progress": 0.004770423375074538,
-      "eta_hours": null,
+      "progress": 0.13059033989266547,
+      "eta_hours": 0.9051645671809092,
       "curves": [
         {
           "step": 0,
@@ -10912,7 +10943,8 @@
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 1e-05,
-      "backend": "legacy_high"
+      "backend": "legacy_high",
+      "previous_attempt_status": "Exact continuation from update 32; original budget failures retained and charged"
     },
     {
       "id": "s135-code-adamw-3e-06-mean-gradient-rho0p1",
@@ -17671,14 +17703,14 @@
   "monitoring": {
     "snapshot_refresh_seconds": 900,
     "automatic_agent_followup": false,
-    "last_agent_check_at": 1790230800.2312746,
-    "last_agent_check_label": "2026-09-24 02:20 EDT",
-    "agent_check_age_minutes": 129.40488535960515
+    "last_agent_check_at": 1790238891.965614,
+    "last_agent_check_label": "2026-09-24 04:34 EDT",
+    "agent_check_age_minutes": 5.907183261712392
   },
   "incidents": [
     {
       "title": "自动快照与 agent 巡检分别记录",
-      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-24 02:20 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
+      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-24 04:34 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
     },
     {
       "title": "A 配套实验：共享调度中断",
@@ -17710,7 +17742,7 @@
       "family": "settinghparam",
       "why": "扩大数据重复程度和内外层学习率；检验历史收益是否依赖数值后端，并挑战调过参的普通训练。",
       "design": "代码／数学 × one-pass／固定小数据四轮；64组内外层LR网格含own-zero，16组普通AdamW学习率，16组历史后端锚点。",
-      "decision": "配置已冻结，启动状态见运行表。保留全部56个适应对比和8个后端交互；不等计算与调参预算，单seed探索。先找有效区域再扩步数／scope／replay。"
+      "decision": "64组严格后端训练完成；32组普通AdamW／旧后端对照正在按原配置从32步断点续跑，原失败计入成本。64组终点评分已准备，待B的retune结束并通过时限检查后启动。保留全部56个适应对比和8个后端交互；不等计算与调参预算，单seed探索。"
     },
     {
       "priority": "P0",
