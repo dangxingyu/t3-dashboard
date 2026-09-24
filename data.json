@@ -1,22 +1,22 @@
 {
-  "generated_at": 1790224005.929845,
-  "generated_label": "2026-09-24 00:26 EDT",
+  "generated_at": 1790224954.9991481,
+  "generated_label": "2026-09-24 00:42 EDT",
   "slots": [
     {
       "name": "A",
-      "allocated": 32,
-      "ours": 0,
-      "other": 4,
-      "warm": 28,
-      "unknown": 0,
-      "next": "PENDING"
+      "allocated": null,
+      "ours": null,
+      "other": null,
+      "warm": null,
+      "unknown": 32,
+      "next": "UNKNOWN"
     },
     {
       "name": "B",
       "allocated": 32,
-      "ours": 32,
+      "ours": 1,
       "other": 0,
-      "warm": 0,
+      "warm": 31,
       "unknown": 0,
       "next": "PENDING"
     }
@@ -5802,13 +5802,13 @@
       "arm": "own-zero · strict backend · one-pass",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5989,
+      "status": "trained",
+      "step": 6732,
       "horizon": 6732,
-      "passes": 0.8896316102198455,
+      "passes": 1.0,
       "unique_batches": 6732,
-      "progress": 0.8896316102198455,
-      "eta_hours": 0.21447879157624103,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -5845,6 +5845,12 @@
           "target": 1.1552462355787305,
           "retention": 2.7346306954948982,
           "forgetting": 0.03351325129742344
+        },
+        {
+          "step": 6732,
+          "target": 1.1540321812902399,
+          "retention": 2.732235776036867,
+          "forgetting": 0.031118331839392166
         }
       ],
       "scientifically_accepted": false,
@@ -5860,13 +5866,13 @@
       "arm": "T³ · inner 3e-06 · strict backend · one-pass",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5951,
+      "status": "trained",
+      "step": 6732,
       "horizon": 6732,
-      "passes": 0.8839869281045751,
+      "passes": 1.0,
       "unique_batches": 6732,
-      "progress": 0.8839869281045751,
-      "eta_hours": 0.22606096108469906,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -5903,6 +5909,12 @@
           "target": 1.154868158363049,
           "retention": 2.733373138793644,
           "forgetting": 0.03225569459616917
+        },
+        {
+          "step": 6732,
+          "target": 1.1536648665214337,
+          "retention": 2.7310458573054746,
+          "forgetting": 0.029928413107999763
         }
       ],
       "scientifically_accepted": false,
@@ -5918,13 +5930,13 @@
       "arm": "T³ · inner 1e-05 · strict backend · one-pass",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5980,
+      "status": "trained",
+      "step": 6732,
       "horizon": 6732,
-      "passes": 0.8882947118241236,
+      "passes": 1.0,
       "unique_batches": 6732,
-      "progress": 0.8882947118241236,
-      "eta_hours": 0.21764967719713846,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -5961,6 +5973,12 @@
           "target": 1.154834533573989,
           "retention": 2.734318138866545,
           "forgetting": 0.03320069466907016
+        },
+        {
+          "step": 6732,
+          "target": 1.153594981511541,
+          "retention": 2.7313978437805204,
+          "forgetting": 0.030280399583045625
         }
       ],
       "scientifically_accepted": false,
@@ -5976,13 +5994,13 @@
       "arm": "T³ · inner 3e-05 · strict backend · one-pass",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5958,
+      "status": "trained",
+      "step": 6732,
       "horizon": 6732,
-      "passes": 0.8850267379679144,
+      "passes": 1.0,
       "unique_batches": 6732,
-      "progress": 0.8850267379679144,
-      "eta_hours": 0.22431495303637347,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -6019,6 +6037,12 @@
           "target": 1.1549642922960854,
           "retention": 2.731412793340871,
           "forgetting": 0.030295349143396155
+        },
+        {
+          "step": 6732,
+          "target": 1.15340186611304,
+          "retention": 2.728743805187343,
+          "forgetting": 0.02762636098986837
         }
       ],
       "scientifically_accepted": false,
@@ -6290,13 +6314,13 @@
       "arm": "own-zero · strict backend · one-pass",
       "lr": 0.3,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5964,
+      "status": "trained",
+      "step": 6732,
       "horizon": 6732,
-      "passes": 0.8859180035650623,
+      "passes": 1.0,
       "unique_batches": 6732,
-      "progress": 0.8859180035650623,
-      "eta_hours": 0.22298308417201043,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -6333,6 +6357,12 @@
           "target": 1.156003664027204,
           "retention": 2.884555413163321,
           "forgetting": 0.1834379689658463
+        },
+        {
+          "step": 6732,
+          "target": 1.1493315110210494,
+          "retention": 2.870201520440408,
+          "forgetting": 0.1690840762429331
         }
       ],
       "scientifically_accepted": false,
@@ -6348,13 +6378,13 @@
       "arm": "T³ · inner 3e-06 · strict backend · one-pass",
       "lr": 0.3,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5929,
+      "status": "trained",
+      "step": 6732,
       "horizon": 6732,
-      "passes": 0.880718954248366,
+      "passes": 1.0,
       "unique_batches": 6732,
-      "progress": 0.880718954248366,
-      "eta_hours": 0.2337921790343373,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -6391,6 +6421,12 @@
           "target": 1.153006047799157,
           "retention": 2.859728587953726,
           "forgetting": 0.1586111437562514
+        },
+        {
+          "step": 6732,
+          "target": 1.147587384525068,
+          "retention": 2.847021198127867,
+          "forgetting": 0.145903753930392
         }
       ],
       "scientifically_accepted": false,
@@ -6406,13 +6442,13 @@
       "arm": "T³ · inner 1e-05 · strict backend · one-pass",
       "lr": 0.3,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5946,
+      "status": "trained",
+      "step": 6732,
       "horizon": 6732,
-      "passes": 0.8832442067736186,
+      "passes": 1.0,
       "unique_batches": 6732,
-      "progress": 0.8832442067736186,
-      "eta_hours": 0.22793847363636208,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -6449,6 +6485,12 @@
           "target": 1.1571576143982156,
           "retention": 2.867281638113008,
           "forgetting": 0.16616419391553316
+        },
+        {
+          "step": 6732,
+          "target": 1.1506100652104752,
+          "retention": 2.8542147699004996,
+          "forgetting": 0.1530973257030248
         }
       ],
       "scientifically_accepted": false,
@@ -6464,13 +6506,13 @@
       "arm": "T³ · inner 3e-05 · strict backend · one-pass",
       "lr": 0.3,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5965,
+      "status": "trained",
+      "step": 6732,
       "horizon": 6732,
-      "passes": 0.8860665478312537,
+      "passes": 1.0,
       "unique_batches": 6732,
-      "progress": 0.8860665478312537,
-      "eta_hours": 0.2222365099524743,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -6507,6 +6549,12 @@
           "target": 1.2609164644324344,
           "retention": 3.2330601225893747,
           "forgetting": 0.5319426783918999
+        },
+        {
+          "step": 6732,
+          "target": 1.2280986249815233,
+          "retention": 3.1267198113999446,
+          "forgetting": 0.4256023672024698
         }
       ],
       "scientifically_accepted": false,
@@ -6522,14 +6570,33 @@
       "arm": "ordinary AdamW · strict backend · one-pass",
       "lr": 1e-06,
       "outer": "adamw",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6732,
-      "passes": 0.0,
+      "passes": 0.004753416518122401,
       "unique_batches": 6732,
-      "progress": 0.0,
+      "progress": 0.004753416518122401,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2164841866536353,
+          "retention": 2.701117464113422,
+          "forgetting": 1.991594711370226e-08
+        },
+        {
+          "step": 32,
+          "target": 1.2164677326146007,
+          "retention": 2.7011162731375924,
+          "forgetting": -1.1710598823988505e-06
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
@@ -6543,14 +6610,33 @@
       "arm": "ordinary AdamW · strict backend · one-pass",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6732,
-      "passes": 0.0,
+      "passes": 0.004753416518122401,
       "unique_batches": 6732,
-      "progress": 0.0,
+      "progress": 0.004753416518122401,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2164840834966626,
+          "retention": 2.7011174226437586,
+          "forgetting": -2.155371614520618e-08
+        },
+        {
+          "step": 32,
+          "target": 1.2164318517153268,
+          "retention": 2.7011136927326764,
+          "forgetting": -3.751464798362747e-06
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
@@ -6564,14 +6650,33 @@
       "arm": "ordinary AdamW · strict backend · one-pass",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6732,
-      "passes": 0.0,
+      "passes": 0.004753416518122401,
       "unique_batches": 6732,
-      "progress": 0.0,
+      "progress": 0.004753416518122401,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.216483599447557,
+          "retention": 2.701117394237471,
+          "forgetting": -4.9960003689619725e-08
+        },
+        {
+          "step": 32,
+          "target": 1.2163140858962924,
+          "retention": 2.7011056977268524,
+          "forgetting": -1.1746470622409078e-05
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
@@ -6585,14 +6690,33 @@
       "arm": "ordinary AdamW · strict backend · one-pass",
       "lr": 3e-05,
       "outer": "adamw",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6732,
-      "passes": 0.0,
+      "passes": 0.004753416518122401,
       "unique_batches": 6732,
-      "progress": 0.0,
+      "progress": 0.004753416518122401,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2164825031344393,
+          "retention": 2.7011172985345833,
+          "forgetting": -1.456628915263991e-07
+        },
+        {
+          "step": 32,
+          "target": 1.2160141557821031,
+          "retention": 2.701089674402877,
+          "forgetting": -2.7769794597620745e-05
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
@@ -6862,13 +6986,13 @@
       "arm": "own-zero · strict backend · quarter ×4",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5959,
+      "status": "trained",
+      "step": 6732,
       "horizon": 6732,
-      "passes": 3.540701128936423,
+      "passes": 4.0,
       "unique_batches": 1683,
-      "progress": 0.8851752822341058,
-      "eta_hours": 0.22452394465579548,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -6905,6 +7029,12 @@
           "target": 1.150755135602665,
           "retention": 2.7345943604053375,
           "forgetting": 0.03347691620786275
+        },
+        {
+          "step": 6732,
+          "target": 1.148038394680978,
+          "retention": 2.734230904293439,
+          "forgetting": 0.033113460095964165
         }
       ],
       "scientifically_accepted": false,
@@ -6920,13 +7050,13 @@
       "arm": "T³ · inner 3e-06 · strict backend · quarter ×4",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5966,
+      "status": "trained",
+      "step": 6732,
       "horizon": 6732,
-      "passes": 3.5448603683897804,
+      "passes": 4.0,
       "unique_batches": 1683,
-      "progress": 0.8862150920974451,
-      "eta_hours": 0.22197499212705427,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -6963,6 +7093,12 @@
           "target": 1.1509075687235204,
           "retention": 2.7339834218771872,
           "forgetting": 0.032865977679712444
+        },
+        {
+          "step": 6732,
+          "target": 1.1481929674677671,
+          "retention": 2.73375618381733,
+          "forgetting": 0.032638739619855084
         }
       ],
       "scientifically_accepted": false,
@@ -6978,13 +7114,13 @@
       "arm": "T³ · inner 1e-05 · strict backend · quarter ×4",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5955,
+      "status": "trained",
+      "step": 6732,
       "horizon": 6732,
-      "passes": 3.5383244206773616,
+      "passes": 4.0,
       "unique_batches": 1683,
-      "progress": 0.8845811051693404,
-      "eta_hours": 0.22571696392047064,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -7021,6 +7157,12 @@
           "target": 1.150940286451872,
           "retention": 2.733736867103551,
           "forgetting": 0.032619422906076334
+        },
+        {
+          "step": 6732,
+          "target": 1.1482367964463087,
+          "retention": 2.7336146698327344,
+          "forgetting": 0.032497225635259586
         }
       ],
       "scientifically_accepted": false,
@@ -7036,13 +7178,13 @@
       "arm": "T³ · inner 3e-05 · strict backend · quarter ×4",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5956,
+      "status": "trained",
+      "step": 6732,
       "horizon": 6732,
-      "passes": 3.538918597742127,
+      "passes": 4.0,
       "unique_batches": 1683,
-      "progress": 0.8847296494355318,
-      "eta_hours": 0.22463721569265344,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -7079,6 +7221,12 @@
           "target": 1.1499191145159362,
           "retention": 2.732904925592432,
           "forgetting": 0.03178748139495724
+        },
+        {
+          "step": 6732,
+          "target": 1.1474278918122551,
+          "retention": 2.732705612327747,
+          "forgetting": 0.0315881681302721
         }
       ],
       "scientifically_accepted": false,
@@ -7350,13 +7498,13 @@
       "arm": "own-zero · strict backend · quarter ×4",
       "lr": 0.3,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5958,
+      "status": "trained",
+      "step": 6732,
       "horizon": 6732,
-      "passes": 3.5401069518716577,
+      "passes": 4.0,
       "unique_batches": 1683,
-      "progress": 0.8850267379679144,
-      "eta_hours": 0.22482249260880052,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -7393,6 +7541,12 @@
           "target": 1.2163436635584182,
           "retention": 3.101829337875897,
           "forgetting": 0.4007118936784222
+        },
+        {
+          "step": 6732,
+          "target": 1.19769677735199,
+          "retention": 3.055814569468277,
+          "forgetting": 0.354697125270802
         }
       ],
       "scientifically_accepted": false,
@@ -7408,13 +7562,13 @@
       "arm": "T³ · inner 3e-06 · strict backend · quarter ×4",
       "lr": 0.3,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5959,
+      "status": "trained",
+      "step": 6732,
       "horizon": 6732,
-      "passes": 3.540701128936423,
+      "passes": 4.0,
       "unique_batches": 1683,
-      "progress": 0.8851752822341058,
-      "eta_hours": 0.22458869952184612,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -7451,6 +7605,12 @@
           "target": 1.1349174212971624,
           "retention": 2.858181563637727,
           "forgetting": 0.157064119440252
+        },
+        {
+          "step": 6732,
+          "target": 1.1294262332277407,
+          "retention": 2.852392342686457,
+          "forgetting": 0.15127489848898223
         }
       ],
       "scientifically_accepted": false,
@@ -7466,13 +7626,13 @@
       "arm": "T³ · inner 1e-05 · strict backend · quarter ×4",
       "lr": 0.3,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5956,
+      "status": "trained",
+      "step": 6732,
       "horizon": 6732,
-      "passes": 3.538918597742127,
+      "passes": 4.0,
       "unique_batches": 1683,
-      "progress": 0.8847296494355318,
-      "eta_hours": 0.22547217616863136,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -7509,6 +7669,12 @@
           "target": 1.399445639330889,
           "retention": 3.4856767441447065,
           "forgetting": 0.7845592999472317
+        },
+        {
+          "step": 6732,
+          "target": 1.2555822114201445,
+          "retention": 3.2023862081825296,
+          "forgetting": 0.5012687639850548
         }
       ],
       "scientifically_accepted": false,
@@ -7524,13 +7690,13 @@
       "arm": "T³ · inner 3e-05 · strict backend · quarter ×4",
       "lr": 0.3,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5973,
+      "status": "trained",
+      "step": 6732,
       "horizon": 6732,
-      "passes": 3.549019607843137,
+      "passes": 4.0,
       "unique_batches": 1683,
-      "progress": 0.8872549019607843,
-      "eta_hours": 0.2200716956347848,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -7567,6 +7733,12 @@
           "target": 5.494815877971437,
           "retention": 7.819484924970652,
           "forgetting": 5.118367480773177
+        },
+        {
+          "step": 6732,
+          "target": 5.261916243475393,
+          "retention": 7.755921999535872,
+          "forgetting": 5.0548045553383965
         }
       ],
       "scientifically_accepted": false,
@@ -7582,14 +7754,33 @@
       "arm": "ordinary AdamW · strict backend · quarter ×4",
       "lr": 1e-06,
       "outer": "adamw",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6732,
-      "passes": 0.0,
+      "passes": 0.019013666072489603,
       "unique_batches": 1683,
-      "progress": 0.0,
+      "progress": 0.004753416518122401,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2164841805835593,
+          "retention": 2.70111746492888,
+          "forgetting": 2.0731405037111017e-08
+        },
+        {
+          "step": 32,
+          "target": 1.2164606134969127,
+          "retention": 2.7011162482851656,
+          "forgetting": -1.1959123091820345e-06
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
@@ -7603,14 +7794,33 @@
       "arm": "ordinary AdamW · strict backend · quarter ×4",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6732,
-      "passes": 0.0,
+      "passes": 0.019013666072489603,
       "unique_batches": 1683,
-      "progress": 0.0,
+      "progress": 0.004753416518122401,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2164841509385251,
+          "retention": 2.7011174574675336,
+          "forgetting": 1.3270058829562004e-08
+        },
+        {
+          "step": 32,
+          "target": 1.2164104439954406,
+          "retention": 2.701113749157834,
+          "forgetting": -3.6950396409274333e-06
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
@@ -7624,14 +7834,33 @@
       "arm": "ordinary AdamW · strict backend · quarter ×4",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6732,
-      "passes": 0.0,
+      "passes": 0.019013666072489603,
       "unique_batches": 1683,
-      "progress": 0.0,
+      "progress": 0.004753416518122401,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2164840221052349,
+          "retention": 2.7011175023411753,
+          "forgetting": 5.814370052092954e-08
+        },
+        {
+          "step": 32,
+          "target": 1.2162432092125979,
+          "retention": 2.7011058798356937,
+          "forgetting": -1.156436178106901e-05
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
@@ -7645,14 +7874,33 @@
       "arm": "ordinary AdamW · strict backend · quarter ×4",
       "lr": 3e-05,
       "outer": "adamw",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6732,
-      "passes": 0.0,
+      "passes": 0.019013666072489603,
       "unique_batches": 1683,
-      "progress": 0.0,
+      "progress": 0.004753416518122401,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2164837559287027,
+          "retention": 2.701117619410628,
+          "forgetting": 1.7521315331947562e-07
+        },
+        {
+          "step": 32,
+          "target": 1.2158036079482788,
+          "retention": 2.701089734416282,
+          "forgetting": -2.7709781192708505e-05
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
@@ -7922,13 +8170,13 @@
       "arm": "own-zero · strict backend · one-pass",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5958,
+      "status": "trained",
+      "step": 6708,
       "horizon": 6708,
-      "passes": 0.8881932021466905,
+      "passes": 1.0,
       "unique_batches": 6708,
-      "progress": 0.8881932021466905,
-      "eta_hours": 0.21804483854793943,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -7965,6 +8213,12 @@
           "target": 1.5248207489944503,
           "retention": 2.762601742157887,
           "forgetting": 0.06148429796041199
+        },
+        {
+          "step": 6708,
+          "target": 1.5207741170541573,
+          "retention": 2.762096482032604,
+          "forgetting": 0.06097903783512937
         }
       ],
       "scientifically_accepted": false,
@@ -7980,13 +8234,13 @@
       "arm": "T³ · inner 3e-06 · strict backend · one-pass",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5978,
+      "status": "trained",
+      "step": 6708,
       "horizon": 6708,
-      "passes": 0.8911747167561122,
+      "passes": 1.0,
       "unique_batches": 6708,
-      "progress": 0.8911747167561122,
-      "eta_hours": 0.21116004819115106,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -8023,6 +8277,12 @@
           "target": 1.524195095520704,
           "retention": 2.761527066423145,
           "forgetting": 0.060409622225670034
+        },
+        {
+          "step": 6708,
+          "target": 1.5203133471105954,
+          "retention": 2.7609909901849155,
+          "forgetting": 0.05987354598744066
         }
       ],
       "scientifically_accepted": false,
@@ -8038,13 +8298,13 @@
       "arm": "T³ · inner 1e-05 · strict backend · one-pass",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5954,
+      "status": "trained",
+      "step": 6708,
       "horizon": 6708,
-      "passes": 0.8875968992248062,
+      "passes": 1.0,
       "unique_batches": 6708,
-      "progress": 0.8875968992248062,
-      "eta_hours": 0.21892113722304607,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -8081,6 +8341,12 @@
           "target": 1.533098705669291,
           "retention": 2.777674243303338,
           "forgetting": 0.07655679910586333
+        },
+        {
+          "step": 6708,
+          "target": 1.5288497820692535,
+          "retention": 2.776758036248918,
+          "forgetting": 0.07564059205144336
         }
       ],
       "scientifically_accepted": false,
@@ -8096,13 +8362,13 @@
       "arm": "T³ · inner 3e-05 · strict backend · one-pass",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5964,
+      "status": "trained",
+      "step": 6708,
       "horizon": 6708,
-      "passes": 0.889087656529517,
+      "passes": 1.0,
       "unique_batches": 6708,
-      "progress": 0.889087656529517,
-      "eta_hours": 0.21635038985870778,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -8139,6 +8405,12 @@
           "target": 1.523989855104926,
           "retention": 2.760966766834413,
           "forgetting": 0.05984932263693832
+        },
+        {
+          "step": 6708,
+          "target": 1.5201194487401595,
+          "retention": 2.760690007399315,
+          "forgetting": 0.05957256320184001
         }
       ],
       "scientifically_accepted": false,
@@ -8410,13 +8682,13 @@
       "arm": "own-zero · strict backend · one-pass",
       "lr": 0.3,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5990,
+      "status": "trained",
+      "step": 6708,
       "horizon": 6708,
-      "passes": 0.892963625521765,
+      "passes": 1.0,
       "unique_batches": 6708,
-      "progress": 0.892963625521765,
-      "eta_hours": 0.208096716992764,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -8453,6 +8725,12 @@
           "target": 1.5285741661687364,
           "retention": 2.8132958658061207,
           "forgetting": 0.11217842160864588
+        },
+        {
+          "step": 6708,
+          "target": 1.5211355431417088,
+          "retention": 2.808941031369495,
+          "forgetting": 0.10782358717202012
         }
       ],
       "scientifically_accepted": false,
@@ -8468,13 +8746,13 @@
       "arm": "T³ · inner 3e-06 · strict backend · one-pass",
       "lr": 0.3,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5959,
+      "status": "trained",
+      "step": 6708,
       "horizon": 6708,
-      "passes": 0.8883422778771616,
+      "passes": 1.0,
       "unique_batches": 6708,
-      "progress": 0.8883422778771616,
-      "eta_hours": 0.21763845674143845,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -8511,6 +8789,12 @@
           "target": 1.6988447465671226,
           "retention": 3.1517362036175327,
           "forgetting": 0.4506187594200579
+        },
+        {
+          "step": 6708,
+          "target": 1.6112120384442832,
+          "retention": 2.9775561041235172,
+          "forgetting": 0.27643865992604244
         }
       ],
       "scientifically_accepted": false,
@@ -8526,13 +8810,13 @@
       "arm": "T³ · inner 1e-05 · strict backend · one-pass",
       "lr": 0.3,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5956,
+      "status": "trained",
+      "step": 6708,
       "horizon": 6708,
-      "passes": 0.8878950506857484,
+      "passes": 1.0,
       "unique_batches": 6708,
-      "progress": 0.8878950506857484,
-      "eta_hours": 0.2185271780979302,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -8569,6 +8853,12 @@
           "target": 1.531701673440951,
           "retention": 2.8251026633725997,
           "forgetting": 0.12398521917512495
+        },
+        {
+          "step": 6708,
+          "target": 1.5242965045432644,
+          "retention": 2.8187309898752906,
+          "forgetting": 0.11761354567781579
         }
       ],
       "scientifically_accepted": false,
@@ -8584,13 +8874,13 @@
       "arm": "T³ · inner 3e-05 · strict backend · one-pass",
       "lr": 0.3,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5991,
+      "status": "trained",
+      "step": 6708,
       "horizon": 6708,
-      "passes": 0.8931127012522362,
+      "passes": 1.0,
       "unique_batches": 6708,
-      "progress": 0.8931127012522362,
-      "eta_hours": 0.2071185049796865,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -8627,6 +8917,12 @@
           "target": 1.5298796056695576,
           "retention": 2.8190745078632755,
           "forgetting": 0.11795706366580072
+        },
+        {
+          "step": 6708,
+          "target": 1.522351124138177,
+          "retention": 2.813747972084841,
+          "forgetting": 0.11263052788736605
         }
       ],
       "scientifically_accepted": false,
@@ -8642,14 +8938,33 @@
       "arm": "ordinary AdamW · strict backend · one-pass",
       "lr": 1e-06,
       "outer": "adamw",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.004770423375074538,
       "unique_batches": 6708,
-      "progress": 0.0,
+      "progress": 0.004770423375074538,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.6412672089142206,
+          "retention": 2.7011174526975252,
+          "forgetting": 8.500050441284657e-09
+        },
+        {
+          "step": 32,
+          "target": 1.6410782664496955,
+          "retention": 2.701115557900091,
+          "forgetting": -1.8862973836242247e-06
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
@@ -8663,14 +8978,33 @@
       "arm": "ordinary AdamW · strict backend · one-pass",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.004770423375074538,
       "unique_batches": 6708,
-      "progress": 0.0,
+      "progress": 0.004770423375074538,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.6412662768819803,
+          "retention": 2.701117438007087,
+          "forgetting": -6.190387757953886e-09
+        },
+        {
+          "step": 32,
+          "target": 1.6406782644432614,
+          "retention": 2.7011119712683334,
+          "forgetting": -5.472929141436822e-06
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
@@ -8684,14 +9018,33 @@
       "arm": "ordinary AdamW · strict backend · one-pass",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.004770423375074538,
       "unique_batches": 6708,
-      "progress": 0.0,
+      "progress": 0.004770423375074538,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.6412620108248788,
+          "retention": 2.701117396836558,
+          "forgetting": -4.736091696599942e-08
+        },
+        {
+          "step": 32,
+          "target": 1.6393234902505376,
+          "retention": 2.7011042433146555,
+          "forgetting": -1.3200882819308646e-05
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
@@ -8705,14 +9058,33 @@
       "arm": "ordinary AdamW · strict backend · one-pass",
       "lr": 3e-05,
       "outer": "adamw",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.004770423375074538,
       "unique_batches": 6708,
-      "progress": 0.0,
+      "progress": 0.004770423375074538,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.641251742034051,
+          "retention": 2.701117307298901,
+          "forgetting": -1.368985738103845e-07
+        },
+        {
+          "step": 32,
+          "target": 1.635643321788229,
+          "retention": 2.701119370489154,
+          "forgetting": 1.9262916790552254e-06
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
@@ -8982,13 +9354,13 @@
       "arm": "own-zero · strict backend · quarter ×4",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5982,
+      "status": "trained",
+      "step": 6708,
       "horizon": 6708,
-      "passes": 3.5670840787119857,
+      "passes": 4.0,
       "unique_batches": 1677,
-      "progress": 0.8917710196779964,
-      "eta_hours": 0.2100141979373681,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -9025,6 +9397,12 @@
           "target": 1.5244178830070099,
           "retention": 2.764877397144731,
           "forgetting": 0.06375995294725634
+        },
+        {
+          "step": 6708,
+          "target": 1.522939759445663,
+          "retention": 2.762956226362701,
+          "forgetting": 0.0618387821652262
         }
       ],
       "scientifically_accepted": false,
@@ -9040,13 +9418,13 @@
       "arm": "T³ · inner 3e-06 · strict backend · quarter ×4",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5943,
+      "status": "trained",
+      "step": 6708,
       "horizon": 6708,
-      "passes": 3.5438282647584973,
+      "passes": 4.0,
       "unique_batches": 1677,
-      "progress": 0.8859570661896243,
-      "eta_hours": 0.22255237261706498,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -9083,6 +9461,12 @@
           "target": 1.5250224652353135,
           "retention": 2.764804009333241,
           "forgetting": 0.06368656513576632
+        },
+        {
+          "step": 6708,
+          "target": 1.5234347700676292,
+          "retention": 2.7627957755361874,
+          "forgetting": 0.06167833133871259
         }
       ],
       "scientifically_accepted": false,
@@ -9098,13 +9482,13 @@
       "arm": "T³ · inner 1e-05 · strict backend · quarter ×4",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5933,
+      "status": "trained",
+      "step": 6708,
       "horizon": 6708,
-      "passes": 3.537865235539654,
+      "passes": 4.0,
       "unique_batches": 1677,
-      "progress": 0.8844663088849135,
-      "eta_hours": 0.22556667066237424,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -9141,6 +9525,12 @@
           "target": 1.524716321234862,
           "retention": 2.7650120082542973,
           "forgetting": 0.06389456405682248
+        },
+        {
+          "step": 6708,
+          "target": 1.5231733170674522,
+          "retention": 2.7631127926968997,
+          "forgetting": 0.061995348499424896
         }
       ],
       "scientifically_accepted": false,
@@ -9156,13 +9546,13 @@
       "arm": "T³ · inner 3e-05 · strict backend · quarter ×4",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5973,
+      "status": "trained",
+      "step": 6708,
       "horizon": 6708,
-      "passes": 3.5617173524150267,
+      "passes": 4.0,
       "unique_batches": 1677,
-      "progress": 0.8904293381037567,
-      "eta_hours": 0.21279478655875816,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -9199,6 +9589,12 @@
           "target": 1.5254067112718661,
           "retention": 2.767828717390088,
           "forgetting": 0.06671127319261316
+        },
+        {
+          "step": 6708,
+          "target": 1.523687204814952,
+          "retention": 2.765706968911341,
+          "forgetting": 0.06458952471386636
         }
       ],
       "scientifically_accepted": false,
@@ -9470,13 +9866,13 @@
       "arm": "own-zero · strict backend · quarter ×4",
       "lr": 0.3,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5953,
+      "status": "trained",
+      "step": 6708,
       "horizon": 6708,
-      "passes": 3.5497912939773406,
+      "passes": 4.0,
       "unique_batches": 1677,
-      "progress": 0.8874478234943352,
-      "eta_hours": 0.2189325792495058,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -9513,6 +9909,12 @@
           "target": 1.528921456710972,
           "retention": 2.8141082972897973,
           "forgetting": 0.11299085309232249
+        },
+        {
+          "step": 6708,
+          "target": 1.5242940797899163,
+          "retention": 2.808315172988618,
+          "forgetting": 0.1071977287911432
         }
       ],
       "scientifically_accepted": false,
@@ -9528,13 +9930,13 @@
       "arm": "T³ · inner 3e-06 · strict backend · quarter ×4",
       "lr": 0.3,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5960,
+      "status": "trained",
+      "step": 6708,
       "horizon": 6708,
-      "passes": 3.5539654144305306,
+      "passes": 4.0,
       "unique_batches": 1677,
-      "progress": 0.8884913536076327,
-      "eta_hours": 0.21686083691841404,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -9571,6 +9973,12 @@
           "target": 1.5665927453533617,
           "retention": 2.8654737920698943,
           "forgetting": 0.16435634787241948
+        },
+        {
+          "step": 6708,
+          "target": 1.555081367489229,
+          "retention": 2.8477632473047505,
+          "forgetting": 0.1466458031072757
         }
       ],
       "scientifically_accepted": false,
@@ -9586,13 +9994,13 @@
       "arm": "T³ · inner 1e-05 · strict backend · quarter ×4",
       "lr": 0.3,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5960,
+      "status": "trained",
+      "step": 6708,
       "horizon": 6708,
-      "passes": 3.5539654144305306,
+      "passes": 4.0,
       "unique_batches": 1677,
-      "progress": 0.8884913536076327,
-      "eta_hours": 0.2169732843988782,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -9629,6 +10037,12 @@
           "target": 6.9788984700608125,
           "retention": 8.026094325949089,
           "forgetting": 5.324976881751613
+        },
+        {
+          "step": 6708,
+          "target": 6.98226439253267,
+          "retention": 8.052329640335302,
+          "forgetting": 5.351212196137826
         }
       ],
       "scientifically_accepted": false,
@@ -9644,13 +10058,13 @@
       "arm": "T³ · inner 3e-05 · strict backend · quarter ×4",
       "lr": 0.3,
       "outer": "raw_sgd",
-      "status": "running",
-      "step": 5954,
+      "status": "trained",
+      "step": 6708,
       "horizon": 6708,
-      "passes": 3.550387596899225,
+      "passes": 4.0,
       "unique_batches": 1677,
-      "progress": 0.8875968992248062,
-      "eta_hours": 0.21904388610997963,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -9687,6 +10101,12 @@
           "target": 1.5326280392517995,
           "retention": 2.8201979115452978,
           "forgetting": 0.11908046734782296
+        },
+        {
+          "step": 6708,
+          "target": 1.5278490449414464,
+          "retention": 2.813321571378424,
+          "forgetting": 0.11220412718094908
         }
       ],
       "scientifically_accepted": false,
@@ -9702,14 +10122,33 @@
       "arm": "ordinary AdamW · strict backend · quarter ×4",
       "lr": 1e-06,
       "outer": "adamw",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.01908169350029815,
       "unique_batches": 1677,
-      "progress": 0.0,
+      "progress": 0.004770423375074538,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.641267239667199,
+          "retention": 2.7011174469130794,
+          "forgetting": 2.715604630054713e-09
+        },
+        {
+          "step": 32,
+          "target": 1.641025034280001,
+          "retention": 2.70111449986989,
+          "forgetting": -2.944327584852857e-06
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
@@ -9723,14 +10162,33 @@
       "arm": "ordinary AdamW · strict backend · quarter ×4",
       "lr": 3e-06,
       "outer": "adamw",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.01908169350029815,
       "unique_batches": 1677,
-      "progress": 0.0,
+      "progress": 0.004770423375074538,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.641266624986888,
+          "retention": 2.701117408233666,
+          "forgetting": -3.5963808819872156e-08
+        },
+        {
+          "step": 32,
+          "target": 1.6405215783438503,
+          "retention": 2.7011089544023417,
+          "forgetting": -8.489795133126421e-06
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
@@ -9744,14 +10202,33 @@
       "arm": "ordinary AdamW · strict backend · quarter ×4",
       "lr": 1e-05,
       "outer": "adamw",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.01908169350029815,
       "unique_batches": 1677,
-      "progress": 0.0,
+      "progress": 0.004770423375074538,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.6412638890407902,
+          "retention": 2.701117258255094,
+          "forgetting": -1.8594238060387625e-07
+        },
+        {
+          "step": 32,
+          "target": 1.638815519016114,
+          "retention": 2.70109554621371,
+          "forgetting": -2.1897983764951334e-05
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
@@ -9765,14 +10242,33 @@
       "arm": "ordinary AdamW · strict backend · quarter ×4",
       "lr": 3e-05,
       "outer": "adamw",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.01908169350029815,
       "unique_batches": 1677,
-      "progress": 0.0,
+      "progress": 0.004770423375074538,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.641257120451901,
+          "retention": 2.701116898727526,
+          "forgetting": -5.454699487650316e-07
+        },
+        {
+          "step": 32,
+          "target": 1.6342369036633098,
+          "retention": 2.7011045904660844,
+          "forgetting": -1.2853731390372047e-05
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
@@ -9786,14 +10282,33 @@
       "arm": "own-zero · legacy backend · one-pass",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6732,
-      "passes": 0.0,
+      "passes": 0.004753416518122401,
       "unique_batches": 6732,
-      "progress": 0.0,
+      "progress": 0.004753416518122401,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2213413422360049,
+          "retention": 2.7112620019889517,
+          "forgetting": 0.010144557791476938
+        },
+        {
+          "step": 32,
+          "target": 1.9934755302332687,
+          "retention": 3.3484863582934943,
+          "forgetting": 0.6473689140960195
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
@@ -9807,14 +10322,33 @@
       "arm": "T³ · inner 1e-05 · legacy backend · one-pass",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6732,
-      "passes": 0.0,
+      "passes": 0.004753416518122401,
       "unique_batches": 6732,
-      "progress": 0.0,
+      "progress": 0.004753416518122401,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2216127904152831,
+          "retention": 2.711538157043751,
+          "forgetting": 0.010420712846276103
+        },
+        {
+          "step": 32,
+          "target": 10.73528218625188,
+          "retention": 9.531650474647904,
+          "forgetting": 6.830533030450429
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 1e-05,
@@ -9828,14 +10362,33 @@
       "arm": "own-zero · legacy backend · one-pass",
       "lr": 0.15,
       "outer": "raw_sgd",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6732,
-      "passes": 0.0,
+      "passes": 0.004753416518122401,
       "unique_batches": 6732,
-      "progress": 0.0,
+      "progress": 0.004753416518122401,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2350220411489288,
+          "retention": 2.7262539170752746,
+          "forgetting": 0.025136472877799854
+        },
+        {
+          "step": 32,
+          "target": 2.1659093653653394,
+          "retention": 4.266823969847782,
+          "forgetting": 1.5657065256503073
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
@@ -9849,14 +10402,33 @@
       "arm": "T³ · inner 1e-05 · legacy backend · one-pass",
       "lr": 0.15,
       "outer": "raw_sgd",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6732,
-      "passes": 0.0,
+      "passes": 0.004753416518122401,
       "unique_batches": 6732,
-      "progress": 0.0,
+      "progress": 0.004753416518122401,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2358166601419538,
+          "retention": 2.726928314228513,
+          "forgetting": 0.025810870031038213
+        },
+        {
+          "step": 32,
+          "target": 2.075574028702205,
+          "retention": 3.4600173354177355,
+          "forgetting": 0.7588998912202607
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 1e-05,
@@ -9870,14 +10442,33 @@
       "arm": "own-zero · legacy backend · quarter ×4",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6732,
-      "passes": 0.0,
+      "passes": 0.019013666072489603,
       "unique_batches": 1683,
-      "progress": 0.0,
+      "progress": 0.004753416518122401,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2388850837707321,
+          "retention": 2.7212866770595614,
+          "forgetting": 0.020169232862086606
+        },
+        {
+          "step": 32,
+          "target": 8.256418419439342,
+          "retention": 8.977910978080665,
+          "forgetting": 6.27679353388319
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
@@ -9891,14 +10482,33 @@
       "arm": "T³ · inner 1e-05 · legacy backend · quarter ×4",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6732,
-      "passes": 0.0,
+      "passes": 0.019013666072489603,
       "unique_batches": 1683,
-      "progress": 0.0,
+      "progress": 0.004753416518122401,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2387027604025929,
+          "retention": 2.7211141283508904,
+          "forgetting": 0.0199966841534156
+        },
+        {
+          "step": 32,
+          "target": 1.4173059945986157,
+          "retention": 2.8995106595944176,
+          "forgetting": 0.19839321539694277
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 1e-05,
@@ -9912,14 +10522,33 @@
       "arm": "own-zero · legacy backend · quarter ×4",
       "lr": 0.15,
       "outer": "raw_sgd",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6732,
-      "passes": 0.0,
+      "passes": 0.019013666072489603,
       "unique_batches": 1683,
-      "progress": 0.0,
+      "progress": 0.004753416518122401,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2644715066839216,
+          "retention": 2.7405361661617356,
+          "forgetting": 0.03941872196426077
+        },
+        {
+          "step": 32,
+          "target": 8.38732472020311,
+          "retention": 8.657455033366025,
+          "forgetting": 5.95633758916855
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
@@ -9933,14 +10562,33 @@
       "arm": "T³ · inner 1e-05 · legacy backend · quarter ×4",
       "lr": 0.15,
       "outer": "raw_sgd",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6732,
-      "passes": 0.0,
+      "passes": 0.019013666072489603,
       "unique_batches": 1683,
-      "progress": 0.0,
+      "progress": 0.004753416518122401,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.2164842056254555,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.2641095619529648,
+          "retention": 2.7402037570268285,
+          "forgetting": 0.03908631282935371
+        },
+        {
+          "step": 32,
+          "target": 11.08982474034022,
+          "retention": 11.7420786190292,
+          "forgetting": 9.040961174831725
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 1e-05,
@@ -9954,14 +10602,33 @@
       "arm": "own-zero · legacy backend · one-pass",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.004770423375074538,
       "unique_batches": 6708,
-      "progress": 0.0,
+      "progress": 0.004770423375074538,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.7451153682489857,
+          "retention": 2.8868219537259088,
+          "forgetting": 0.18570450952843398
+        },
+        {
+          "step": 32,
+          "target": 1.9485637976070929,
+          "retention": 3.3082254758490284,
+          "forgetting": 0.6071080316515536
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
@@ -9975,14 +10642,33 @@
       "arm": "T³ · inner 1e-05 · legacy backend · one-pass",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.004770423375074538,
       "unique_batches": 6708,
-      "progress": 0.0,
+      "progress": 0.004770423375074538,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.7440425984128047,
+          "retention": 2.885204641895644,
+          "forgetting": 0.18408719769816928
+        },
+        {
+          "step": 32,
+          "target": 2.1378020087196754,
+          "retention": 3.5515007994066465,
+          "forgetting": 0.8503833552091717
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 1e-05,
@@ -9996,14 +10682,33 @@
       "arm": "own-zero · legacy backend · one-pass",
       "lr": 0.15,
       "outer": "raw_sgd",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.004770423375074538,
       "unique_batches": 6708,
-      "progress": 0.0,
+      "progress": 0.004770423375074538,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.937309359328175,
+          "retention": 3.1664810290199283,
+          "forgetting": 0.46536358482245355
+        },
+        {
+          "step": 32,
+          "target": 11.259273513032895,
+          "retention": 12.377471670088198,
+          "forgetting": 9.676354225890723
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 0.0,
@@ -10017,14 +10722,33 @@
       "arm": "T³ · inner 1e-05 · legacy backend · one-pass",
       "lr": 0.15,
       "outer": "raw_sgd",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.004770423375074538,
       "unique_batches": 6708,
-      "progress": 0.0,
+      "progress": 0.004770423375074538,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.9352813910240403,
+          "retention": 3.163220310505434,
+          "forgetting": 0.4621028663079594
+        },
+        {
+          "step": 32,
+          "target": 8.812953437251053,
+          "retention": 9.28457948715004,
+          "forgetting": 6.583462042952565
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · one_pass",
       "inner_lr": 1e-05,
@@ -10038,14 +10762,33 @@
       "arm": "own-zero · legacy backend · quarter ×4",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.01908169350029815,
       "unique_batches": 1677,
-      "progress": 0.0,
+      "progress": 0.004770423375074538,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.649361390122404,
+          "retention": 2.732592991074583,
+          "forgetting": 0.03147554687710841
+        },
+        {
+          "step": 32,
+          "target": 1.7100839533216121,
+          "retention": 2.9142012234233876,
+          "forgetting": 0.21308377922591282
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
@@ -10059,14 +10802,33 @@
       "arm": "T³ · inner 1e-05 · legacy backend · quarter ×4",
       "lr": 0.1,
       "outer": "raw_sgd",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.01908169350029815,
       "unique_batches": 1677,
-      "progress": 0.0,
+      "progress": 0.004770423375074538,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.648703390686912,
+          "retention": 2.7315913107329077,
+          "forgetting": 0.030473866535432936
+        },
+        {
+          "step": 32,
+          "target": 1.769442211062344,
+          "retention": 3.0091593939766685,
+          "forgetting": 0.30804194977919375
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 1e-05,
@@ -10080,14 +10842,33 @@
       "arm": "own-zero · legacy backend · quarter ×4",
       "lr": 0.15,
       "outer": "raw_sgd",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.01908169350029815,
       "unique_batches": 1677,
-      "progress": 0.0,
+      "progress": 0.004770423375074538,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.6784909497333316,
+          "retention": 2.7764897312327737,
+          "forgetting": 0.07537228703529886
+        },
+        {
+          "step": 32,
+          "target": 3.530671396535726,
+          "retention": 5.686383966184331,
+          "forgetting": 2.985266521986856
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 0.0,
@@ -10101,14 +10882,33 @@
       "arm": "T³ · inner 1e-05 · legacy backend · quarter ×4",
       "lr": 0.15,
       "outer": "raw_sgd",
-      "status": "prepared",
-      "step": 0,
+      "status": "failed",
+      "step": 32,
       "horizon": 6708,
-      "passes": 0.0,
+      "passes": 0.01908169350029815,
       "unique_batches": 1677,
-      "progress": 0.0,
+      "progress": 0.004770423375074538,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.676873632924367,
+          "retention": 2.7741317865634194,
+          "forgetting": 0.07301434236594462
+        },
+        {
+          "step": 32,
+          "target": 5.638351611925356,
+          "retention": 7.573831237503758,
+          "forgetting": 4.872713793306284
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "query-only · quarter_four_passes",
       "inner_lr": 1e-05,
@@ -16873,7 +17673,7 @@
     "automatic_agent_followup": false,
     "last_agent_check_at": 1790222027.0759177,
     "last_agent_check_label": "2026-09-23 23:53 EDT",
-    "agent_check_age_minutes": 32.98089878956477
+    "agent_check_age_minutes": 48.79872050682704
   },
   "incidents": [
     {
