@@ -29,7 +29,9 @@ jobs:
           mkdir _site
           cp index.html style.css app.js data.json .nojekyll complete56-development.pdf complete56-external.pdf complete56-external.png \
             replay-own-zero.pdf replay-own-zero.png replay-trajectories.pdf replay-trajectories.png \
-            small-radius-effects.pdf small-radius-effects.png small-radius-trajectories.pdf small-radius-trajectories.png _site/
+            small-radius-effects.pdf small-radius-effects.png small-radius-trajectories.pdf small-radius-trajectories.png \
+            all96-learning-forgetting.pdf all96-learning-forgetting.png all48-strict-retention-effects.pdf all48-strict-retention-effects.png \
+            focus-direction-retention.pdf focus-direction-retention.png all32-direction-retention.pdf all32-direction-retention.png _site/
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
