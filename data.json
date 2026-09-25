@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790298402.6130373,
-  "generated_label": "2026-09-24 21:06 EDT",
+  "generated_at": 1790299296.1162696,
+  "generated_label": "2026-09-24 21:21 EDT",
   "slots": [
     {
       "name": "A",
@@ -19217,12 +19217,12 @@
       "lr": 1e-05,
       "outer": "AdamW",
       "status": "running",
-      "step": 5822,
+      "step": 6294,
       "horizon": 6708,
-      "passes": 3.471675611210495,
+      "passes": 3.7531305903398926,
       "unique_batches": 1677,
-      "progress": 0.8679189028026237,
-      "eta_hours": 0.4636832735093776,
+      "progress": 0.9382826475849732,
+      "eta_hours": 0.2174564918433316,
       "curves": [
         {
           "step": 0,
@@ -19280,12 +19280,12 @@
       "lr": 1e-05,
       "outer": "AdamW",
       "status": "running",
-      "step": 5877,
+      "step": 6347,
       "horizon": 6708,
-      "passes": 3.5044722719141324,
+      "passes": 3.7847346451997614,
       "unique_batches": 1677,
-      "progress": 0.8761180679785331,
-      "eta_hours": 0.4386533277784474,
+      "progress": 0.9461836612999404,
+      "eta_hours": 0.1902131192319535,
       "curves": [
         {
           "step": 0,
@@ -19481,12 +19481,12 @@
       "lr": 3e-05,
       "outer": "AdamW",
       "status": "running",
-      "step": 5823,
+      "step": 6298,
       "horizon": 6708,
-      "passes": 3.4722719141323792,
+      "passes": 3.7555158020274297,
       "unique_batches": 1677,
-      "progress": 0.8680679785330948,
-      "eta_hours": 0.4605364246420019,
+      "progress": 0.9388789505068574,
+      "eta_hours": 0.21328942771845807,
       "curves": [
         {
           "step": 0,
@@ -19544,12 +19544,12 @@
       "lr": 3e-05,
       "outer": "AdamW",
       "status": "running",
-      "step": 5883,
+      "step": 6356,
       "horizon": 6708,
-      "passes": 3.5080500894454385,
+      "passes": 3.7901013714967204,
       "unique_batches": 1677,
-      "progress": 0.8770125223613596,
-      "eta_hours": 0.4315328169274532,
+      "progress": 0.9475253428741801,
+      "eta_hours": 0.184003288478901,
       "curves": [
         {
           "step": 0,
@@ -27185,7 +27185,7 @@
     "automatic_agent_followup": false,
     "last_agent_check_at": 1790297916.5387115,
     "last_agent_check_label": "2026-09-24 20:58 EDT",
-    "agent_check_age_minutes": 8.101238763332367
+    "agent_check_age_minutes": 22.992959300676983
   },
   "incidents": [
     {
