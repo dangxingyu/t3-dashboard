@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790361950.105319,
-  "generated_label": "2026-09-25 14:45 EDT",
+  "generated_at": 1790362838.4524496,
+  "generated_label": "2026-09-25 15:00 EDT",
   "slots": [
     {
       "name": "A",
@@ -36733,14 +36733,14 @@
   "monitoring": {
     "snapshot_refresh_seconds": 900,
     "automatic_agent_followup": false,
-    "last_agent_check_at": 1790361819.8308256,
-    "last_agent_check_label": "2026-09-25 14:43 EDT",
-    "agent_check_age_minutes": 2.171241557598114
+    "last_agent_check_at": 1790362245.5353122,
+    "last_agent_check_label": "2026-09-25 14:50 EDT",
+    "agent_check_age_minutes": 9.881952289740244
   },
   "incidents": [
     {
       "title": "自动快照与 agent 巡检分别记录",
-      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-25 14:43 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
+      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-25 14:50 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
     },
     {
       "title": "A 配套实验：共享调度中断",
@@ -36796,7 +36796,7 @@
       "family": "dense360_ordinary",
       "why": "排除普通checkpoint过稀导致的表面前沿优势；候选保持固定。",
       "design": "三个普通LR区间，每32步补观测，共68点；从原状态续算，已有权重点必须精确一致；全部新增点做外部评分。",
-      "decision": "配置已准备 3/3；运行 0，训练完成 3，失败／中断 0，待启动／确认 0。单seed诊断；最长轨迹32步后时间检查退出，单独90分钟修复排队；原失败保留。先挑战基线，再决定是否加seed。"
+      "decision": "68新点全部评分，6重合点逐文档一致；最强兼容普通对照下通过诊断门槛。数学NLL差+0.000456、FineWeb差-0.001137。单seed、已用文档，区间未校正对照选择；Lookahead单列，尚非确认。"
     },
     {
       "priority": "P0",
