@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790301140.6027577,
-  "generated_label": "2026-09-24 21:52 EDT",
+  "generated_at": 1790301461.0807953,
+  "generated_label": "2026-09-24 21:57 EDT",
   "slots": [
     {
       "name": "A",
@@ -15818,7 +15818,7 @@
       "arm": "own-zero · one-pass",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 1.0,
@@ -15869,7 +15869,7 @@
           "forgetting": 0.1334447634179936
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "previous_attempt_status": "Exact checkpoint continuation; original trajectory and prefix costs retained",
       "objective": "query-only · one-pass",
       "inner_lr": 0.0,
@@ -15884,7 +15884,7 @@
       "arm": "T³ · correction gain 1 · one-pass",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 1.0,
@@ -15935,7 +15935,7 @@
           "forgetting": 0.13343316279191475
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "previous_attempt_status": "Exact checkpoint continuation; original trajectory and prefix costs retained",
       "objective": "query-only · one-pass",
       "inner_lr": 3e-05,
@@ -15950,7 +15950,7 @@
       "arm": "T³ · correction gain 10 · one-pass",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 1.0,
@@ -16001,7 +16001,7 @@
           "forgetting": 240.66205352307796
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "previous_attempt_status": "Exact checkpoint continuation; original trajectory and prefix costs retained",
       "objective": "query-only · one-pass",
       "inner_lr": 3e-05,
@@ -16016,7 +16016,7 @@
       "arm": "own-zero · quarter ×4",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -16067,7 +16067,7 @@
           "forgetting": 0.1460651079292523
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "previous_attempt_status": "Exact checkpoint continuation; original trajectory and prefix costs retained",
       "objective": "query-only · quarter ×4",
       "inner_lr": 0.0,
@@ -16082,7 +16082,7 @@
       "arm": "T³ · correction gain 1 · quarter ×4",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -16133,7 +16133,7 @@
           "forgetting": 0.14605340850561577
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "previous_attempt_status": "Exact checkpoint continuation; original trajectory and prefix costs retained",
       "objective": "query-only · quarter ×4",
       "inner_lr": 3e-05,
@@ -16148,7 +16148,7 @@
       "arm": "T³ · correction gain 10 · quarter ×4",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -16199,7 +16199,7 @@
           "forgetting": 226.9315540833616
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "previous_attempt_status": "Exact checkpoint continuation; original trajectory and prefix costs retained",
       "objective": "query-only · quarter ×4",
       "inner_lr": 3e-05,
@@ -16214,7 +16214,7 @@
       "arm": "ordinary AdamW · sixteenth ×16 +4 updates",
       "lr": 1e-06,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 16.009546539379475,
@@ -16265,7 +16265,7 @@
           "forgetting": 0.019385767127785947
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query-only · sixteenth ×16 +4 updates",
       "inner_lr": 0.0,
       "field_gain": null,
@@ -16279,7 +16279,7 @@
       "arm": "ordinary AdamW · sixteenth ×16 +4 updates",
       "lr": 3e-06,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 16.009546539379475,
@@ -16330,7 +16330,7 @@
           "forgetting": 0.03609197971291955
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query-only · sixteenth ×16 +4 updates",
       "inner_lr": 0.0,
       "field_gain": null,
@@ -16344,7 +16344,7 @@
       "arm": "ordinary AdamW · sixteenth ×16 +4 updates",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 16.009546539379475,
@@ -16395,7 +16395,7 @@
           "forgetting": 0.09047927634742559
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query-only · sixteenth ×16 +4 updates",
       "inner_lr": 0.0,
       "field_gain": null,
@@ -16409,7 +16409,7 @@
       "arm": "ordinary AdamW · sixteenth ×16 +4 updates",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 16.009546539379475,
@@ -16460,7 +16460,7 @@
           "forgetting": 0.29420166317640906
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "query-only · sixteenth ×16 +4 updates",
       "inner_lr": 0.0,
       "field_gain": null,
@@ -16474,7 +16474,7 @@
       "arm": "own-zero · sixteenth ×16 +4 updates",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 16.009546539379475,
@@ -16525,7 +16525,7 @@
           "forgetting": 0.09047927634742559
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "previous_attempt_status": "Exact checkpoint continuation; original trajectory and prefix costs retained",
       "objective": "query-only · sixteenth ×16 +4 updates",
       "inner_lr": 0.0,
@@ -16540,7 +16540,7 @@
       "arm": "T³ · correction gain 1 · sixteenth ×16 +4 updates",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 16.009546539379475,
@@ -16591,7 +16591,7 @@
           "forgetting": 0.09048413660519161
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "previous_attempt_status": "Exact checkpoint continuation; original trajectory and prefix costs retained",
       "objective": "query-only · sixteenth ×16 +4 updates",
       "inner_lr": 3e-05,
@@ -16606,7 +16606,7 @@
       "arm": "T³ · correction gain 10 · sixteenth ×16 +4 updates",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 16.009546539379475,
@@ -16657,7 +16657,7 @@
           "forgetting": 371.18456847379304
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "previous_attempt_status": "Exact checkpoint continuation; original trajectory and prefix costs retained",
       "objective": "query-only · sixteenth ×16 +4 updates",
       "inner_lr": 3e-05,
@@ -16672,7 +16672,7 @@
       "arm": "own-zero · sixteenth ×16 +4 updates",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 16.009546539379475,
@@ -16723,7 +16723,7 @@
           "forgetting": 0.29420166317640906
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "previous_attempt_status": "Exact checkpoint continuation; original trajectory and prefix costs retained",
       "objective": "query-only · sixteenth ×16 +4 updates",
       "inner_lr": 0.0,
@@ -16738,7 +16738,7 @@
       "arm": "T³ · correction gain 1 · sixteenth ×16 +4 updates",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 16.009546539379475,
@@ -16789,7 +16789,7 @@
           "forgetting": 0.29434464545420314
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "previous_attempt_status": "Exact checkpoint continuation; original trajectory and prefix costs retained",
       "objective": "query-only · sixteenth ×16 +4 updates",
       "inner_lr": 3e-05,
@@ -16804,7 +16804,7 @@
       "arm": "T³ · correction gain 10 · sixteenth ×16 +4 updates",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 16.009546539379475,
@@ -16855,7 +16855,7 @@
           "forgetting": 242.06170561295468
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "previous_attempt_status": "Exact checkpoint continuation; original trajectory and prefix costs retained",
       "objective": "query-only · sixteenth ×16 +4 updates",
       "inner_lr": 3e-05,
@@ -16870,7 +16870,7 @@
       "arm": "T³ · 一阶元梯度 · radius 0.03",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -16921,7 +16921,7 @@
           "forgetting": 0.09437575334058801
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "适应后 CE(Q) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "first_order",
@@ -16939,7 +16939,7 @@
       "arm": "T³ · 一阶元梯度 · radius 0.03",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -16990,7 +16990,7 @@
           "forgetting": 0.1772063130697754
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "适应后 CE(Q) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "first_order",
@@ -17008,7 +17008,7 @@
       "arm": "T³ · 一阶元梯度 · radius 0.3",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -17059,7 +17059,7 @@
           "forgetting": 0.7892558905432754
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "适应后 CE(Q) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "first_order",
@@ -17077,7 +17077,7 @@
       "arm": "T³ · 一阶元梯度 · radius 0.3",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -17128,7 +17128,7 @@
           "forgetting": 0.9068628697431382
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "适应后 CE(Q) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "first_order",
@@ -17146,7 +17146,7 @@
       "arm": "T³ · 一阶元梯度 · radius 0.03",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -17197,7 +17197,7 @@
           "forgetting": 0.0318007150071864
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "适应后 0.8 CE(Q) + 0.2 CE(R) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "first_order",
@@ -17215,7 +17215,7 @@
       "arm": "T³ · 一阶元梯度 · radius 0.03",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -17266,7 +17266,7 @@
           "forgetting": 0.042998807319522214
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "适应后 0.8 CE(Q) + 0.2 CE(R) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "first_order",
@@ -17284,7 +17284,7 @@
       "arm": "T³ · 一阶元梯度 · radius 0.3",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -17335,7 +17335,7 @@
           "forgetting": 0.8101678679019417
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "适应后 0.8 CE(Q) + 0.2 CE(R) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "first_order",
@@ -17353,7 +17353,7 @@
       "arm": "T³ · 一阶元梯度 · radius 0.3",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -17404,7 +17404,7 @@
           "forgetting": 0.7938143105781656
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "适应后 0.8 CE(Q) + 0.2 CE(R) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "first_order",
@@ -17422,7 +17422,7 @@
       "arm": "T³ · 完整元梯度 · radius 0.03",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -17473,7 +17473,7 @@
           "forgetting": 0.07609496250620751
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "适应后 CE(Q) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "exact",
@@ -17491,7 +17491,7 @@
       "arm": "T³ · 完整元梯度 · radius 0.03",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -17542,7 +17542,7 @@
           "forgetting": 0.15785944157097198
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "适应后 CE(Q) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "exact",
@@ -17560,7 +17560,7 @@
       "arm": "T³ · 完整元梯度 · radius 0.3",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -17611,7 +17611,7 @@
           "forgetting": 0.1276038685545715
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "适应后 CE(Q) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "exact",
@@ -17629,7 +17629,7 @@
       "arm": "T³ · 完整元梯度 · radius 0.3",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -17680,7 +17680,7 @@
           "forgetting": 0.21745893754999646
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "适应后 CE(Q) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "exact",
@@ -17698,7 +17698,7 @@
       "arm": "T³ · 完整元梯度 · radius 0.03",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -17749,7 +17749,7 @@
           "forgetting": 0.013677267352984579
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "适应后 0.8 CE(Q) + 0.2 CE(R) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "exact",
@@ -17767,7 +17767,7 @@
       "arm": "T³ · 完整元梯度 · radius 0.03",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -17818,7 +17818,7 @@
           "forgetting": 0.02656219021146322
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "适应后 0.8 CE(Q) + 0.2 CE(R) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "exact",
@@ -17836,7 +17836,7 @@
       "arm": "T³ · 完整元梯度 · radius 0.3",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -17887,7 +17887,7 @@
           "forgetting": 0.0671204842742581
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "适应后 0.8 CE(Q) + 0.2 CE(R) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "exact",
@@ -17905,7 +17905,7 @@
       "arm": "T³ · 完整元梯度 · radius 0.3",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -17956,7 +17956,7 @@
           "forgetting": 0.08547146707649977
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "适应后 0.8 CE(Q) + 0.2 CE(R) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "exact",
@@ -17974,7 +17974,7 @@
       "arm": "普通 AdamW · S+Q",
       "lr": 1e-06,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -18025,7 +18025,7 @@
           "forgetting": 0.02200667435910697
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "0.5 CE(S) + 0.5 CE(Q) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "ordinary",
@@ -18043,7 +18043,7 @@
       "arm": "普通 AdamW · Q · R replay 20%",
       "lr": 1e-06,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -18094,7 +18094,7 @@
           "forgetting": 0.0006928069694294159
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "0.8 CE(Q) + 0.2 CE(R) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "ordinary",
@@ -18112,7 +18112,7 @@
       "arm": "普通 AdamW · S+Q · R replay 20%",
       "lr": 1e-06,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -18163,7 +18163,7 @@
           "forgetting": 0.0004495011599878751
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "0.4 CE(S) + 0.4 CE(Q) + 0.2 CE(R) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "ordinary",
@@ -18181,7 +18181,7 @@
       "arm": "普通 AdamW · S+Q · R replay 50%",
       "lr": 1e-06,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -18232,7 +18232,7 @@
           "forgetting": -0.006227078435951938
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "0.25 CE(S) + 0.25 CE(Q) + 0.5 CE(R) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "ordinary",
@@ -18250,7 +18250,7 @@
       "arm": "普通 AdamW · S+Q",
       "lr": 3e-06,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -18301,7 +18301,7 @@
           "forgetting": 0.03675036884333016
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "0.5 CE(S) + 0.5 CE(Q) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "ordinary",
@@ -18319,7 +18319,7 @@
       "arm": "普通 AdamW · Q · R replay 20%",
       "lr": 3e-06,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -18370,7 +18370,7 @@
           "forgetting": -0.00030301984104941226
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "0.8 CE(Q) + 0.2 CE(R) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "ordinary",
@@ -18388,7 +18388,7 @@
       "arm": "普通 AdamW · S+Q · R replay 20%",
       "lr": 3e-06,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -18439,7 +18439,7 @@
           "forgetting": -0.0006159279033202125
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "0.4 CE(S) + 0.4 CE(Q) + 0.2 CE(R) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "ordinary",
@@ -18457,7 +18457,7 @@
       "arm": "普通 AdamW · S+Q · R replay 50%",
       "lr": 3e-06,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -18508,7 +18508,7 @@
           "forgetting": -0.008612412834408278
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "0.25 CE(S) + 0.25 CE(Q) + 0.5 CE(R) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "ordinary",
@@ -18526,7 +18526,7 @@
       "arm": "普通 AdamW · S+Q",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -18577,7 +18577,7 @@
           "forgetting": 0.07496755600757332
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "0.5 CE(S) + 0.5 CE(Q) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "ordinary",
@@ -18595,7 +18595,7 @@
       "arm": "普通 AdamW · Q · R replay 20%",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -18646,7 +18646,7 @@
           "forgetting": 0.0012633724606878616
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "0.8 CE(Q) + 0.2 CE(R) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "ordinary",
@@ -18664,7 +18664,7 @@
       "arm": "普通 AdamW · S+Q · R replay 20%",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -18715,7 +18715,7 @@
           "forgetting": 0.0016590644032721258
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "0.4 CE(S) + 0.4 CE(Q) + 0.2 CE(R) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "ordinary",
@@ -18733,7 +18733,7 @@
       "arm": "普通 AdamW · S+Q · R replay 50%",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -18784,7 +18784,7 @@
           "forgetting": -0.009603499509786673
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "0.25 CE(S) + 0.25 CE(Q) + 0.5 CE(R) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "ordinary",
@@ -18802,7 +18802,7 @@
       "arm": "普通 AdamW · S+Q",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -18853,7 +18853,7 @@
           "forgetting": 0.18551645325513944
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "0.5 CE(S) + 0.5 CE(Q) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "ordinary",
@@ -18871,7 +18871,7 @@
       "arm": "普通 AdamW · Q · R replay 20%",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -18922,7 +18922,7 @@
           "forgetting": 0.014166249390372254
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "0.8 CE(Q) + 0.2 CE(R) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "ordinary",
@@ -18940,7 +18940,7 @@
       "arm": "普通 AdamW · S+Q · R replay 20%",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -18991,7 +18991,7 @@
           "forgetting": 0.017413217051376773
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "0.4 CE(S) + 0.4 CE(Q) + 0.2 CE(R) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "ordinary",
@@ -19009,7 +19009,7 @@
       "arm": "普通 AdamW · S+Q · R replay 50%",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -19060,7 +19060,7 @@
           "forgetting": -0.0019719880643127574
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "0.25 CE(S) + 0.25 CE(Q) + 0.5 CE(R) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": "ordinary",
@@ -19078,7 +19078,7 @@
       "arm": "T³ · 适应后教师 · KL β=1",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -19129,7 +19129,7 @@
           "forgetting": 0.06319876725002205
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "CE(Q) + β KL(teacher || student) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": null,
@@ -19147,7 +19147,7 @@
       "arm": "T³ · 适应后教师 · KL β=10",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -19198,7 +19198,7 @@
           "forgetting": 0.05775691278678119
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "CE(Q) + β KL(teacher || student) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": null,
@@ -19216,7 +19216,7 @@
       "arm": "普通对照 · 固定初始教师 · KL β=1",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -19267,7 +19267,7 @@
           "forgetting": 0.016697123742213993
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "CE(Q) + β KL(teacher || student) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": null,
@@ -19285,7 +19285,7 @@
       "arm": "普通对照 · 固定初始教师 · KL β=10",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -19336,7 +19336,7 @@
           "forgetting": 0.001244438248270363
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "CE(Q) + β KL(teacher || student) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": null,
@@ -19354,7 +19354,7 @@
       "arm": "T³ · 适应后教师 · KL β=1",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -19405,7 +19405,7 @@
           "forgetting": 0.14633071356342287
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "CE(Q) + β KL(teacher || student) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": null,
@@ -19423,7 +19423,7 @@
       "arm": "T³ · 适应后教师 · KL β=10",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -19474,7 +19474,7 @@
           "forgetting": 0.1307503396431704
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "CE(Q) + β KL(teacher || student) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": null,
@@ -19492,7 +19492,7 @@
       "arm": "普通对照 · 固定初始教师 · KL β=1",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -19543,7 +19543,7 @@
           "forgetting": 0.038235851366090756
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "CE(Q) + β KL(teacher || student) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": null,
@@ -19561,7 +19561,7 @@
       "arm": "普通对照 · 固定初始教师 · KL β=10",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 4.0,
@@ -19612,7 +19612,7 @@
           "forgetting": 0.003733969151054062
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "CE(Q) + β KL(teacher || student) · quarter ×4",
       "regime": "quarter_four_passes",
       "estimator": null,
@@ -19630,7 +19630,7 @@
       "arm": "T³ · 适应后教师 · KL β=1",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 1.0,
@@ -19681,7 +19681,7 @@
           "forgetting": 0.060151656860698566
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "CE(Q) + β KL(teacher || student) · one-pass",
       "regime": "one_pass",
       "estimator": null,
@@ -19699,7 +19699,7 @@
       "arm": "T³ · 适应后教师 · KL β=10",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 1.0,
@@ -19750,7 +19750,7 @@
           "forgetting": 0.05454315401616139
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "CE(Q) + β KL(teacher || student) · one-pass",
       "regime": "one_pass",
       "estimator": null,
@@ -19768,7 +19768,7 @@
       "arm": "普通对照 · 固定初始教师 · KL β=1",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 1.0,
@@ -19819,7 +19819,7 @@
           "forgetting": 0.015974267437894873
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "CE(Q) + β KL(teacher || student) · one-pass",
       "regime": "one_pass",
       "estimator": null,
@@ -19837,7 +19837,7 @@
       "arm": "普通对照 · 固定初始教师 · KL β=10",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 1.0,
@@ -19888,7 +19888,7 @@
           "forgetting": 0.0010406513542480234
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "CE(Q) + β KL(teacher || student) · one-pass",
       "regime": "one_pass",
       "estimator": null,
@@ -19906,7 +19906,7 @@
       "arm": "T³ · 适应后教师 · KL β=1",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 1.0,
@@ -19957,7 +19957,7 @@
           "forgetting": 0.13349947319018884
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "CE(Q) + β KL(teacher || student) · one-pass",
       "regime": "one_pass",
       "estimator": null,
@@ -19975,7 +19975,7 @@
       "arm": "T³ · 适应后教师 · KL β=10",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 1.0,
@@ -20026,7 +20026,7 @@
           "forgetting": 0.12132161368179162
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "CE(Q) + β KL(teacher || student) · one-pass",
       "regime": "one_pass",
       "estimator": null,
@@ -20044,7 +20044,7 @@
       "arm": "普通对照 · 固定初始教师 · KL β=1",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 1.0,
@@ -20095,7 +20095,7 @@
           "forgetting": 0.035301969158183066
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "CE(Q) + β KL(teacher || student) · one-pass",
       "regime": "one_pass",
       "estimator": null,
@@ -20113,7 +20113,7 @@
       "arm": "普通对照 · 固定初始教师 · KL β=10",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 1.0,
@@ -20164,7 +20164,7 @@
           "forgetting": 0.0031620337489659534
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "CE(Q) + β KL(teacher || student) · one-pass",
       "regime": "one_pass",
       "estimator": null,
@@ -20182,7 +20182,7 @@
       "arm": "普通 AdamW · S+Q",
       "lr": 1e-06,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 1.0,
@@ -20233,7 +20233,7 @@
           "forgetting": 0.021601744148978863
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "0.5 CE(S) + 0.5 CE(Q) · one-pass",
       "regime": "one_pass",
       "estimator": null,
@@ -20251,7 +20251,7 @@
       "arm": "普通 AdamW · S+Q",
       "lr": 3e-06,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 1.0,
@@ -20302,7 +20302,7 @@
           "forgetting": 0.035728637706768485
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "0.5 CE(S) + 0.5 CE(Q) · one-pass",
       "regime": "one_pass",
       "estimator": null,
@@ -20320,7 +20320,7 @@
       "arm": "普通 AdamW · S+Q",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 1.0,
@@ -20371,7 +20371,7 @@
           "forgetting": 0.07035135456002672
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "0.5 CE(S) + 0.5 CE(Q) · one-pass",
       "regime": "one_pass",
       "estimator": null,
@@ -20389,7 +20389,7 @@
       "arm": "普通 AdamW · S+Q",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "trained",
+      "status": "accepted",
       "step": 6708,
       "horizon": 6708,
       "passes": 1.0,
@@ -20440,7 +20440,7 @@
           "forgetting": 0.164918522780388
         }
       ],
-      "scientifically_accepted": false,
+      "scientifically_accepted": true,
       "objective": "0.5 CE(S) + 0.5 CE(Q) · one-pass",
       "regime": "one_pass",
       "estimator": null,
@@ -27209,7 +27209,7 @@
     "automatic_agent_followup": false,
     "last_agent_check_at": 1790299753.0098765,
     "last_agent_check_label": "2026-09-24 21:29 EDT",
-    "agent_check_age_minutes": 23.12654802004496
+    "agent_check_age_minutes": 28.46784864664078
   },
   "incidents": [
     {
@@ -27230,7 +27230,7 @@
       "priority": "P0",
       "title": "CPT：能否学得更多，同时忘得更少？",
       "why": "T³ 包含训练时适应、测试与反馈的不同算法；检验它们能否超过调参的普通 CPT、replay 和固定教师蒸馏。",
-      "next": "新64组训练及112点评估已核验：外层AdamW下48个适应效应均小于4e-5 NLL，最大遗忘改善3.64e-5；16个zero与普通对照的文档得分相同。普通AdamW半程checkpoint在代码和数学上均超过此前6个SGD候选终点。保留自身zero收益，当前设置不支持超过调参普通训练；外层局部诊断已核验：梯度相对差异约10.5%，AdamW自适应分量约1.23%；不构成轨迹因果解释。固定内层的强度探针已完成；6组修正强度和10组更强数据约束比较已启动。新目标覆盖完整元梯度与适应后教师蒸馏。新一轮：B 组元梯度与对照32组，配置已准备 32/32；运行 0，训练完成 32，失败／中断 0，待启动／确认 0。A 组教师蒸馏16组，配置已准备 16/16；运行 0，训练完成 16，失败／中断 0，待启动／确认 0。另有一次遍历 S+Q 对照4组，配置已准备 4/4；运行 0，训练完成 4，失败／中断 0，待启动／确认 0。这些是执行进度，尚无本轮已接受科学结果；不自动加seed。"
+      "next": "完整52条新轨迹、240点评估已核验：0/24候选通过固定筛选，22/24被普通checkpoint同时在两域超过。精确反馈在8/8配对中优于一阶反馈，但仍落后于普通训练；强教师反馈有0.01量级保留收益，伴随学习代价，且未超过完整普通前沿。新增训练与评分共207.692 GPU小时。关闭本轮网格，不加确认seed；完整曲线、对照和成本已保留。"
     },
     {
       "priority": "P0",
@@ -27246,7 +27246,7 @@
       "family": "bilevel",
       "why": "已有负结果只覆盖部分 FOMAML 实现；区分缺少旧知识测试与忽略适应导数两种解释。",
       "design": "Smol135M 数学四分之一数据：一阶／完整元梯度 × 新域／新旧域 query × 两个适应半径 × 两个 outer LR；另有16组调参的普通训练与 replay 对照。",
-      "decision": "配置已准备 32/32；运行 0，训练完成 32，失败／中断 0，待启动／确认 0。完整元梯度包含归一化导数和跨参数 Hessian 项；全部四个固定checkpoint接受调参普通训练与 replay 的比较。"
+      "decision": "完整32组及全部固定点已核验：精确反馈优于一阶反馈，但全部16个适应终点均被普通训练超过；关闭当前半径/导数网格。"
     },
     {
       "priority": "P0",
@@ -27254,7 +27254,7 @@
       "family": "distillation",
       "why": "测试蒸馏反馈是否不同于适应后梯度，并排除普通模型锚定的收益。",
       "design": "四分之一数据／一次遍历 × 两个 outer LR × 适应后教师／固定初始教师 × 两个 KL 系数；只用新域训练数据，配普通训练零控制。",
-      "decision": "配置已准备 16/16；运行 0，训练完成 16，失败／中断 0，待启动／确认 0。每次教师做8步临时适应，学生只做1次持久更新；计入额外曝光和计算。固定初始教师属于普通蒸馏对照；候选还须超过 S+Q 普通训练曲线。"
+      "decision": "完整16组已核验：8/8适应教师比固定教师学得更多、也忘得更多。beta10保留收益达到0.01量级但有学习代价，未通过完整普通前沿筛选；不加seed。"
     },
     {
       "priority": "P0",
@@ -27262,7 +27262,7 @@
       "family": "support_baseline",
       "why": "适应后教师额外看过 support 数据，必须排除普通训练的数据曝光收益。",
       "design": "一次遍历：普通 AdamW 同时使用 S+Q，四个 outer LR；保存与教师实验相同的四个固定checkpoint。",
-      "decision": "配置已准备 4/4；运行 0，训练完成 4，失败／中断 0，待启动／确认 0。这是原48组之外单独登记的必要对照；比较同场景完整曲线，不能只选普通训练终点。"
+      "decision": "4组和全部固定checkpoint已核验，纳入一次遍历完整普通训练前沿。"
     },
     {
       "priority": "P0",
@@ -27270,7 +27270,7 @@
       "family": "fieldgain",
       "why": "局部TRAIN上的学习代价不能回答最终泛化，也缺少中段优化器状态。",
       "design": "数学：原一次遍历／四分之一数据四遍 × gains0/1/10；outer AdamW3e-5；固定四个曲线点并挑战全部已测普通AdamW点。",
-      "decision": "配置已准备 6/6；运行 0，训练完成 6，失败／中断 0，待启动／确认 0。四条重复对照用于实现匹配和中段状态保存，不是新seed。无优势则关闭本配方的放大分支。"
+      "decision": "完整结果已核验：标准反馈增量小，10倍反馈崩溃；没有候选通过预定筛选，关闭该放大分支。"
     },
     {
       "priority": "P0",
@@ -27278,7 +27278,7 @@
       "family": "scarcity",
       "why": "测试少量新域数据反复学习时，适应能否比调参普通训练保留更多旧知识。",
       "design": "数学419批数据：16遍加4步；普通AdamW四档LR，两档LR各配gains0/1/10。全部共享同一query顺序，评估40个固定checkpoint。",
-      "decision": "配置已准备 10/10；运行 0，训练完成 10，失败／中断 0，待启动／确认 0。候选须改善自身zero并接受完整普通训练曲线挑战；单seed探索，不自动扩网格。"
+      "decision": "完整结果已核验：没有候选超过调参普通训练；两条10倍反馈崩溃，全部不利结果保留；不自动扩网格。"
     },
     {
       "priority": "P0",
@@ -27469,7 +27469,8 @@
       "C46 · repeated-data 1.7B CPT: adverse own-zero effects",
       "C47 · direction and dose CPT: all outcomes retained",
       "C49 · matched replay CPT: small retention increments",
-      "C50 · normalized0.1 CPT: small conditional increments"
+      "C50 · normalized0.1 CPT: small conditional increments",
+      "CPT paradigm · all52 trainings and240 points; no practical candidate"
     ]
   }
 }
