@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790369200.88626,
-  "generated_label": "2026-09-25 16:46 EDT",
+  "generated_at": 1790370109.1715188,
+  "generated_label": "2026-09-25 17:01 EDT",
   "slots": [
     {
       "name": "A",
@@ -14,9 +14,9 @@
     {
       "name": "B",
       "allocated": 32,
-      "ours": 3,
+      "ours": 0,
       "other": 0,
-      "warm": 29,
+      "warm": 32,
       "unknown": 0,
       "next": "PENDING"
     }
@@ -30881,13 +30881,13 @@
       "arm": "普通CPT学习率细调 · LR 7.5e-06",
       "lr": 7.5e-06,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1793,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 3.501953125,
+      "passes": 4.0,
       "unique_batches": 512,
-      "progress": 0.87548828125,
-      "eta_hours": 0.19641109246682997,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -31116,6 +31116,54 @@
           "target": 1.3473800194261825,
           "retention": 2.4776147976361744,
           "forgetting": -0.005968488536982175
+        },
+        {
+          "step": 1824,
+          "target": 1.3472890318355089,
+          "retention": 2.4776051357609874,
+          "forgetting": -0.005978150412169203
+        },
+        {
+          "step": 1856,
+          "target": 1.347195910528799,
+          "retention": 2.477584297168892,
+          "forgetting": -0.005998989004264654
+        },
+        {
+          "step": 1888,
+          "target": 1.3470870874069623,
+          "retention": 2.4775726734987713,
+          "forgetting": -0.006010612674385296
+        },
+        {
+          "step": 1920,
+          "target": 1.3469594601521528,
+          "retention": 2.477589034086342,
+          "forgetting": -0.005994252086814811
+        },
+        {
+          "step": 1952,
+          "target": 1.3468871423929327,
+          "retention": 2.4775827591934734,
+          "forgetting": -0.0060005269796832295
+        },
+        {
+          "step": 1984,
+          "target": 1.3468718762381475,
+          "retention": 2.4775803381909824,
+          "forgetting": -0.006002947982174156
+        },
+        {
+          "step": 2016,
+          "target": 1.346970087367127,
+          "retention": 2.477564330709025,
+          "forgetting": -0.006018955464131448
+        },
+        {
+          "step": 2048,
+          "target": 1.3469050817417936,
+          "retention": 2.4775474483769964,
+          "forgetting": -0.006035837796160237
         }
       ],
       "scientifically_accepted": false,
@@ -31132,13 +31180,13 @@
       "arm": "普通CPT学习率细调 · LR 8.75e-06",
       "lr": 8.75e-06,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1796,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 3.5078125,
+      "passes": 4.0,
       "unique_batches": 512,
-      "progress": 0.876953125,
-      "eta_hours": 0.19432961812708527,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -31367,6 +31415,54 @@
           "target": 1.3458048598643881,
           "retention": 2.4774390647869815,
           "forgetting": -0.006144221386175097
+        },
+        {
+          "step": 1824,
+          "target": 1.3456951968336384,
+          "retention": 2.477428082741879,
+          "forgetting": -0.006155203431277734
+        },
+        {
+          "step": 1856,
+          "target": 1.3455837796304964,
+          "retention": 2.477401530558873,
+          "forgetting": -0.0061817556142838015
+        },
+        {
+          "step": 1888,
+          "target": 1.3454595535617697,
+          "retention": 2.477390256650071,
+          "forgetting": -0.006193029523085425
+        },
+        {
+          "step": 1920,
+          "target": 1.3453147402154824,
+          "retention": 2.477409836191214,
+          "forgetting": -0.006173449981942802
+        },
+        {
+          "step": 1952,
+          "target": 1.345229347545197,
+          "retention": 2.4774018306636916,
+          "forgetting": -0.006181455509465028
+        },
+        {
+          "step": 1984,
+          "target": 1.345232777286922,
+          "retention": 2.4773999412618064,
+          "forgetting": -0.006183344911350197
+        },
+        {
+          "step": 2016,
+          "target": 1.3453716046082305,
+          "retention": 2.4773860423400396,
+          "forgetting": -0.006197243833117039
+        },
+        {
+          "step": 2048,
+          "target": 1.3452943051004278,
+          "retention": 2.4773656648820883,
+          "forgetting": -0.006217621291068287
         }
       ],
       "scientifically_accepted": false,
@@ -31383,13 +31479,13 @@
       "arm": "普通CPT学习率细调 · LR 1.25e-05",
       "lr": 1.25e-05,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1792,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 3.5,
+      "passes": 4.0,
       "unique_batches": 512,
-      "progress": 0.875,
-      "eta_hours": 0.1967258341776,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -31612,6 +31708,60 @@
           "target": 1.3431816088158748,
           "retention": 2.4773953878460055,
           "forgetting": -0.0061878983271510535
+        },
+        {
+          "step": 1792,
+          "target": 1.3433809160206538,
+          "retention": 2.4773962585118303,
+          "forgetting": -0.006187027661326283
+        },
+        {
+          "step": 1824,
+          "target": 1.3431951756264664,
+          "retention": 2.4773795074863987,
+          "forgetting": -0.0062037786867579214
+        },
+        {
+          "step": 1856,
+          "target": 1.343001428958367,
+          "retention": 2.4773375855560564,
+          "forgetting": -0.0062457006171001694
+        },
+        {
+          "step": 1888,
+          "target": 1.3428380468564922,
+          "retention": 2.4773294331225313,
+          "forgetting": -0.006253853050625313
+        },
+        {
+          "step": 1920,
+          "target": 1.342637545145986,
+          "retention": 2.4773603243324795,
+          "forgetting": -0.006222961840677055
+        },
+        {
+          "step": 1952,
+          "target": 1.3424888799099053,
+          "retention": 2.4773428935505963,
+          "forgetting": -0.006240392622560265
+        },
+        {
+          "step": 1984,
+          "target": 1.3425771771936543,
+          "retention": 2.4773436336060275,
+          "forgetting": -0.006239652567129106
+        },
+        {
+          "step": 2016,
+          "target": 1.3428669011596839,
+          "retention": 2.477337287697201,
+          "forgetting": -0.006245998475955528
+        },
+        {
+          "step": 2048,
+          "target": 1.3427186504624926,
+          "retention": 2.477304065465701,
+          "forgetting": -0.006279220707455568
         }
       ],
       "scientifically_accepted": false,
@@ -38377,14 +38527,14 @@
   "monitoring": {
     "snapshot_refresh_seconds": 900,
     "automatic_agent_followup": false,
-    "last_agent_check_at": 1790368350.1894088,
-    "last_agent_check_label": "2026-09-25 16:32 EDT",
-    "agent_check_age_minutes": 14.178280854225159
+    "last_agent_check_at": 1790369315.7533371,
+    "last_agent_check_label": "2026-09-25 16:48 EDT",
+    "agent_check_age_minutes": 13.223636360963186
   },
   "incidents": [
     {
       "title": "自动快照与 agent 巡检分别记录",
-      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-25 16:32 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
+      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-25 16:48 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
     },
     {
       "title": "A 配套实验：共享调度中断",
@@ -38416,7 +38566,7 @@
       "family": "ordinary_lr_refinement",
       "why": "排除普通基线LR调得过粗；固定候选，先加强对照再加seed。",
       "design": "135M/360M各3个新普通LR：7.5e-6、8.75e-6、1.25e-5；其余seed0数据、replay、优化器与2048步计划不变。每条45个科学评估点，共270点。",
-      "decision": "配置已准备 6/6；运行 3，训练完成 3，失败／中断 0，待启动／确认 0。训练上限13.5 GPU小时；只保留声明的模型点和滚动恢复文件，无历史优化器状态网格。待六组全部完成后统一评分270点；模型分别使用已验证的评分流程。单seed探索，Lookahead仍与T³单列。"
+      "decision": "配置已准备 6/6；运行 0，训练完成 6，失败／中断 0，待启动／确认 0。训练上限13.5 GPU小时；只保留声明的模型点和滚动恢复文件，无历史优化器状态网格。待六组全部完成后统一评分270点；模型分别使用已验证的评分流程。单seed探索，Lookahead仍与T³单列。"
     },
     {
       "priority": "P0",
