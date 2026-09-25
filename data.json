@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790351956.6052845,
-  "generated_label": "2026-09-25 11:59 EDT",
+  "generated_at": 1790352855.6316736,
+  "generated_label": "2026-09-25 12:14 EDT",
   "slots": [
     {
       "name": "A",
@@ -14,9 +14,9 @@
     {
       "name": "B",
       "allocated": 32,
-      "ours": 6,
+      "ours": 0,
       "other": 0,
-      "warm": 26,
+      "warm": 32,
       "unknown": 0,
       "next": "PENDING"
     }
@@ -24298,13 +24298,13 @@
       "arm": "Lookahead K64 · seed 1",
       "lr": 0.0001,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1857,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 3.626953125,
+      "passes": 4.0,
       "unique_batches": 512,
-      "progress": 0.90673828125,
-      "eta_hours": 0.07602009744959004,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -24335,6 +24335,12 @@
           "target": 1.538491167880988,
           "retention": 2.7005194468737015,
           "forgetting": -0.0005979973237733027
+        },
+        {
+          "step": 2048,
+          "target": 1.5366849768172806,
+          "retention": 2.700979361213115,
+          "forgetting": -0.00013808298435957767
         }
       ],
       "scientifically_accepted": false,
@@ -24351,13 +24357,13 @@
       "arm": "固定调参普通对照 · seed 1",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1839,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 3.591796875,
+      "passes": 4.0,
       "unique_batches": 512,
-      "progress": 0.89794921875,
-      "eta_hours": 0.08365059419690321,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -24400,6 +24406,12 @@
           "target": 1.5366177576432507,
           "retention": 2.7023935321096695,
           "forgetting": 0.00127608791219469
+        },
+        {
+          "step": 2048,
+          "target": 1.5355195457547943,
+          "retention": 2.702409091924569,
+          "forgetting": 0.001291647727094336
         }
       ],
       "scientifically_accepted": false,
@@ -24416,13 +24428,13 @@
       "arm": "Lookahead K64 · seed 2",
       "lr": 0.0001,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1846,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 3.60546875,
+      "passes": 4.0,
       "unique_batches": 512,
-      "progress": 0.9013671875,
-      "eta_hours": 0.08078014901489951,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -24453,6 +24465,12 @@
           "target": 1.5384100134326677,
           "retention": 2.700462261701245,
           "forgetting": -0.0006551824962297559
+        },
+        {
+          "step": 2048,
+          "target": 1.536639232741928,
+          "retention": 2.7009341920359162,
+          "forgetting": -0.00018325216155856694
         }
       ],
       "scientifically_accepted": false,
@@ -24469,13 +24487,13 @@
       "arm": "固定调参普通对照 · seed 2",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1844,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 3.6015625,
+      "passes": 4.0,
       "unique_batches": 512,
-      "progress": 0.900390625,
-      "eta_hours": 0.08150216348003596,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -24518,6 +24536,12 @@
           "target": 1.535888694167976,
           "retention": 2.702393028506461,
           "forgetting": 0.0012755843089862218
+        },
+        {
+          "step": 2048,
+          "target": 1.5350788645934703,
+          "retention": 2.7023880538794463,
+          "forgetting": 0.0012706096819714574
         }
       ],
       "scientifically_accepted": false,
@@ -24534,13 +24558,13 @@
       "arm": "Lookahead K64 · seed 3",
       "lr": 0.0001,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1858,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 3.62890625,
+      "passes": 4.0,
       "unique_batches": 512,
-      "progress": 0.9072265625,
-      "eta_hours": 0.07561467235662146,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -24571,6 +24595,12 @@
           "target": 1.5386763725174648,
           "retention": 2.7004987955540276,
           "forgetting": -0.0006186486434471838
+        },
+        {
+          "step": 2048,
+          "target": 1.5368668060321626,
+          "retention": 2.70098737145028,
+          "forgetting": -0.00013007274719489814
         }
       ],
       "scientifically_accepted": false,
@@ -24587,13 +24617,13 @@
       "arm": "固定调参普通对照 · seed 3",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1839,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 3.591796875,
+      "passes": 4.0,
       "unique_batches": 512,
-      "progress": 0.89794921875,
-      "eta_hours": 0.08384449651147911,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -24636,6 +24666,12 @@
           "target": 1.53606125055134,
           "retention": 2.702285335684535,
           "forgetting": 0.001167891487060313
+        },
+        {
+          "step": 2048,
+          "target": 1.5351593347542571,
+          "retention": 2.702342731905225,
+          "forgetting": 0.0012252877077503221
         }
       ],
       "scientifically_accepted": false,
@@ -36151,7 +36187,7 @@
     "automatic_agent_followup": false,
     "last_agent_check_at": 1790351782.5069804,
     "last_agent_check_label": "2026-09-25 11:56 EDT",
-    "agent_check_age_minutes": 2.901638400554657
+    "agent_check_age_minutes": 17.885411552588145
   },
   "incidents": [
     {
@@ -36196,7 +36232,7 @@
       "family": "paired_confirmation",
       "why": "独立文档上的小幅保留收益，需要排除训练顺序的偶然性。",
       "design": "三个固定seed × K64/调参普通训练；预先固定15个评分点，沿用已冻结的512+512文档。",
-      "decision": "配置已准备 6/6；运行 6，训练完成 0，失败／中断 0，待启动／确认 0。先完成wave2a外部读出，再接3个新训练seed，每个seed配Lookahead K64与普通AdamW；数据成员相同，顺序按seed变化且组内配对。主比较固定2048对1376步，另报告1408/1536/2048普通对照；seed0不计入验证均值。按3个训练seed计算不确定性，文档区间单独报告。节省存储版本只保存15个预定评分checkpoint。"
+      "decision": "6条配对训练和15个固定评分全部完成；通过预定三seed验证门槛。平均数学NLL差-0.000157，FineWeb差-0.001667。三个新训练顺序seed，seed0不计入；区间按seed计算。主比较2048对1376步，多49%更新。同2048步时数学代价+0.001540，不能声称计算效率提升。Lookahead-style interpolation单列，不能归因于normalized T³。"
     },
     {
       "priority": "P0",
