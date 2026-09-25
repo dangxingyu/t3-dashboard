@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790363819.0062919,
-  "generated_label": "2026-09-25 15:16 EDT",
+  "generated_at": 1790363925.1446023,
+  "generated_label": "2026-09-25 15:18 EDT",
   "slots": [
     {
       "name": "A",
@@ -9,15 +9,15 @@
       "other": null,
       "warm": null,
       "unknown": 32,
-      "next": "UNKNOWN"
+      "next": "PENDING"
     },
     {
       "name": "B",
       "allocated": 32,
-      "ours": null,
-      "other": null,
-      "warm": null,
-      "unknown": 32,
+      "ours": 6,
+      "other": 0,
+      "warm": 26,
+      "unknown": 0,
       "next": "PENDING"
     }
   ],
@@ -29977,6 +29977,180 @@
       "previous_attempt_gpu_seconds": null
     },
     {
+      "id": "ordlr-135M-quarter-r0.2-lr7.5e-06-s0",
+      "family": "ordinary_lr_refinement",
+      "model": "135M",
+      "domain": "math",
+      "arm": "普通CPT学习率细调 · LR 7.5e-06",
+      "lr": 7.5e-06,
+      "outer": "AdamW",
+      "status": "running",
+      "step": 42,
+      "horizon": 2048,
+      "passes": 0.08203125,
+      "unique_batches": 512,
+      "progress": 0.0205078125,
+      "eta_hours": 0.8025025890586484,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        }
+      ],
+      "scientifically_accepted": false,
+      "seed": 0,
+      "regime": "quarter_four_passes",
+      "role": "ordinary_control",
+      "objective": "固定数据四遍 · 0.8目标域 + 0.2旧领域TRAIN · 原2048步计划"
+    },
+    {
+      "id": "ordlr-135M-quarter-r0.2-lr8.75e-06-s0",
+      "family": "ordinary_lr_refinement",
+      "model": "135M",
+      "domain": "math",
+      "arm": "普通CPT学习率细调 · LR 8.75e-06",
+      "lr": 8.75e-06,
+      "outer": "AdamW",
+      "status": "running",
+      "step": 41,
+      "horizon": 2048,
+      "passes": 0.080078125,
+      "unique_batches": 512,
+      "progress": 0.02001953125,
+      "eta_hours": 0.8043501437024679,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        }
+      ],
+      "scientifically_accepted": false,
+      "seed": 0,
+      "regime": "quarter_four_passes",
+      "role": "ordinary_control",
+      "objective": "固定数据四遍 · 0.8目标域 + 0.2旧领域TRAIN · 原2048步计划"
+    },
+    {
+      "id": "ordlr-135M-quarter-r0.2-lr1.25e-05-s0",
+      "family": "ordinary_lr_refinement",
+      "model": "135M",
+      "domain": "math",
+      "arm": "普通CPT学习率细调 · LR 1.25e-05",
+      "lr": 1.25e-05,
+      "outer": "AdamW",
+      "status": "running",
+      "step": 41,
+      "horizon": 2048,
+      "passes": 0.080078125,
+      "unique_batches": 512,
+      "progress": 0.02001953125,
+      "eta_hours": 0.7993625240691472,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        }
+      ],
+      "scientifically_accepted": false,
+      "seed": 0,
+      "regime": "quarter_four_passes",
+      "role": "ordinary_control",
+      "objective": "固定数据四遍 · 0.8目标域 + 0.2旧领域TRAIN · 原2048步计划"
+    },
+    {
+      "id": "ordlr-360M-quarter-r0.2-lr7.5e-06-s0",
+      "family": "ordinary_lr_refinement",
+      "model": "360M",
+      "domain": "math",
+      "arm": "普通CPT学习率细调 · LR 7.5e-06",
+      "lr": 7.5e-06,
+      "outer": "AdamW",
+      "status": "running",
+      "step": 22,
+      "horizon": 2048,
+      "passes": 0.04296875,
+      "unique_batches": 512,
+      "progress": 0.0107421875,
+      "eta_hours": 1.5552264968317469,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.4496730106806628,
+          "retention": 2.4835832861731566,
+          "forgetting": 0.0
+        }
+      ],
+      "scientifically_accepted": false,
+      "seed": 0,
+      "regime": "quarter_four_passes",
+      "role": "ordinary_control",
+      "objective": "固定数据四遍 · 0.8目标域 + 0.2旧领域TRAIN · 原2048步计划"
+    },
+    {
+      "id": "ordlr-360M-quarter-r0.2-lr8.75e-06-s0",
+      "family": "ordinary_lr_refinement",
+      "model": "360M",
+      "domain": "math",
+      "arm": "普通CPT学习率细调 · LR 8.75e-06",
+      "lr": 8.75e-06,
+      "outer": "AdamW",
+      "status": "running",
+      "step": 22,
+      "horizon": 2048,
+      "passes": 0.04296875,
+      "unique_batches": 512,
+      "progress": 0.0107421875,
+      "eta_hours": 1.5389153026656195,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.4496730106806628,
+          "retention": 2.4835832861731566,
+          "forgetting": 0.0
+        }
+      ],
+      "scientifically_accepted": false,
+      "seed": 0,
+      "regime": "quarter_four_passes",
+      "role": "ordinary_control",
+      "objective": "固定数据四遍 · 0.8目标域 + 0.2旧领域TRAIN · 原2048步计划"
+    },
+    {
+      "id": "ordlr-360M-quarter-r0.2-lr1.25e-05-s0",
+      "family": "ordinary_lr_refinement",
+      "model": "360M",
+      "domain": "math",
+      "arm": "普通CPT学习率细调 · LR 1.25e-05",
+      "lr": 1.25e-05,
+      "outer": "AdamW",
+      "status": "running",
+      "step": 22,
+      "horizon": 2048,
+      "passes": 0.04296875,
+      "unique_batches": 512,
+      "progress": 0.0107421875,
+      "eta_hours": 1.5492779352382704,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.4496730106806628,
+          "retention": 2.4835832861731566,
+          "forgetting": 0.0
+        }
+      ],
+      "scientifically_accepted": false,
+      "seed": 0,
+      "regime": "quarter_four_passes",
+      "role": "ordinary_control",
+      "objective": "固定数据四遍 · 0.8目标域 + 0.2旧领域TRAIN · 原2048步计划"
+    },
+    {
       "id": "s135-code-adamw-3e-06-mean-gradient-rho0p1",
       "family": "smallradius",
       "model": "135M",
@@ -36735,7 +36909,7 @@
     "automatic_agent_followup": false,
     "last_agent_check_at": 1790363056.0642335,
     "last_agent_check_label": "2026-09-25 15:04 EDT",
-    "agent_check_age_minutes": 12.715700972080231
+    "agent_check_age_minutes": 14.484672812620799
   },
   "incidents": [
     {
@@ -36766,6 +36940,14 @@
     }
   ],
   "plans": [
+    {
+      "priority": "P0",
+      "title": "普通CPT学习率细调：挑战两种模型上的Lookahead信号",
+      "family": "ordinary_lr_refinement",
+      "why": "排除普通基线LR调得过粗；固定候选，先加强对照再加seed。",
+      "design": "135M/360M各3个新普通LR：7.5e-6、8.75e-6、1.25e-5；其余seed0数据、replay、优化器与2048步计划不变。每条45个科学评估点，共270点。",
+      "decision": "配置已准备 6/6；运行 6，训练完成 0，失败／中断 0，待启动／确认 0。训练上限13.5 GPU小时；只保留声明的模型点和滚动恢复文件，无历史优化器状态网格。单seed探索，Lookahead仍与T³单列。"
+    },
     {
       "priority": "P0",
       "title": "Wave 2a：完整外部评分与前沿读出",
