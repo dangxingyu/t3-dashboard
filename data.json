@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790328345.5701172,
-  "generated_label": "2026-09-25 05:25 EDT",
+  "generated_at": 1790329263.604255,
+  "generated_label": "2026-09-25 05:41 EDT",
   "slots": [
     {
       "name": "A",
@@ -23785,7 +23785,9 @@
       "scientifically_accepted": false,
       "regime": "quarter_four_passes",
       "role": "ordinary_control",
-      "objective": "原轨迹重算以加密观测；须复现已有完整状态，非新训练seed"
+      "objective": "原轨迹重算以加密观测；须复现已有完整状态，非新训练seed",
+      "previous_attempt_status": "首次启动配置参数错误，0次训练更新；原失败记录保留，修复版单独冻结",
+      "previous_attempt_gpu_seconds": 6.419342517852783
     },
     {
       "id": "dense-ordinary-lr3e-05-256-768",
@@ -23806,7 +23808,9 @@
       "scientifically_accepted": false,
       "regime": "quarter_four_passes",
       "role": "ordinary_control",
-      "objective": "原轨迹重算以加密观测；须复现已有完整状态，非新训练seed"
+      "objective": "原轨迹重算以加密观测；须复现已有完整状态，非新训练seed",
+      "previous_attempt_status": "首次启动配置参数错误，0次训练更新；原失败记录保留，修复版单独冻结",
+      "previous_attempt_gpu_seconds": 6.003698825836182
     },
     {
       "id": "dense-ordinary-lr0.0001-128-512",
@@ -23827,7 +23831,9 @@
       "scientifically_accepted": false,
       "regime": "quarter_four_passes",
       "role": "ordinary_control",
-      "objective": "原轨迹重算以加密观测；须复现已有完整状态，非新训练seed"
+      "objective": "原轨迹重算以加密观测；须复现已有完整状态，非新训练seed",
+      "previous_attempt_status": "首次启动配置参数错误，0次训练更新；原失败记录保留，修复版单独冻结",
+      "previous_attempt_gpu_seconds": 6.9356043338775635
     },
     {
       "id": "s135-code-adamw-3e-06-mean-gradient-rho0p1",
@@ -30586,14 +30592,14 @@
   "monitoring": {
     "snapshot_refresh_seconds": 900,
     "automatic_agent_followup": false,
-    "last_agent_check_at": 1790326838.0050447,
-    "last_agent_check_label": "2026-09-25 05:00 EDT",
-    "agent_check_age_minutes": 25.126084542274477
+    "last_agent_check_at": 1790328540.0407917,
+    "last_agent_check_label": "2026-09-25 05:29 EDT",
+    "agent_check_age_minutes": 12.05939105351766
   },
   "incidents": [
     {
       "title": "自动快照与 agent 巡检分别记录",
-      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-25 05:00 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
+      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-25 05:29 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
     },
     {
       "title": "A 配套实验：共享调度中断",
@@ -30609,7 +30615,7 @@
       "priority": "P0",
       "title": "CPT：能否学得更多，同时忘得更少？",
       "why": "T³ 包含训练时适应、测试与反馈的不同算法；检验它们能否超过调参的普通 CPT、replay 和固定教师蒸馏。",
-      "next": "135M32条轨迹及26个选定checkpoint评分完成。K8接近普通LR缩小十倍；K64、四遍数据、20% replay相对预选普通LR1e-5第1536步：目标域代价+0.000444，FineWeb改善0.001504 NLL。单seed、512篇已观察文档，尚未独立确认；接下来加密普通LR/早停checkpoint，排除稀疏对照造成的优势。训练20.677、评分0.290 GPU小时。Wave2a30控制和360M32配置仍已准备未提交；仅使用B。 Wave 2a：先测普通CPT是否在小数据多轮训练中过拟合。配置已准备 30/30；运行 0，训练完成 0，失败／中断 0，待启动／确认 30。18组普通LR×WD与12组own-zero；确认过拟合后才运行预训练T³算子，半径0.036/0.145/0.58/2.32。实际约32/64遍、6708更新；记录内层位移/外层更新比，只用B。当前没有新收益结论。"
+      "next": "135M32条轨迹及26个选定checkpoint评分完成。K8接近普通LR缩小十倍；K64、四遍数据、20% replay相对预选普通LR1e-5第1536步：目标域代价+0.000444，FineWeb改善0.001504 NLL。单seed、512篇已观察文档，尚未独立确认；接下来加密普通LR/早停checkpoint，排除稀疏对照造成的优势。训练20.677、评分0.290 GPU小时。Wave2a和360M的执行状态见下方各实验进度；仅使用B。 Wave 2a：先测普通CPT是否在小数据多轮训练中过拟合。配置已准备 30/30；运行 0，训练完成 0，失败／中断 0，待启动／确认 30。18组普通LR×WD与12组own-zero；确认过拟合后才运行预训练T³算子，半径0.036/0.145/0.58/2.32。实际约32/64遍、6708更新；记录内层位移/外层更新比，只用B。当前没有新收益结论。"
     },
     {
       "priority": "P0",
@@ -30641,7 +30647,7 @@
       "family": "trajectory_feedback",
       "why": "检验长适应轨迹是否改善学习–遗忘前沿，并排除普通步长缩小或replay的解释。",
       "design": "135M/360M × one-pass/quarter-four-pass；每个setting有8个调参普通对照和8个轨迹反馈配置。",
-      "decision": "135M32条轨迹及26个选定checkpoint评分完成。K8接近普通LR缩小十倍；K64、四遍数据、20% replay相对预选普通LR1e-5第1536步：目标域代价+0.000444，FineWeb改善0.001504 NLL。单seed、512篇已观察文档，尚未独立确认；接下来加密普通LR/早停checkpoint，排除稀疏对照造成的优势。训练20.677、评分0.290 GPU小时。Wave2a30控制和360M32配置仍已准备未提交；仅使用B。"
+      "decision": "135M32条轨迹及26个选定checkpoint评分完成。K8接近普通LR缩小十倍；K64、四遍数据、20% replay相对预选普通LR1e-5第1536步：目标域代价+0.000444，FineWeb改善0.001504 NLL。单seed、512篇已观察文档，尚未独立确认；接下来加密普通LR/早停checkpoint，排除稀疏对照造成的优势。训练20.677、评分0.290 GPU小时。Wave2a和360M的执行状态见下方各实验进度；仅使用B。"
     },
     {
       "priority": "P0",
