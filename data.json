@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790354672.2661421,
-  "generated_label": "2026-09-25 12:44 EDT",
+  "generated_at": 1790354995.4917214,
+  "generated_label": "2026-09-25 12:49 EDT",
   "slots": [
     {
       "name": "A",
@@ -36187,7 +36187,7 @@
     "automatic_agent_followup": false,
     "last_agent_check_at": 1790353973.1956599,
     "last_agent_check_label": "2026-09-25 12:32 EDT",
-    "agent_check_age_minutes": 11.651174704233805
+    "agent_check_age_minutes": 17.038267691930134
   },
   "incidents": [
     {
@@ -36240,7 +36240,7 @@
       "family": "lookahead360_external",
       "why": "检验同一插值配方在更大模型上的开发集信号，保留完整普通LR与早停挑战。",
       "design": "32条已完成训练，各5个固定点评分，另一个共享base；复用通过的360M数值检查。",
-      "decision": "32条已完成训练的曲线评分：完成32、运行0、失败0。共160个固定checkpoint和一个共享base，包含one-pass、四遍数据、两种replay、全部普通LR与早停。固定主比较为K64对普通LR1e-5，均2048步；单seed探索，Lookahead与T³分开报告。"
+      "decision": "32条曲线/161点评分全部核验；固定主比较通过探索性门槛。数学NLL差+0.000301、FineWeb差-0.001300。一个训练seed，已使用的512篇文档；仍需密集普通对照和独立文档，不能当作确认。Lookahead单列。"
     },
     {
       "priority": "P0",
