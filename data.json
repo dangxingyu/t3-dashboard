@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790327427.55619,
-  "generated_label": "2026-09-25 05:10 EDT",
+  "generated_at": 1790328345.5701172,
+  "generated_label": "2026-09-25 05:25 EDT",
   "slots": [
     {
       "name": "A",
@@ -23767,6 +23767,69 @@
       "radius": 0.0
     },
     {
+      "id": "dense-ordinary-lr1e-05-1024-1536",
+      "family": "dense_ordinary",
+      "model": "135M",
+      "domain": "math",
+      "arm": "普通轨迹加密 · 原步骤 1024–1536",
+      "lr": 1e-05,
+      "outer": "AdamW",
+      "status": "prepared",
+      "step": 0,
+      "horizon": 1536,
+      "passes": 0.0,
+      "unique_batches": 512,
+      "progress": 0,
+      "eta_hours": null,
+      "curves": [],
+      "scientifically_accepted": false,
+      "regime": "quarter_four_passes",
+      "role": "ordinary_control",
+      "objective": "原轨迹重算以加密观测；须复现已有完整状态，非新训练seed"
+    },
+    {
+      "id": "dense-ordinary-lr3e-05-256-768",
+      "family": "dense_ordinary",
+      "model": "135M",
+      "domain": "math",
+      "arm": "普通轨迹加密 · 原步骤 256–768",
+      "lr": 3e-05,
+      "outer": "AdamW",
+      "status": "prepared",
+      "step": 0,
+      "horizon": 768,
+      "passes": 0.0,
+      "unique_batches": 512,
+      "progress": 0,
+      "eta_hours": null,
+      "curves": [],
+      "scientifically_accepted": false,
+      "regime": "quarter_four_passes",
+      "role": "ordinary_control",
+      "objective": "原轨迹重算以加密观测；须复现已有完整状态，非新训练seed"
+    },
+    {
+      "id": "dense-ordinary-lr0.0001-128-512",
+      "family": "dense_ordinary",
+      "model": "135M",
+      "domain": "math",
+      "arm": "普通轨迹加密 · 原步骤 128–512",
+      "lr": 0.0001,
+      "outer": "AdamW",
+      "status": "prepared",
+      "step": 0,
+      "horizon": 512,
+      "passes": 0.0,
+      "unique_batches": 512,
+      "progress": 0,
+      "eta_hours": null,
+      "curves": [],
+      "scientifically_accepted": false,
+      "regime": "quarter_four_passes",
+      "role": "ordinary_control",
+      "objective": "原轨迹重算以加密观测；须复现已有完整状态，非新训练seed"
+    },
+    {
       "id": "s135-code-adamw-3e-06-mean-gradient-rho0p1",
       "family": "smallradius",
       "model": "135M",
@@ -30525,7 +30588,7 @@
     "automatic_agent_followup": false,
     "last_agent_check_at": 1790326838.0050447,
     "last_agent_check_label": "2026-09-25 05:00 EDT",
-    "agent_check_age_minutes": 9.825852421919505
+    "agent_check_age_minutes": 25.126084542274477
   },
   "incidents": [
     {
@@ -30563,6 +30626,14 @@
       "why": "检验普通CPT出现目标域过拟合后，预训练中有效的T³算子是否改善学习–遗忘前沿。",
       "design": "1/32与1/64数学数据；LR 3e-6/1e-5/3e-5 × WD .1/.5/1，保存完整早停对照。通过过拟合门槛后才运行四个非零半径。",
       "decision": "Wave 2a：先测普通CPT是否在小数据多轮训练中过拟合。配置已准备 30/30；运行 0，训练完成 0，失败／中断 0，待启动／确认 30。18组普通LR×WD与12组own-zero；确认过拟合后才运行预训练T³算子，半径0.036/0.145/0.58/2.32。实际约32/64遍、6708更新；记录内层位移/外层更新比，只用B。当前没有新收益结论。"
+    },
+    {
+      "priority": "P0",
+      "title": "加密普通对照：先挑战现有小幅信号",
+      "family": "dense_ordinary",
+      "why": "现有K64优势依赖早停匹配，普通checkpoint过稀可能制造前沿空隙。",
+      "design": "从保存的AdamW与RNG状态重算三个原始区间，每32步观察；已有checkpoint处必须逐项完全一致。",
+      "decision": "配置已准备 3/3；运行 0，训练完成 0，失败／中断 0，待启动／确认 3。只在开发集挑最强兼容对照，再做固定文档评分；暂不加seed。"
     },
     {
       "priority": "P0",
