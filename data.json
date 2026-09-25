@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790353773.5910954,
-  "generated_label": "2026-09-25 12:29 EDT",
+  "generated_at": 1790354672.2661421,
+  "generated_label": "2026-09-25 12:44 EDT",
   "slots": [
     {
       "name": "A",
@@ -14,10 +14,10 @@
     {
       "name": "B",
       "allocated": 32,
-      "ours": null,
-      "other": null,
-      "warm": null,
-      "unknown": 32,
+      "ours": 0,
+      "other": 0,
+      "warm": 32,
+      "unknown": 0,
       "next": "PENDING"
     }
   ],
@@ -36185,14 +36185,14 @@
   "monitoring": {
     "snapshot_refresh_seconds": 900,
     "automatic_agent_followup": false,
-    "last_agent_check_at": 1790353064.9944072,
-    "last_agent_check_label": "2026-09-25 12:17 EDT",
-    "agent_check_age_minutes": 11.809944804509481
+    "last_agent_check_at": 1790353973.1956599,
+    "last_agent_check_label": "2026-09-25 12:32 EDT",
+    "agent_check_age_minutes": 11.651174704233805
   },
   "incidents": [
     {
       "title": "自动快照与 agent 巡检分别记录",
-      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-25 12:17 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
+      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-25 12:32 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
     },
     {
       "title": "A 配套实验：共享调度中断",
@@ -36233,6 +36233,14 @@
       "why": "独立文档上的小幅保留收益，需要排除训练顺序的偶然性。",
       "design": "三个固定seed × K64/调参普通训练；预先固定15个评分点，沿用已冻结的512+512文档。",
       "decision": "6条配对训练和15个固定评分全部完成；通过预定三seed验证门槛。平均数学NLL差-0.000157，FineWeb差-0.001667。三个新训练顺序seed，seed0不计入；区间按seed计算。主比较2048对1376步，多49%更新。同2048步时数学代价+0.001540，不能声称计算效率提升。Lookahead-style interpolation单列，不能归因于normalized T³。"
+    },
+    {
+      "priority": "P2",
+      "title": "360M Lookahead：完整外部曲线",
+      "family": "lookahead360_external",
+      "why": "检验同一插值配方在更大模型上的开发集信号，保留完整普通LR与早停挑战。",
+      "design": "32条已完成训练，各5个固定点评分，另一个共享base；复用通过的360M数值检查。",
+      "decision": "32条已完成训练的曲线评分：完成32、运行0、失败0。共160个固定checkpoint和一个共享base，包含one-pass、四遍数据、两种replay、全部普通LR与早停。固定主比较为K64对普通LR1e-5，均2048步；单seed探索，Lookahead与T³分开报告。"
     },
     {
       "priority": "P0",
