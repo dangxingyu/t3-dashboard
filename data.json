@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790374673.6071854,
-  "generated_label": "2026-09-25 18:17 EDT",
+  "generated_at": 1790375545.5777955,
+  "generated_label": "2026-09-25 18:32 EDT",
   "slots": [
     {
       "name": "A",
@@ -14,9 +14,9 @@
     {
       "name": "B",
       "allocated": 32,
-      "ours": 0,
+      "ours": 3,
       "other": 0,
-      "warm": 32,
+      "warm": 29,
       "unknown": 0,
       "next": "PENDING"
     }
@@ -31771,6 +31771,93 @@
       "objective": "固定数据四遍 · 0.8目标域 + 0.2旧领域TRAIN · 原2048步计划"
     },
     {
+      "id": "refined-135M-ordinary-lr8.75e-6-s1",
+      "family": "refined_paired_seeds",
+      "model": "135M",
+      "domain": "math",
+      "arm": "更强普通CPT对照 · seed 1",
+      "lr": 8.75e-06,
+      "outer": "AdamW",
+      "status": "running",
+      "step": 256,
+      "horizon": 2048,
+      "passes": 0.5,
+      "unique_batches": 512,
+      "progress": 0.125,
+      "eta_hours": 0.7116237238215075,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        }
+      ],
+      "scientifically_accepted": false,
+      "seed": 1,
+      "regime": "quarter_four_passes",
+      "role": "ordinary_control",
+      "objective": "配对训练顺序 · 0.8数学 + 0.2旧领域TRAIN · 主对照1664步，次比较2048步"
+    },
+    {
+      "id": "refined-135M-ordinary-lr8.75e-6-s2",
+      "family": "refined_paired_seeds",
+      "model": "135M",
+      "domain": "math",
+      "arm": "更强普通CPT对照 · seed 2",
+      "lr": 8.75e-06,
+      "outer": "AdamW",
+      "status": "running",
+      "step": 255,
+      "horizon": 2048,
+      "passes": 0.498046875,
+      "unique_batches": 512,
+      "progress": 0.12451171875,
+      "eta_hours": 0.7177277182614974,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        }
+      ],
+      "scientifically_accepted": false,
+      "seed": 2,
+      "regime": "quarter_four_passes",
+      "role": "ordinary_control",
+      "objective": "配对训练顺序 · 0.8数学 + 0.2旧领域TRAIN · 主对照1664步，次比较2048步"
+    },
+    {
+      "id": "refined-135M-ordinary-lr8.75e-6-s3",
+      "family": "refined_paired_seeds",
+      "model": "135M",
+      "domain": "math",
+      "arm": "更强普通CPT对照 · seed 3",
+      "lr": 8.75e-06,
+      "outer": "AdamW",
+      "status": "running",
+      "step": 254,
+      "horizon": 2048,
+      "passes": 0.49609375,
+      "unique_batches": 512,
+      "progress": 0.1240234375,
+      "eta_hours": 0.7210396875875692,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        }
+      ],
+      "scientifically_accepted": false,
+      "seed": 3,
+      "regime": "quarter_four_passes",
+      "role": "ordinary_control",
+      "objective": "配对训练顺序 · 0.8数学 + 0.2旧领域TRAIN · 主对照1664步，次比较2048步"
+    },
+    {
       "id": "s135-code-adamw-3e-06-mean-gradient-rho0p1",
       "family": "smallradius",
       "model": "135M",
@@ -38527,14 +38614,14 @@
   "monitoring": {
     "snapshot_refresh_seconds": 900,
     "automatic_agent_followup": false,
-    "last_agent_check_at": 1790374513.3786004,
-    "last_agent_check_label": "2026-09-25 18:15 EDT",
-    "agent_check_age_minutes": 2.670476416746775
+    "last_agent_check_at": 1790375313.45949,
+    "last_agent_check_label": "2026-09-25 18:28 EDT",
+    "agent_check_age_minutes": 3.8686384240786236
   },
   "incidents": [
     {
       "title": "自动快照与 agent 巡检分别记录",
-      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-25 18:15 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
+      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-25 18:28 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
     },
     {
       "title": "A 配套实验：共享调度中断",
@@ -38560,6 +38647,14 @@
     }
   ],
   "plans": [
+    {
+      "priority": "P0",
+      "title": "135M：更强普通对照下的三个配对seed",
+      "family": "refined_paired_seeds",
+      "why": "新文档验证通过后，检验收益是否依赖seed0训练顺序；复用候选避免重复计算。",
+      "design": "三个新普通LR8.75e-6训练，与已有K64/alpha0.1/LR1e-4候选seed1/2/3严格配对。主比较2048对1664，次比较均2048；九个固定评分点。",
+      "decision": "配置已准备 3/3；运行 3，训练完成 0，失败／中断 0，待启动／确认 0。复用三个已完成Lookahead候选，只新增普通LR8.75e-6训练；主对照1664步、次比较2048步。用已冻结文档验证新的配对训练顺序，不称为再次独立文档验证；训练上限4.5 GPU小时。"
+    },
     {
       "priority": "P0",
       "title": "Lookahead：更强普通对照下的新文档验证",
