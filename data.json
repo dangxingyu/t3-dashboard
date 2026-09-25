@@ -1,22 +1,22 @@
 {
-  "generated_at": 1790366479.5568392,
-  "generated_label": "2026-09-25 16:01 EDT",
+  "generated_at": 1790367394.5899055,
+  "generated_label": "2026-09-25 16:16 EDT",
   "slots": [
     {
       "name": "A",
       "allocated": 32,
-      "ours": null,
-      "other": null,
-      "warm": null,
-      "unknown": 32,
+      "ours": 0,
+      "other": 0,
+      "warm": 32,
+      "unknown": 0,
       "next": "PENDING"
     },
     {
       "name": "B",
       "allocated": 32,
-      "ours": 6,
+      "ours": 3,
       "other": 0,
-      "warm": 26,
+      "warm": 29,
       "unknown": 0,
       "next": "PENDING"
     }
@@ -29984,13 +29984,13 @@
       "arm": "普通CPT学习率细调 · LR 7.5e-06",
       "lr": 7.5e-06,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1703,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 3.326171875,
+      "passes": 4.0,
       "unique_batches": 512,
-      "progress": 0.83154296875,
-      "eta_hours": 0.13754980978847015,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -30201,6 +30201,72 @@
           "target": 1.5402870546629708,
           "retention": 2.7021321926962414,
           "forgetting": 0.0010147484987665933
+        },
+        {
+          "step": 1728,
+          "target": 1.5403317332150082,
+          "retention": 2.7021657816713165,
+          "forgetting": 0.0010483374738416984
+        },
+        {
+          "step": 1760,
+          "target": 1.5402882295529925,
+          "retention": 2.7021798386924676,
+          "forgetting": 0.001062394494992791
+        },
+        {
+          "step": 1792,
+          "target": 1.5402822371758325,
+          "retention": 2.7021995854769263,
+          "forgetting": 0.0010821412794514984
+        },
+        {
+          "step": 1824,
+          "target": 1.540154810783495,
+          "retention": 2.702204521471285,
+          "forgetting": 0.0010870772738100776
+        },
+        {
+          "step": 1856,
+          "target": 1.5401094531457635,
+          "retention": 2.7022064965580253,
+          "forgetting": 0.0010890523605504576
+        },
+        {
+          "step": 1888,
+          "target": 1.5400295878233896,
+          "retention": 2.7021913483257958,
+          "forgetting": 0.0010739041283209794
+        },
+        {
+          "step": 1920,
+          "target": 1.5399305305057966,
+          "retention": 2.70220009924051,
+          "forgetting": 0.0010826550430351745
+        },
+        {
+          "step": 1952,
+          "target": 1.539848926827285,
+          "retention": 2.702211569402408,
+          "forgetting": 0.0010941252049332384
+        },
+        {
+          "step": 1984,
+          "target": 1.5397507088290499,
+          "retention": 2.7021939772861434,
+          "forgetting": 0.0010765330886686186
+        },
+        {
+          "step": 2016,
+          "target": 1.5397930256935037,
+          "retention": 2.7021796112052963,
+          "forgetting": 0.0010621670078214684
+        },
+        {
+          "step": 2048,
+          "target": 1.5397313984971082,
+          "retention": 2.702184475195479,
+          "forgetting": 0.0010670309980040926
         }
       ],
       "scientifically_accepted": false,
@@ -30217,13 +30283,13 @@
       "arm": "普通CPT学习率细调 · LR 8.75e-06",
       "lr": 8.75e-06,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1696,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 3.3125,
+      "passes": 4.0,
       "unique_batches": 512,
-      "progress": 0.828125,
-      "eta_hours": 0.14107921570539475,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -30428,6 +30494,78 @@
           "target": 1.5380348858857698,
           "retention": 2.702188532244589,
           "forgetting": 0.0010710880471140882
+        },
+        {
+          "step": 1696,
+          "target": 1.5379824262963067,
+          "retention": 2.7022094962250485,
+          "forgetting": 0.0010920520275736756
+        },
+        {
+          "step": 1728,
+          "target": 1.5380445391602817,
+          "retention": 2.7022465455336047,
+          "forgetting": 0.0011291013361298674
+        },
+        {
+          "step": 1760,
+          "target": 1.5380076291715812,
+          "retention": 2.7022613555921593,
+          "forgetting": 0.0011439113946845048
+        },
+        {
+          "step": 1792,
+          "target": 1.538008797336851,
+          "retention": 2.7022855297697257,
+          "forgetting": 0.0011680855722508987
+        },
+        {
+          "step": 1824,
+          "target": 1.5378681257973794,
+          "retention": 2.702291071967057,
+          "forgetting": 0.0011736277695821862
+        },
+        {
+          "step": 1856,
+          "target": 1.537831487404073,
+          "retention": 2.702292462797775,
+          "forgetting": 0.0011750186003003371
+        },
+        {
+          "step": 1888,
+          "target": 1.5377407117609023,
+          "retention": 2.702270755177167,
+          "forgetting": 0.0011533109796921792
+        },
+        {
+          "step": 1920,
+          "target": 1.5376254062878745,
+          "retention": 2.7022808256539337,
+          "forgetting": 0.0011633814564588896
+        },
+        {
+          "step": 1952,
+          "target": 1.5375371850628061,
+          "retention": 2.702292271040615,
+          "forgetting": 0.0011748268431404085
+        },
+        {
+          "step": 1984,
+          "target": 1.537435369557887,
+          "retention": 2.7022744314717317,
+          "forgetting": 0.0011569872742569487
+        },
+        {
+          "step": 2016,
+          "target": 1.5374963333473861,
+          "retention": 2.702262043850048,
+          "forgetting": 0.0011445996525734081
+        },
+        {
+          "step": 2048,
+          "target": 1.5374308545179283,
+          "retention": 2.702265835507545,
+          "forgetting": 0.0011483913100702736
         }
       ],
       "scientifically_accepted": false,
@@ -30444,13 +30582,13 @@
       "arm": "普通CPT学习率细调 · LR 1.25e-05",
       "lr": 1.25e-05,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1703,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 3.326171875,
+      "passes": 4.0,
       "unique_batches": 512,
-      "progress": 0.83154296875,
-      "eta_hours": 0.13790898775720659,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -30661,6 +30799,72 @@
           "target": 1.5331352128013902,
           "retention": 2.702720357700233,
           "forgetting": 0.0016029135027579855
+        },
+        {
+          "step": 1728,
+          "target": 1.5332408916717508,
+          "retention": 2.7027587166712896,
+          "forgetting": 0.0016412724738148476
+        },
+        {
+          "step": 1760,
+          "target": 1.5332207855589313,
+          "retention": 2.7027692333167614,
+          "forgetting": 0.0016517891192866507
+        },
+        {
+          "step": 1792,
+          "target": 1.533237581141429,
+          "retention": 2.702808540861769,
+          "forgetting": 0.0016910966642940117
+        },
+        {
+          "step": 1824,
+          "target": 1.5330619618013968,
+          "retention": 2.7028171400828183,
+          "forgetting": 0.0016996958853434663
+        },
+        {
+          "step": 1856,
+          "target": 1.5330577963903427,
+          "retention": 2.702813581905363,
+          "forgetting": 0.0016961377078881235
+        },
+        {
+          "step": 1888,
+          "target": 1.532930080730198,
+          "retention": 2.70277359544178,
+          "forgetting": 0.0016561512443051818
+        },
+        {
+          "step": 1920,
+          "target": 1.5327627053000752,
+          "retention": 2.702789290336506,
+          "forgetting": 0.0016718461390312633
+        },
+        {
+          "step": 1952,
+          "target": 1.532652120993384,
+          "retention": 2.7027993614485974,
+          "forgetting": 0.0016819172511226554
+        },
+        {
+          "step": 1984,
+          "target": 1.532553214784853,
+          "retention": 2.702783426278556,
+          "forgetting": 0.0016659820810813741
+        },
+        {
+          "step": 2016,
+          "target": 1.5326757431920512,
+          "retention": 2.7027797155810913,
+          "forgetting": 0.0016622713836165204
+        },
+        {
+          "step": 2048,
+          "target": 1.5325943200843948,
+          "retention": 2.702779252855116,
+          "forgetting": 0.0016618086576412061
         }
       ],
       "scientifically_accepted": false,
@@ -30678,12 +30882,12 @@
       "lr": 7.5e-06,
       "outer": "AdamW",
       "status": "running",
-      "step": 897,
+      "step": 1204,
       "horizon": 2048,
-      "passes": 1.751953125,
+      "passes": 2.3515625,
       "unique_batches": 512,
-      "progress": 0.43798828125,
-      "eta_hours": 0.8801751634203699,
+      "progress": 0.587890625,
+      "eta_hours": 0.6447922704979363,
       "curves": [
         {
           "step": 0,
@@ -30756,6 +30960,48 @@
           "target": 1.3520744004888576,
           "retention": 2.4785938010424435,
           "forgetting": -0.004989485130713067
+        },
+        {
+          "step": 960,
+          "target": 1.3511292083971738,
+          "retention": 2.478393154819256,
+          "forgetting": -0.005190131353900451
+        },
+        {
+          "step": 1024,
+          "target": 1.3504325492886569,
+          "retention": 2.4781559797046553,
+          "forgetting": -0.005427306468501314
+        },
+        {
+          "step": 1056,
+          "target": 1.349795381532164,
+          "retention": 2.4779725308101472,
+          "forgetting": -0.005610755363009368
+        },
+        {
+          "step": 1088,
+          "target": 1.3498168982891903,
+          "retention": 2.478054871361686,
+          "forgetting": -0.005528414811470483
+        },
+        {
+          "step": 1120,
+          "target": 1.349458296463417,
+          "retention": 2.4779369061838867,
+          "forgetting": -0.005646379989269867
+        },
+        {
+          "step": 1152,
+          "target": 1.3494160039554883,
+          "retention": 2.4779612572561924,
+          "forgetting": -0.005622028916964172
+        },
+        {
+          "step": 1184,
+          "target": 1.3490389595851882,
+          "retention": 2.477965309662708,
+          "forgetting": -0.005617976510448486
         }
       ],
       "scientifically_accepted": false,
@@ -30773,12 +31019,12 @@
       "lr": 8.75e-06,
       "outer": "AdamW",
       "status": "running",
-      "step": 899,
+      "step": 1206,
       "horizon": 2048,
-      "passes": 1.755859375,
+      "passes": 2.35546875,
       "unique_batches": 512,
-      "progress": 0.43896484375,
-      "eta_hours": 0.8777150253320967,
+      "progress": 0.5888671875,
+      "eta_hours": 0.6431307676959679,
       "curves": [
         {
           "step": 0,
@@ -30851,6 +31097,48 @@
           "target": 1.3499556550455734,
           "retention": 2.478364716455935,
           "forgetting": -0.005218569717221566
+        },
+        {
+          "step": 960,
+          "target": 1.3490053899004328,
+          "retention": 2.478153706659738,
+          "forgetting": -0.005429579513418492
+        },
+        {
+          "step": 1024,
+          "target": 1.3482847913020979,
+          "retention": 2.4778968550879226,
+          "forgetting": -0.005686431085234034
+        },
+        {
+          "step": 1056,
+          "target": 1.3476798659290798,
+          "retention": 2.477720210483013,
+          "forgetting": -0.00586307569014366
+        },
+        {
+          "step": 1088,
+          "target": 1.3478235389258661,
+          "retention": 2.4778354814421077,
+          "forgetting": -0.005747804731048856
+        },
+        {
+          "step": 1120,
+          "target": 1.3474360409291142,
+          "retention": 2.477691222784143,
+          "forgetting": -0.00589206338901338
+        },
+        {
+          "step": 1152,
+          "target": 1.347486547678019,
+          "retention": 2.477748946893113,
+          "forgetting": -0.005834339280043732
+        },
+        {
+          "step": 1184,
+          "target": 1.3471309660490898,
+          "retention": 2.4777561797327747,
+          "forgetting": -0.005827106440381868
         }
       ],
       "scientifically_accepted": false,
@@ -30868,12 +31156,12 @@
       "lr": 1.25e-05,
       "outer": "AdamW",
       "status": "running",
-      "step": 896,
+      "step": 1200,
       "horizon": 2048,
-      "passes": 1.75,
+      "passes": 2.34375,
       "unique_batches": 512,
-      "progress": 0.4375,
-      "eta_hours": 0.8881702744960784,
+      "progress": 0.5859375,
+      "eta_hours": 0.6518078876607534,
       "curves": [
         {
           "step": 0,
@@ -30940,6 +31228,54 @@
           "target": 1.3471328674435317,
           "retention": 2.477964698689536,
           "forgetting": -0.005618587483620541
+        },
+        {
+          "step": 896,
+          "target": 1.3456990413825705,
+          "retention": 2.4780491611395457,
+          "forgetting": -0.005534125033610948
+        },
+        {
+          "step": 960,
+          "target": 1.3446937510343095,
+          "retention": 2.4777961544121343,
+          "forgetting": -0.005787131761022302
+        },
+        {
+          "step": 1024,
+          "target": 1.3438783583915064,
+          "retention": 2.477484335054293,
+          "forgetting": -0.006098951118863383
+        },
+        {
+          "step": 1056,
+          "target": 1.343525570517658,
+          "retention": 2.477345577265826,
+          "forgetting": -0.0062377089073306635
+        },
+        {
+          "step": 1088,
+          "target": 1.3439995348229878,
+          "retention": 2.4775443787810922,
+          "forgetting": -0.006038907392064363
+        },
+        {
+          "step": 1120,
+          "target": 1.3435098234717588,
+          "retention": 2.4773334683823216,
+          "forgetting": -0.0062498177908349994
+        },
+        {
+          "step": 1152,
+          "target": 1.3438608977810078,
+          "retention": 2.47752419632295,
+          "forgetting": -0.006059089850206423
+        },
+        {
+          "step": 1184,
+          "target": 1.3436403882440717,
+          "retention": 2.4775313817417595,
+          "forgetting": -0.006051904431397137
         }
       ],
       "scientifically_accepted": false,
@@ -37707,7 +38043,7 @@
     "automatic_agent_followup": false,
     "last_agent_check_at": 1790366412.235762,
     "last_agent_check_label": "2026-09-25 16:00 EDT",
-    "agent_check_age_minutes": 1.1220179557800294
+    "agent_check_age_minutes": 16.372569060325624
   },
   "incidents": [
     {
@@ -37744,7 +38080,7 @@
       "family": "ordinary_lr_refinement",
       "why": "排除普通基线LR调得过粗；固定候选，先加强对照再加seed。",
       "design": "135M/360M各3个新普通LR：7.5e-6、8.75e-6、1.25e-5；其余seed0数据、replay、优化器与2048步计划不变。每条45个科学评估点，共270点。",
-      "decision": "配置已准备 6/6；运行 6，训练完成 0，失败／中断 0，待启动／确认 0。训练上限13.5 GPU小时；只保留声明的模型点和滚动恢复文件，无历史优化器状态网格。单seed探索，Lookahead仍与T³单列。"
+      "decision": "配置已准备 6/6；运行 3，训练完成 3，失败／中断 0，待启动／确认 0。训练上限13.5 GPU小时；只保留声明的模型点和滚动恢复文件，无历史优化器状态网格。单seed探索，Lookahead仍与T³单列。"
     },
     {
       "priority": "P0",
