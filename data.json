@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790377374.6912646,
-  "generated_label": "2026-09-25 19:02 EDT",
+  "generated_at": 1790378287.1485758,
+  "generated_label": "2026-09-25 19:18 EDT",
   "slots": [
     {
       "name": "A",
@@ -14,9 +14,9 @@
     {
       "name": "B",
       "allocated": 32,
-      "ours": 3,
+      "ours": 0,
       "other": 0,
-      "warm": 29,
+      "warm": 32,
       "unknown": 0,
       "next": "PENDING"
     }
@@ -31778,13 +31778,13 @@
       "arm": "更强普通CPT对照 · seed 1",
       "lr": 8.75e-06,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1523,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 2.974609375,
+      "passes": 4.0,
       "unique_batches": 512,
-      "progress": 0.74365234375,
-      "eta_hours": 0.21009309211027963,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -31809,6 +31809,24 @@
           "target": 1.542468665429228,
           "retention": 2.7024368567815675,
           "forgetting": 0.0013194125840927384
+        },
+        {
+          "step": 1536,
+          "target": 1.538573162865328,
+          "retention": 2.7022903575579065,
+          "forgetting": 0.0011729133604316822
+        },
+        {
+          "step": 1664,
+          "target": 1.5381258388757213,
+          "retention": 2.7022293139605567,
+          "forgetting": 0.001111869763081863
+        },
+        {
+          "step": 2048,
+          "target": 1.537419450637049,
+          "retention": 2.7022854110488708,
+          "forgetting": 0.001167966851395974
         }
       ],
       "scientifically_accepted": false,
@@ -31825,13 +31843,13 @@
       "arm": "更强普通CPT对照 · seed 2",
       "lr": 8.75e-06,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1510,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 2.94921875,
+      "passes": 4.0,
       "unique_batches": 512,
-      "progress": 0.7373046875,
-      "eta_hours": 0.2154486543366996,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -31856,6 +31874,24 @@
           "target": 1.5413816233715574,
           "retention": 2.702395845126792,
           "forgetting": 0.0012784009293174137
+        },
+        {
+          "step": 1536,
+          "target": 1.5378963499594624,
+          "retention": 2.702284283396441,
+          "forgetting": 0.0011668391989663185
+        },
+        {
+          "step": 1664,
+          "target": 1.5377195156765695,
+          "retention": 2.702224213050513,
+          "forgetting": 0.0011067688530381758
+        },
+        {
+          "step": 2048,
+          "target": 1.5369922471027389,
+          "retention": 2.7022635488134688,
+          "forgetting": 0.0011461046159939592
         }
       ],
       "scientifically_accepted": false,
@@ -31872,13 +31908,13 @@
       "arm": "更强普通CPT对照 · seed 3",
       "lr": 8.75e-06,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1503,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 2.935546875,
+      "passes": 4.0,
       "unique_batches": 512,
-      "progress": 0.73388671875,
-      "eta_hours": 0.22013816427659347,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -31903,6 +31939,24 @@
           "target": 1.541815678623636,
           "retention": 2.7023574270473767,
           "forgetting": 0.0012399828499018994
+        },
+        {
+          "step": 1536,
+          "target": 1.538095247971464,
+          "retention": 2.7021940464503205,
+          "forgetting": 0.001076602252845671
+        },
+        {
+          "step": 1664,
+          "target": 1.5378633683477507,
+          "retention": 2.702245450365854,
+          "forgetting": 0.0011280061683791587
+        },
+        {
+          "step": 2048,
+          "target": 1.5371156286830874,
+          "retention": 2.7022250129502474,
+          "forgetting": 0.0011075687527726252
         }
       ],
       "scientifically_accepted": false,
@@ -38668,14 +38722,14 @@
   "monitoring": {
     "snapshot_refresh_seconds": 900,
     "automatic_agent_followup": false,
-    "last_agent_check_at": 1790377291.3588629,
-    "last_agent_check_label": "2026-09-25 19:01 EDT",
-    "agent_check_age_minutes": 1.3888733625411986
+    "last_agent_check_at": 1790377986.4689732,
+    "last_agent_check_label": "2026-09-25 19:13 EDT",
+    "agent_check_age_minutes": 5.011326710383098
   },
   "incidents": [
     {
       "title": "自动快照与 agent 巡检分别记录",
-      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-25 19:01 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
+      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-25 19:13 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
     },
     {
       "title": "A 配套实验：共享调度中断",
@@ -38707,7 +38761,7 @@
       "family": "refined_paired_seeds",
       "why": "新文档验证通过后，检验收益是否依赖seed0训练顺序；复用候选避免重复计算。",
       "design": "三个新普通LR8.75e-6训练，与已有K64/alpha0.1/LR1e-4候选seed1/2/3严格配对。主比较2048对1664，次比较均2048；九个固定评分点。",
-      "decision": "配置已准备 3/3；运行 3，训练完成 0，失败／中断 0，待启动／确认 0。复用三个已完成Lookahead候选，只新增普通LR8.75e-6训练；主对照1664步、次比较2048步。用已冻结文档验证新的配对训练顺序，不称为再次独立文档验证；训练上限4.5 GPU小时。"
+      "decision": "配置已准备 3/3；运行 0，训练完成 3，失败／中断 0，待启动／确认 0。复用三个已完成Lookahead候选，只新增普通LR8.75e-6训练；主对照1664步、次比较2048步。用已冻结文档验证新的配对训练顺序，不称为再次独立文档验证；训练上限4.5 GPU小时。"
     },
     {
       "priority": "P0",
