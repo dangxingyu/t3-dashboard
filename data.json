@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790359214.4226627,
-  "generated_label": "2026-09-25 14:00 EDT",
+  "generated_at": 1790360136.9514315,
+  "generated_label": "2026-09-25 14:15 EDT",
   "slots": [
     {
       "name": "A",
@@ -29437,12 +29437,12 @@
       "lr": 1e-05,
       "outer": "AdamW",
       "status": "running",
-      "step": 1218,
+      "step": 1521,
       "horizon": 2048,
-      "passes": 2.37890625,
+      "passes": 2.970703125,
       "unique_batches": 512,
-      "progress": 0.189453125,
-      "eta_hours": 0.6357966504544795,
+      "progress": 0.4853515625,
+      "eta_hours": 0.40302897074350363,
       "curves": [
         {
           "step": 1056,
@@ -29485,6 +29485,69 @@
           "retention": 2.4774828116654164,
           "learning": 0.10384450166387849,
           "forgetting": -0.006100474507740206
+        },
+        {
+          "step": 1248,
+          "target": 1.3460286390691731,
+          "retention": 2.477537185414786,
+          "learning": 0.10364437161148965,
+          "forgetting": -0.006046100758370532
+        },
+        {
+          "step": 1280,
+          "target": 1.3460867019588527,
+          "retention": 2.477440899048902,
+          "learning": 0.10358630872181007,
+          "forgetting": -0.0061423871242545225
+        },
+        {
+          "step": 1312,
+          "target": 1.3457143846682074,
+          "retention": 2.4774097537413597,
+          "learning": 0.10395862601245542,
+          "forgetting": -0.006173532431796858
+        },
+        {
+          "step": 1344,
+          "target": 1.3454550451634393,
+          "retention": 2.477435056566854,
+          "learning": 0.10421796551722351,
+          "forgetting": -0.006148229606302458
+        },
+        {
+          "step": 1376,
+          "target": 1.344955921565881,
+          "retention": 2.477420746088512,
+          "learning": 0.10471708911478173,
+          "forgetting": -0.006162540084644785
+        },
+        {
+          "step": 1408,
+          "target": 1.3446660792281608,
+          "retention": 2.4775033090146197,
+          "learning": 0.10500693145250195,
+          "forgetting": -0.00607997715853692
+        },
+        {
+          "step": 1440,
+          "target": 1.3445884748289454,
+          "retention": 2.477493676085481,
+          "learning": 0.1050845358517174,
+          "forgetting": -0.006089610087675723
+        },
+        {
+          "step": 1472,
+          "target": 1.3445641965923305,
+          "retention": 2.4774781455895956,
+          "learning": 0.10510881408833228,
+          "forgetting": -0.006105140583561042
+        },
+        {
+          "step": 1504,
+          "target": 1.3447571289418905,
+          "retention": 2.477475801042077,
+          "learning": 0.10491588173877231,
+          "forgetting": -0.006107485131079393
         }
       ],
       "scientifically_accepted": false,
@@ -36551,14 +36614,14 @@
   "monitoring": {
     "snapshot_refresh_seconds": 900,
     "automatic_agent_followup": false,
-    "last_agent_check_at": 1790358796.2599533,
-    "last_agent_check_label": "2026-09-25 13:53 EDT",
-    "agent_check_age_minutes": 6.969378491242726
+    "last_agent_check_at": 1790359812.7065947,
+    "last_agent_check_label": "2026-09-25 14:10 EDT",
+    "agent_check_age_minutes": 5.404080613454183
   },
   "incidents": [
     {
       "title": "自动快照与 agent 巡检分别记录",
-      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-25 13:53 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
+      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-25 14:10 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
     },
     {
       "title": "A 配套实验：共享调度中断",
