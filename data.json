@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790374380.209559,
-  "generated_label": "2026-09-25 18:13 EDT",
+  "generated_at": 1790374673.6071854,
+  "generated_label": "2026-09-25 18:17 EDT",
   "slots": [
     {
       "name": "A",
@@ -38527,14 +38527,14 @@
   "monitoring": {
     "snapshot_refresh_seconds": 900,
     "automatic_agent_followup": false,
-    "last_agent_check_at": 1790374141.263704,
-    "last_agent_check_label": "2026-09-25 18:09 EDT",
-    "agent_check_age_minutes": 3.982430915037791
+    "last_agent_check_at": 1790374513.3786004,
+    "last_agent_check_label": "2026-09-25 18:15 EDT",
+    "agent_check_age_minutes": 2.670476416746775
   },
   "incidents": [
     {
       "title": "自动快照与 agent 巡检分别记录",
-      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-25 18:09 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
+      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-25 18:15 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
     },
     {
       "title": "A 配套实验：共享调度中断",
