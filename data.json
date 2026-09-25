@@ -1,22 +1,22 @@
 {
-  "generated_at": 1790295686.797463,
-  "generated_label": "2026-09-24 20:21 EDT",
+  "generated_at": 1790296582.5988348,
+  "generated_label": "2026-09-24 20:36 EDT",
   "slots": [
     {
       "name": "A",
       "allocated": 32,
-      "ours": 0,
-      "other": 0,
-      "warm": 32,
-      "unknown": 0,
+      "ours": null,
+      "other": null,
+      "warm": null,
+      "unknown": 32,
       "next": "PENDING"
     },
     {
       "name": "B",
       "allocated": 32,
-      "ours": 1,
+      "ours": 4,
       "other": 0,
-      "warm": 31,
+      "warm": 28,
       "unknown": 0,
       "next": "PENDING"
     }
@@ -19078,13 +19078,13 @@
       "arm": "T³ · 适应后教师 · KL β=1",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "running",
-      "step": 6680,
+      "status": "trained",
+      "step": 6708,
       "horizon": 6708,
-      "passes": 3.983303518187239,
+      "passes": 4.0,
       "unique_batches": 1677,
-      "progress": 0.9958258795468098,
-      "eta_hours": 0.028155592125840484,
+      "progress": 1.0,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -19121,6 +19121,12 @@
           "target": 1.5149667114664631,
           "retention": 2.7612244992962145,
           "forgetting": 0.0601070550987397
+        },
+        {
+          "step": 6708,
+          "target": 1.5147551154068408,
+          "retention": 2.764316211447497,
+          "forgetting": 0.06319876725002205
         }
       ],
       "scientifically_accepted": false,
@@ -19210,14 +19216,45 @@
       "arm": "普通对照 · 固定初始教师 · KL β=1",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 4719,
+      "status": "running",
+      "step": 4873,
       "horizon": 6708,
-      "passes": 2.813953488372093,
+      "passes": 2.905784138342278,
       "unique_batches": 1677,
-      "progress": 0.7034883720930233,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.7264460345855694,
+      "eta_hours": 0.9634638389769761,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.6412638887884063,
+          "retention": 2.7011172903534426,
+          "forgetting": -1.5384403218021703e-07
+        },
+        {
+          "step": 32,
+          "target": 1.638834722107149,
+          "retention": 2.701095404368191,
+          "forgetting": -2.203982928383752e-05
+        },
+        {
+          "step": 1677,
+          "target": 1.5587335468853645,
+          "retention": 2.7111114665092595,
+          "forgetting": 0.0099940223117847
+        },
+        {
+          "step": 3354,
+          "target": 1.548131576474652,
+          "retention": 2.7153232730460153,
+          "forgetting": 0.014205828848540492
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "CE(Q) + β KL(teacher || student) · quarter ×4",
       "regime": "quarter_four_passes",
@@ -19236,14 +19273,45 @@
       "arm": "普通对照 · 固定初始教师 · KL β=10",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 4772,
+      "status": "running",
+      "step": 4924,
       "horizon": 6708,
-      "passes": 2.845557543231962,
+      "passes": 2.936195587358378,
       "unique_batches": 1677,
-      "progress": 0.7113893858079905,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.7340488968395945,
+      "eta_hours": 0.9440693770674988,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.6412638899984624,
+          "retention": 2.7011172663599097,
+          "forgetting": -1.7783756511846605e-07
+        },
+        {
+          "step": 32,
+          "target": 1.6390376632106987,
+          "retention": 2.7010950973693855,
+          "forgetting": -2.2346828089325754e-05
+        },
+        {
+          "step": 1677,
+          "target": 1.6140895908714445,
+          "retention": 2.70151471484233,
+          "forgetting": 0.0003972706448553964
+        },
+        {
+          "step": 3354,
+          "target": 1.609526124873343,
+          "retention": 2.7020421750555874,
+          "forgetting": 0.0009247308581126212
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "CE(Q) + β KL(teacher || student) · quarter ×4",
       "regime": "quarter_four_passes",
@@ -19400,14 +19468,45 @@
       "arm": "普通对照 · 固定初始教师 · KL β=1",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 4704,
+      "status": "running",
+      "step": 4859,
       "horizon": 6708,
-      "passes": 2.8050089445438284,
+      "passes": 2.8974358974358974,
       "unique_batches": 1677,
-      "progress": 0.7012522361359571,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.7243589743589743,
+      "eta_hours": 0.9628046816502077,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.6412571216996186,
+          "retention": 2.701116863963477,
+          "forgetting": -5.802339977378779e-07
+        },
+        {
+          "step": 32,
+          "target": 1.6344091176401916,
+          "retention": 2.701099197558712,
+          "forgetting": -1.824663876259791e-05
+        },
+        {
+          "step": 1677,
+          "target": 1.5465455094712237,
+          "retention": 2.721457526124735,
+          "forgetting": 0.020340081927260112
+        },
+        {
+          "step": 3354,
+          "target": 1.5368475021766,
+          "retention": 2.7318085100043663,
+          "forgetting": 0.030691065806891515
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "CE(Q) + β KL(teacher || student) · quarter ×4",
       "regime": "quarter_four_passes",
@@ -19426,14 +19525,45 @@
       "arm": "普通对照 · 固定初始教师 · KL β=10",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 4770,
+      "status": "running",
+      "step": 4923,
       "horizon": 6708,
-      "passes": 2.8443649373881934,
+      "passes": 2.9355992844364938,
       "unique_batches": 1677,
-      "progress": 0.7110912343470484,
-      "eta_hours": null,
-      "curves": [],
+      "progress": 0.7338998211091234,
+      "eta_hours": 0.9333512278137884,
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        },
+        {
+          "step": 1,
+          "target": 1.6412571025497853,
+          "retention": 2.7011168744214142,
+          "forgetting": -5.697760605549718e-07
+        },
+        {
+          "step": 32,
+          "target": 1.6363755373672815,
+          "retention": 2.701076077179916,
+          "forgetting": -4.1367017558968655e-05
+        },
+        {
+          "step": 1677,
+          "target": 1.6104874847642014,
+          "retention": 2.703167661112069,
+          "forgetting": 0.002050216914594394
+        },
+        {
+          "step": 3354,
+          "target": 1.6057994439794654,
+          "retention": 2.7043571209696142,
+          "forgetting": 0.0032396767721394326
+        }
+      ],
       "scientifically_accepted": false,
       "objective": "CE(Q) + β KL(teacher || student) · quarter ×4",
       "regime": "quarter_four_passes",
@@ -27029,14 +27159,14 @@
   "monitoring": {
     "snapshot_refresh_seconds": 900,
     "automatic_agent_followup": false,
-    "last_agent_check_at": 1790295465.7769446,
-    "last_agent_check_label": "2026-09-24 20:17 EDT",
-    "agent_check_age_minutes": 3.6836753050486246
+    "last_agent_check_at": 1790296418.8483222,
+    "last_agent_check_label": "2026-09-24 20:33 EDT",
+    "agent_check_age_minutes": 2.7291752099990845
   },
   "incidents": [
     {
       "title": "自动快照与 agent 巡检分别记录",
-      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-24 20:17 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
+      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-24 20:33 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
     },
     {
       "title": "A 配套实验：共享调度中断",
@@ -27052,7 +27182,7 @@
       "priority": "P0",
       "title": "CPT：能否学得更多，同时忘得更少？",
       "why": "T³ 包含训练时适应、测试与反馈的不同算法；检验它们能否超过调参的普通 CPT、replay 和固定教师蒸馏。",
-      "next": "新64组训练及112点评估已核验：外层AdamW下48个适应效应均小于4e-5 NLL，最大遗忘改善3.64e-5；16个zero与普通对照的文档得分相同。普通AdamW半程checkpoint在代码和数学上均超过此前6个SGD候选终点。保留自身zero收益，当前设置不支持超过调参普通训练；外层局部诊断已核验：梯度相对差异约10.5%，AdamW自适应分量约1.23%；不构成轨迹因果解释。固定内层的强度探针已完成；6组修正强度和10组更强数据约束比较已启动。新目标覆盖完整元梯度与适应后教师蒸馏。新一轮：B 组元梯度与对照32组，配置已准备 32/32；运行 0，训练完成 32，失败／中断 0，待启动／确认 0。A 组教师蒸馏16组，配置已准备 16/16；运行 1，训练完成 11，失败／中断 0，待启动／确认 4。另有一次遍历 S+Q 对照4组，配置已准备 4/4；运行 0，训练完成 4，失败／中断 0，待启动／确认 0。这些是执行进度，尚无本轮已接受科学结果；不自动加seed。"
+      "next": "新64组训练及112点评估已核验：外层AdamW下48个适应效应均小于4e-5 NLL，最大遗忘改善3.64e-5；16个zero与普通对照的文档得分相同。普通AdamW半程checkpoint在代码和数学上均超过此前6个SGD候选终点。保留自身zero收益，当前设置不支持超过调参普通训练；外层局部诊断已核验：梯度相对差异约10.5%，AdamW自适应分量约1.23%；不构成轨迹因果解释。固定内层的强度探针已完成；6组修正强度和10组更强数据约束比较已启动。新目标覆盖完整元梯度与适应后教师蒸馏。新一轮：B 组元梯度与对照32组，配置已准备 32/32；运行 0，训练完成 32，失败／中断 0，待启动／确认 0。A 组教师蒸馏16组，配置已准备 16/16；运行 4，训练完成 12，失败／中断 0，待启动／确认 0。另有一次遍历 S+Q 对照4组，配置已准备 4/4；运行 0，训练完成 4，失败／中断 0，待启动／确认 0。这些是执行进度，尚无本轮已接受科学结果；不自动加seed。"
     },
     {
       "priority": "P0",
@@ -27076,7 +27206,7 @@
       "family": "distillation",
       "why": "测试蒸馏反馈是否不同于适应后梯度，并排除普通模型锚定的收益。",
       "design": "四分之一数据／一次遍历 × 两个 outer LR × 适应后教师／固定初始教师 × 两个 KL 系数；只用新域训练数据，配普通训练零控制。",
-      "decision": "配置已准备 16/16；运行 1，训练完成 11，失败／中断 0，待启动／确认 4。每次教师做8步临时适应，学生只做1次持久更新；计入额外曝光和计算。固定初始教师属于普通蒸馏对照；候选还须超过 S+Q 普通训练曲线。"
+      "decision": "配置已准备 16/16；运行 4，训练完成 12，失败／中断 0，待启动／确认 0。每次教师做8步临时适应，学生只做1次持久更新；计入额外曝光和计算。固定初始教师属于普通蒸馏对照；候选还须超过 S+Q 普通训练曲线。"
     },
     {
       "priority": "P0",
