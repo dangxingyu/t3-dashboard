@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790349221.6854985,
-  "generated_label": "2026-09-25 11:13 EDT",
+  "generated_at": 1790349518.8115633,
+  "generated_label": "2026-09-25 11:18 EDT",
   "slots": [
     {
       "name": "A",
@@ -14,11 +14,11 @@
     {
       "name": "B",
       "allocated": 32,
-      "ours": 0,
-      "other": 0,
-      "warm": 32,
-      "unknown": 0,
-      "next": "PENDING"
+      "ours": null,
+      "other": null,
+      "warm": null,
+      "unknown": 32,
+      "next": "UNKNOWN"
     }
   ],
   "runs": [
@@ -24298,14 +24298,21 @@
       "arm": "Lookahead K64 · seed 1",
       "lr": 0.0001,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 0,
+      "status": "unconfirmed",
+      "step": 32,
       "horizon": 2048,
-      "passes": 0.0,
+      "passes": 0.0625,
       "unique_batches": 512,
-      "progress": 0.0,
+      "progress": 0.015625,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        }
+      ],
       "scientifically_accepted": false,
       "seed": 1,
       "regime": "quarter_four_passes",
@@ -24320,14 +24327,21 @@
       "arm": "固定调参普通对照 · seed 1",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 0,
+      "status": "unconfirmed",
+      "step": 32,
       "horizon": 2048,
-      "passes": 0.0,
+      "passes": 0.0625,
       "unique_batches": 512,
-      "progress": 0.0,
+      "progress": 0.015625,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        }
+      ],
       "scientifically_accepted": false,
       "seed": 1,
       "regime": "quarter_four_passes",
@@ -24342,14 +24356,21 @@
       "arm": "Lookahead K64 · seed 2",
       "lr": 0.0001,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 0,
+      "status": "unconfirmed",
+      "step": 32,
       "horizon": 2048,
-      "passes": 0.0,
+      "passes": 0.0625,
       "unique_batches": 512,
-      "progress": 0.0,
+      "progress": 0.015625,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        }
+      ],
       "scientifically_accepted": false,
       "seed": 2,
       "regime": "quarter_four_passes",
@@ -24364,14 +24385,21 @@
       "arm": "固定调参普通对照 · seed 2",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 0,
+      "status": "unconfirmed",
+      "step": 32,
       "horizon": 2048,
-      "passes": 0.0,
+      "passes": 0.0625,
       "unique_batches": 512,
-      "progress": 0.0,
+      "progress": 0.015625,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        }
+      ],
       "scientifically_accepted": false,
       "seed": 2,
       "regime": "quarter_four_passes",
@@ -24386,14 +24414,21 @@
       "arm": "Lookahead K64 · seed 3",
       "lr": 0.0001,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 0,
+      "status": "unconfirmed",
+      "step": 32,
       "horizon": 2048,
-      "passes": 0.0,
+      "passes": 0.0625,
       "unique_batches": 512,
-      "progress": 0.0,
+      "progress": 0.015625,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        }
+      ],
       "scientifically_accepted": false,
       "seed": 3,
       "regime": "quarter_four_passes",
@@ -24408,14 +24443,21 @@
       "arm": "固定调参普通对照 · seed 3",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "prepared",
-      "step": 0,
+      "status": "unconfirmed",
+      "step": 32,
       "horizon": 2048,
-      "passes": 0.0,
+      "passes": 0.0625,
       "unique_batches": 512,
-      "progress": 0.0,
+      "progress": 0.015625,
       "eta_hours": null,
-      "curves": [],
+      "curves": [
+        {
+          "step": 0,
+          "target": 1.6412672954544512,
+          "retention": 2.701117444197475,
+          "forgetting": 0.0
+        }
+      ],
       "scientifically_accepted": false,
       "seed": 3,
       "regime": "quarter_four_passes",
@@ -35929,7 +35971,7 @@
     "automatic_agent_followup": false,
     "last_agent_check_at": 1790348458.3091226,
     "last_agent_check_label": "2026-09-25 11:00 EDT",
-    "agent_check_age_minutes": 12.722939598560334
+    "agent_check_age_minutes": 17.675040678183237
   },
   "incidents": [
     {
@@ -35950,7 +35992,7 @@
       "priority": "P0",
       "title": "CPT：能否学得更多，同时忘得更少？",
       "why": "T³ 包含训练时适应、测试与反馈的不同算法；检验它们能否超过调参的普通 CPT、replay 和固定教师蒸馏。",
-      "next": "56条完整训练已核验，开发集192个T³点中0个通过完整普通前沿、0个同时有own-zero支持。48条曲线：完成48、运行0、失败0；共384固定checkpoint。复用已验证的512篇文档与base评分，单seed探索；无收益也完整报告。当前最小半径的目标学习最好，但仍须结合完整普通早停前沿；不会用更弱终点制造收益。 135M32条轨迹及26个选定checkpoint评分完成。K8接近普通LR缩小十倍；K64、四遍数据、20% replay相对预选普通LR1e-5第1536步：目标域代价+0.000444，FineWeb改善0.001504 NLL。单seed、512篇已观察文档，尚未独立确认；接下来加密普通LR/早停checkpoint，排除稀疏对照造成的优势。训练20.677、评分0.290 GPU小时。Wave2a和360M的执行状态见下方各实验进度；仅使用B。 密集对照已完成：新增44点及原状态精确复现。最强匹配普通对照变为LR1e-5第1376步，K64目标NLL降低0.000430、FineWeb降低0.001217；仍是单seed开发集。各512篇新数学/FineWeb文档及9项评分已准备，尚未启动评分。加密成本含失败启动共0.641GPU小时。 独立文档评分已完成并通过固定主比较：数学基本不变、FineWeb降低0.001446。当前结论只覆盖一个训练seed的标准Lookahead风格对照，尚非预训练FOMAML算子的收益证据。 360M32条训练也已完成：同一K64/四遍数据/20%replay配置保留开发集信号，相对最强匹配普通对照，数学代价+0.000074、FineWeb降低0.001117；单seed，尚未独立评分。"
+      "next": "56条完整训练已核验，开发集192个T³点中0个通过完整普通前沿、0个同时有own-zero支持。48条曲线：完成48、运行0、失败0；共384固定checkpoint。复用已验证的512篇文档与base评分，单seed探索；无收益也完整报告。当前最小半径的目标学习最好，但仍须结合完整普通早停前沿；不会用更弱终点制造收益。 48条曲线、384点评分与完整普通前沿已核验。两个数据比例中0个固定主比较通过探索性门槛。区间为配对文档bootstrap，只有一个训练seed，不能视为独立确认。 135M32条轨迹及26个选定checkpoint评分完成。K8接近普通LR缩小十倍；K64、四遍数据、20% replay相对预选普通LR1e-5第1536步：目标域代价+0.000444，FineWeb改善0.001504 NLL。单seed、512篇已观察文档，尚未独立确认；接下来加密普通LR/早停checkpoint，排除稀疏对照造成的优势。训练20.677、评分0.290 GPU小时。Wave2a和360M的执行状态见下方各实验进度；仅使用B。 密集对照已完成：新增44点及原状态精确复现。最强匹配普通对照变为LR1e-5第1376步，K64目标NLL降低0.000430、FineWeb降低0.001217；仍是单seed开发集。各512篇新数学/FineWeb文档及9项评分已准备，尚未启动评分。加密成本含失败启动共0.641GPU小时。 独立文档评分已完成并通过固定主比较：数学基本不变、FineWeb降低0.001446。当前结论只覆盖一个训练seed的标准Lookahead风格对照，尚非预训练FOMAML算子的收益证据。 360M32条训练也已完成：同一K64/四遍数据/20%replay配置保留开发集信号，相对最强匹配普通对照，数学代价+0.000074、FineWeb降低0.001117；单seed，尚未独立评分。"
     },
     {
       "priority": "P0",
@@ -35966,7 +36008,7 @@
       "family": "overfit_external",
       "why": "截止前优先回答预训练T³算子在CPT中是否改善学习与遗忘。",
       "design": "18条普通LR×WD曲线、24条非零半径曲线、6条own-zero；每条8个固定点，共384点评分。",
-      "decision": "48条曲线：完成48、运行0、失败0；共384固定checkpoint。复用已验证的512篇文档与base评分，单seed探索；无收益也完整报告。"
+      "decision": "48条曲线、384点评分与完整普通前沿已核验。两个数据比例中0个固定主比较通过探索性门槛。区间为配对文档bootstrap，只有一个训练seed，不能视为独立确认。"
     },
     {
       "priority": "P1",
@@ -35982,7 +36024,7 @@
       "family": "pretraining_overfit",
       "why": "检验普通CPT出现目标域过拟合后，预训练中有效的T³算子是否改善学习–遗忘前沿。",
       "design": "1/32与1/64数学数据；LR 3e-6/1e-5/3e-5 × WD .1/.5/1，保存完整早停对照。通过过拟合门槛后才运行四个非零半径。",
-      "decision": "56条完整训练已核验，开发集192个T³点中0个通过完整普通前沿、0个同时有own-zero支持。48条曲线：完成48、运行0、失败0；共384固定checkpoint。复用已验证的512篇文档与base评分，单seed探索；无收益也完整报告。当前最小半径的目标学习最好，但仍须结合完整普通早停前沿；不会用更弱终点制造收益。"
+      "decision": "56条完整训练已核验，开发集192个T³点中0个通过完整普通前沿、0个同时有own-zero支持。48条曲线：完成48、运行0、失败0；共384固定checkpoint。复用已验证的512篇文档与base评分，单seed探索；无收益也完整报告。当前最小半径的目标学习最好，但仍须结合完整普通早停前沿；不会用更弱终点制造收益。 48条曲线、384点评分与完整普通前沿已核验。两个数据比例中0个固定主比较通过探索性门槛。区间为配对文档bootstrap，只有一个训练seed，不能视为独立确认。"
     },
     {
       "priority": "P0",
