@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790358345.9119718,
-  "generated_label": "2026-09-25 13:45 EDT",
+  "generated_at": 1790359214.4226627,
+  "generated_label": "2026-09-25 14:00 EDT",
   "slots": [
     {
       "name": "A",
@@ -14,11 +14,11 @@
     {
       "name": "B",
       "allocated": 32,
-      "ours": null,
-      "other": null,
-      "warm": null,
-      "unknown": 32,
-      "next": "UNKNOWN"
+      "ours": 1,
+      "other": 0,
+      "warm": 31,
+      "unknown": 0,
+      "next": "PENDING"
     }
   ],
   "runs": [
@@ -29436,13 +29436,13 @@
       "arm": "普通轨迹加密 · 原步骤 1024–2048",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "unconfirmed",
-      "step": 1056,
+      "status": "running",
+      "step": 1218,
       "horizon": 2048,
-      "passes": 0.0,
+      "passes": 2.37890625,
       "unique_batches": 512,
-      "progress": 0.03125,
-      "eta_hours": null,
+      "progress": 0.189453125,
+      "eta_hours": 0.6357966504544795,
       "curves": [
         {
           "step": 1056,
@@ -29450,6 +29450,41 @@
           "retention": 2.477539228278693,
           "learning": 0.10367994287303217,
           "forgetting": -0.006044057894463606
+        },
+        {
+          "step": 1088,
+          "target": 1.3462555172984518,
+          "retention": 2.4776844071413,
+          "learning": 0.10341749338221096,
+          "forgetting": -0.0058988790318568185
+        },
+        {
+          "step": 1120,
+          "target": 1.3458319226066182,
+          "retention": 2.477513276921869,
+          "learning": 0.10384108807404457,
+          "forgetting": -0.006070009251287534
+        },
+        {
+          "step": 1152,
+          "target": 1.3459838011512135,
+          "retention": 2.477610588549592,
+          "learning": 0.10368920952944927,
+          "forgetting": -0.00597269762356456
+        },
+        {
+          "step": 1184,
+          "target": 1.3456586326300235,
+          "retention": 2.4776169582105982,
+          "learning": 0.10401437805063929,
+          "forgetting": -0.00596632796255836
+        },
+        {
+          "step": 1216,
+          "target": 1.3458285090167843,
+          "retention": 2.4774828116654164,
+          "learning": 0.10384450166387849,
+          "forgetting": -0.006100474507740206
         }
       ],
       "scientifically_accepted": false,
@@ -29467,12 +29502,12 @@
       "arm": "普通轨迹加密 · 原步骤 256–1024",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "unconfirmed",
-      "step": 960,
+      "status": "trained",
+      "step": 1024,
       "horizon": 1024,
       "passes": 0.0,
       "unique_batches": 512,
-      "progress": 0.9166666666666666,
+      "progress": 1,
       "eta_hours": null,
       "curves": [
         {
@@ -29628,6 +29663,20 @@
           "retention": 2.479609414241347,
           "learning": 0.11021226988658461,
           "forgetting": -0.003973871931809647
+        },
+        {
+          "step": 992,
+          "target": 1.3406911932741867,
+          "retention": 2.479620089943068,
+          "learning": 0.10898181740647606,
+          "forgetting": -0.0039631962300887835
+        },
+        {
+          "step": 1024,
+          "target": 1.3391591642794443,
+          "retention": 2.479172269203281,
+          "learning": 0.11051384640121853,
+          "forgetting": -0.0044110169698754476
         }
       ],
       "scientifically_accepted": false,
@@ -36502,14 +36551,14 @@
   "monitoring": {
     "snapshot_refresh_seconds": 900,
     "automatic_agent_followup": false,
-    "last_agent_check_at": 1790357540.5996656,
-    "last_agent_check_label": "2026-09-25 13:32 EDT",
-    "agent_check_age_minutes": 13.421871769428254
+    "last_agent_check_at": 1790358796.2599533,
+    "last_agent_check_label": "2026-09-25 13:53 EDT",
+    "agent_check_age_minutes": 6.969378491242726
   },
   "incidents": [
     {
       "title": "自动快照与 agent 巡检分别记录",
-      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-25 13:32 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
+      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-25 13:53 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
     },
     {
       "title": "A 配套实验：共享调度中断",
@@ -36565,7 +36614,7 @@
       "family": "dense360_ordinary",
       "why": "排除普通checkpoint过稀导致的表面前沿优势；候选保持固定。",
       "design": "三个普通LR区间，每32步补观测，共68点；从原状态续算，已有权重点必须精确一致；全部新增点做外部评分。",
-      "decision": "配置已准备 3/3；运行 0，训练完成 1，失败／中断 0，待启动／确认 2。单seed诊断；最长轨迹32步后时间检查退出，单独90分钟修复排队；原失败保留。先挑战基线，再决定是否加seed。"
+      "decision": "配置已准备 3/3；运行 1，训练完成 2，失败／中断 0，待启动／确认 0。单seed诊断；最长轨迹32步后时间检查退出，单独90分钟修复排队；原失败保留。先挑战基线，再决定是否加seed。"
     },
     {
       "priority": "P0",
