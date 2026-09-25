@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790355583.2052639,
-  "generated_label": "2026-09-25 12:59 EDT",
+  "generated_at": 1790356223.8536255,
+  "generated_label": "2026-09-25 13:10 EDT",
   "slots": [
     {
       "name": "A",
@@ -14,9 +14,9 @@
     {
       "name": "B",
       "allocated": 32,
-      "ours": 0,
+      "ours": 3,
       "other": 0,
-      "warm": 32,
+      "warm": 29,
       "unknown": 0,
       "next": "PENDING"
     }
@@ -29429,6 +29429,75 @@
       "previous_attempt_gpu_seconds": 6.9356043338775635
     },
     {
+      "id": "dense360-ordinary-lr1e-05-1024-2048",
+      "family": "dense360_ordinary",
+      "model": "360M",
+      "domain": "math",
+      "arm": "普通轨迹加密 · 原步骤 1024–2048",
+      "lr": 1e-05,
+      "outer": "AdamW",
+      "status": "running",
+      "step": 1054,
+      "horizon": 2048,
+      "passes": 2.05859375,
+      "unique_batches": 512,
+      "progress": 0.029296875,
+      "eta_hours": 0.7631829159542556,
+      "curves": [],
+      "scientifically_accepted": false,
+      "regime": "quarter_four_passes",
+      "role": "ordinary_control",
+      "objective": "原状态续算以加密观测；验证原始权重重合点；后续历史优化器/RNG已清理，非新seed",
+      "previous_attempt_status": null,
+      "previous_attempt_gpu_seconds": null
+    },
+    {
+      "id": "dense360-ordinary-lr3e-05-256-1024",
+      "family": "dense360_ordinary",
+      "model": "360M",
+      "domain": "math",
+      "arm": "普通轨迹加密 · 原步骤 256–1024",
+      "lr": 3e-05,
+      "outer": "AdamW",
+      "status": "running",
+      "step": 286,
+      "horizon": 1024,
+      "passes": 0.55859375,
+      "unique_batches": 512,
+      "progress": 0.0390625,
+      "eta_hours": 0.5655811114585958,
+      "curves": [],
+      "scientifically_accepted": false,
+      "regime": "quarter_four_passes",
+      "role": "ordinary_control",
+      "objective": "原状态续算以加密观测；验证原始权重重合点；后续历史优化器/RNG已清理，非新seed",
+      "previous_attempt_status": null,
+      "previous_attempt_gpu_seconds": null
+    },
+    {
+      "id": "dense360-ordinary-lr0.0001-128-512",
+      "family": "dense360_ordinary",
+      "model": "360M",
+      "domain": "math",
+      "arm": "普通轨迹加密 · 原步骤 128–512",
+      "lr": 0.0001,
+      "outer": "AdamW",
+      "status": "running",
+      "step": 158,
+      "horizon": 512,
+      "passes": 0.30859375,
+      "unique_batches": 512,
+      "progress": 0.078125,
+      "eta_hours": 0.27137552976491863,
+      "curves": [],
+      "scientifically_accepted": false,
+      "regime": "quarter_four_passes",
+      "role": "ordinary_control",
+      "objective": "原状态续算以加密观测；验证原始权重重合点；后续历史优化器/RNG已清理，非新seed",
+      "previous_attempt_status": null,
+      "previous_attempt_gpu_seconds": null
+    },
+    {
       "id": "s135-code-adamw-3e-06-mean-gradient-rho0p1",
       "family": "smallradius",
       "model": "135M",
@@ -36185,14 +36254,14 @@
   "monitoring": {
     "snapshot_refresh_seconds": 900,
     "automatic_agent_followup": false,
-    "last_agent_check_at": 1790355201.13972,
-    "last_agent_check_label": "2026-09-25 12:53 EDT",
-    "agent_check_age_minutes": 6.367759064833323
+    "last_agent_check_at": 1790356204.9654152,
+    "last_agent_check_label": "2026-09-25 13:10 EDT",
+    "agent_check_age_minutes": 0.3148035049438477
   },
   "incidents": [
     {
       "title": "自动快照与 agent 巡检分别记录",
-      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-25 12:53 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
+      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-25 13:10 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
     },
     {
       "title": "A 配套实验：共享调度中断",
@@ -36241,6 +36310,14 @@
       "why": "检验同一插值配方在更大模型上的开发集信号，保留完整普通LR与早停挑战。",
       "design": "32条已完成训练，各5个固定点评分，另一个共享base；复用通过的360M数值检查。",
       "decision": "32条曲线/161点评分全部核验；固定主比较通过探索性门槛。数学NLL差+0.000301、FineWeb差-0.001300。一个训练seed，已使用的512篇文档；仍需密集普通对照和独立文档，不能当作确认。Lookahead单列。"
+    },
+    {
+      "priority": "P0",
+      "title": "360M：密集普通早停对照",
+      "family": "dense360_ordinary",
+      "why": "排除普通checkpoint过稀导致的表面前沿优势；候选保持固定。",
+      "design": "三个普通LR区间，每32步补观测，共68点；从原状态续算，已有权重点必须精确一致；全部新增点做外部评分。",
+      "decision": "配置已准备 3/3；运行 3，训练完成 0，失败／中断 0，待启动／确认 0。单seed诊断，训练补算上限3 GPU小时；先挑战基线，再决定是否加seed。"
     },
     {
       "priority": "P0",
