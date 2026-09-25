@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790356223.8536255,
-  "generated_label": "2026-09-25 13:10 EDT",
+  "generated_at": 1790356481.5636315,
+  "generated_label": "2026-09-25 13:14 EDT",
   "slots": [
     {
       "name": "A",
@@ -14,9 +14,9 @@
     {
       "name": "B",
       "allocated": 32,
-      "ours": 3,
+      "ours": 2,
       "other": 0,
-      "warm": 29,
+      "warm": 30,
       "unknown": 0,
       "next": "PENDING"
     }
@@ -29436,20 +29436,28 @@
       "arm": "普通轨迹加密 · 原步骤 1024–2048",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1054,
+      "status": "failed",
+      "step": 1056,
       "horizon": 2048,
-      "passes": 2.05859375,
+      "passes": 0.0,
       "unique_batches": 512,
-      "progress": 0.029296875,
-      "eta_hours": 0.7631829159542556,
-      "curves": [],
+      "progress": 0.03125,
+      "eta_hours": null,
+      "curves": [
+        {
+          "step": 1056,
+          "target": 1.3459930678076306,
+          "retention": 2.477539228278693,
+          "learning": 0.10367994287303217,
+          "forgetting": -0.006044057894463606
+        }
+      ],
       "scientifically_accepted": false,
       "regime": "quarter_four_passes",
       "role": "ordinary_control",
       "objective": "原状态续算以加密观测；验证原始权重重合点；后续历史优化器/RNG已清理，非新seed",
-      "previous_attempt_status": null,
-      "previous_attempt_gpu_seconds": null
+      "previous_attempt_status": "首次32步后实测保守时间预测超过上限；成本保留，仅该轨迹时间上限修复为90分钟",
+      "previous_attempt_gpu_seconds": 118.75694966316223
     },
     {
       "id": "dense360-ordinary-lr3e-05-256-1024",
@@ -29460,13 +29468,35 @@
       "lr": 3e-05,
       "outer": "AdamW",
       "status": "running",
-      "step": 286,
+      "step": 369,
       "horizon": 1024,
-      "passes": 0.55859375,
+      "passes": 0.720703125,
       "unique_batches": 512,
-      "progress": 0.0390625,
-      "eta_hours": 0.5655811114585958,
-      "curves": [],
+      "progress": 0.14713541666666666,
+      "eta_hours": 0.5015755302589645,
+      "curves": [
+        {
+          "step": 288,
+          "target": 1.3548061502313997,
+          "retention": 2.4811972014368697,
+          "learning": 0.09486686044926307,
+          "forgetting": -0.0023860847362868753
+        },
+        {
+          "step": 320,
+          "target": 1.3521238426513857,
+          "retention": 2.4807491921752853,
+          "learning": 0.09754916802927704,
+          "forgetting": -0.0028340939978712676
+        },
+        {
+          "step": 352,
+          "target": 1.3512228350954256,
+          "retention": 2.480772957801662,
+          "learning": 0.09845017558523717,
+          "forgetting": -0.0028103283714946414
+        }
+      ],
       "scientifically_accepted": false,
       "regime": "quarter_four_passes",
       "role": "ordinary_control",
@@ -29483,13 +29513,35 @@
       "lr": 0.0001,
       "outer": "AdamW",
       "status": "running",
-      "step": 158,
+      "step": 240,
       "horizon": 512,
-      "passes": 0.30859375,
+      "passes": 0.46875,
       "unique_batches": 512,
-      "progress": 0.078125,
-      "eta_hours": 0.27137552976491863,
-      "curves": [],
+      "progress": 0.2916666666666667,
+      "eta_hours": 0.2086049122394373,
+      "curves": [
+        {
+          "step": 160,
+          "target": 1.3688791646287235,
+          "retention": 2.491090960209783,
+          "learning": 0.08079384605193929,
+          "forgetting": 0.007507674036626444
+        },
+        {
+          "step": 192,
+          "target": 1.367422379557151,
+          "retention": 2.4914540992593595,
+          "learning": 0.08225063112351183,
+          "forgetting": 0.007870813086202855
+        },
+        {
+          "step": 224,
+          "target": 1.3720170344295874,
+          "retention": 2.4934364504169375,
+          "learning": 0.07765597625107534,
+          "forgetting": 0.00985316424378091
+        }
+      ],
       "scientifically_accepted": false,
       "regime": "quarter_four_passes",
       "role": "ordinary_control",
@@ -36256,7 +36308,7 @@
     "automatic_agent_followup": false,
     "last_agent_check_at": 1790356204.9654152,
     "last_agent_check_label": "2026-09-25 13:10 EDT",
-    "agent_check_age_minutes": 0.3148035049438477
+    "agent_check_age_minutes": 4.609970271587372
   },
   "incidents": [
     {
@@ -36317,7 +36369,7 @@
       "family": "dense360_ordinary",
       "why": "排除普通checkpoint过稀导致的表面前沿优势；候选保持固定。",
       "design": "三个普通LR区间，每32步补观测，共68点；从原状态续算，已有权重点必须精确一致；全部新增点做外部评分。",
-      "decision": "配置已准备 3/3；运行 3，训练完成 0，失败／中断 0，待启动／确认 0。单seed诊断，训练补算上限3 GPU小时；先挑战基线，再决定是否加seed。"
+      "decision": "配置已准备 3/3；运行 2，训练完成 0，失败／中断 1，待启动／确认 0。单seed诊断；最长轨迹32步后时间检查退出，单独90分钟修复排队；原失败保留。先挑战基线，再决定是否加seed。"
     },
     {
       "priority": "P0",
