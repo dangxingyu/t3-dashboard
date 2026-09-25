@@ -1,22 +1,22 @@
 {
-  "generated_at": 1790325620.1237304,
-  "generated_label": "2026-09-25 04:40 EDT",
+  "generated_at": 1790326523.7547522,
+  "generated_label": "2026-09-25 04:55 EDT",
   "slots": [
     {
       "name": "A",
       "allocated": 32,
-      "ours": 0,
-      "other": 0,
-      "warm": 32,
-      "unknown": 0,
-      "next": "PENDING"
+      "ours": null,
+      "other": null,
+      "warm": null,
+      "unknown": 32,
+      "next": "UNKNOWN"
     },
     {
       "name": "B",
       "allocated": 32,
-      "ours": 16,
+      "ours": 0,
       "other": 0,
-      "warm": 16,
+      "warm": 32,
       "unknown": 0,
       "next": "PENDING"
     }
@@ -20938,13 +20938,13 @@
       "arm": "普通 AdamW · replay 20%",
       "lr": 3e-06,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1911,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 0.93310546875,
+      "passes": 1.0,
       "unique_batches": 2048,
-      "progress": 0.93310546875,
-      "eta_hours": 0.05483633244060911,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -20975,6 +20975,12 @@
           "target": 1.5568481985121403,
           "retention": 2.702084893579635,
           "forgetting": 0.0009674493821600905
+        },
+        {
+          "step": 2048,
+          "target": 1.5553691989319516,
+          "retention": 2.701999161944358,
+          "forgetting": 0.0008817177468833926
         }
       ],
       "scientifically_accepted": false,
@@ -20992,13 +20998,13 @@
       "arm": "普通 AdamW · replay 20%",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1903,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 0.92919921875,
+      "passes": 1.0,
       "unique_batches": 2048,
-      "progress": 0.92919921875,
-      "eta_hours": 0.0580574770774951,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -21029,6 +21035,12 @@
           "target": 1.5354816913635545,
           "retention": 2.701437693913958,
           "forgetting": 0.0003202497164833673
+        },
+        {
+          "step": 2048,
+          "target": 1.5336552974285524,
+          "retention": 2.701373371802448,
+          "forgetting": 0.00025592760497339384
         }
       ],
       "scientifically_accepted": false,
@@ -21046,13 +21058,13 @@
       "arm": "普通 AdamW · replay 20%",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1914,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 0.9345703125,
+      "passes": 1.0,
       "unique_batches": 2048,
-      "progress": 0.9345703125,
-      "eta_hours": 0.053481495352332584,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -21083,6 +21095,12 @@
           "target": 1.5181611695131767,
           "retention": 2.7040245819763276,
           "forgetting": 0.002907137778852764
+        },
+        {
+          "step": 2048,
+          "target": 1.514816043184725,
+          "retention": 2.703793457084056,
+          "forgetting": 0.0026760128865812582
         }
       ],
       "scientifically_accepted": false,
@@ -21100,13 +21118,13 @@
       "arm": "普通 AdamW · replay 20%",
       "lr": 0.0001,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1904,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 0.9296875,
+      "passes": 1.0,
       "unique_batches": 2048,
-      "progress": 0.9296875,
-      "eta_hours": 0.057670397479087115,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -21137,6 +21155,12 @@
           "target": 1.5076054257752265,
           "retention": 2.72405831066702,
           "forgetting": 0.022940866469545185
+        },
+        {
+          "step": 2048,
+          "target": 1.4994946981024688,
+          "retention": 2.7222347808516796,
+          "forgetting": 0.021117336654204788
         }
       ],
       "scientifically_accepted": false,
@@ -21154,13 +21178,13 @@
       "arm": "轨迹反馈 · K=8 · α=0.1 · replay 20%",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1898,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 0.9267578125,
+      "passes": 1.0,
       "unique_batches": 2048,
-      "progress": 0.9267578125,
-      "eta_hours": 0.06002176546220047,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -21191,6 +21215,12 @@
           "target": 1.5569405783411403,
           "retention": 2.7019758985988873,
           "forgetting": 0.0008584544014125228
+        },
+        {
+          "step": 2048,
+          "target": 1.5554289065613287,
+          "retention": 2.7018973469165237,
+          "forgetting": 0.0007799027190489305
         }
       ],
       "scientifically_accepted": false,
@@ -21208,13 +21238,13 @@
       "arm": "轨迹反馈 · K=8 · α=0.1 · replay 20%",
       "lr": 0.0001,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1897,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 0.92626953125,
+      "passes": 1.0,
       "unique_batches": 2048,
-      "progress": 0.92626953125,
-      "eta_hours": 0.06050723005293144,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -21245,6 +21275,12 @@
           "target": 1.5355422774204983,
           "retention": 2.7013192440609797,
           "forgetting": 0.00020179986350488122
+        },
+        {
+          "step": 2048,
+          "target": 1.5337778246844493,
+          "retention": 2.7012484226763323,
+          "forgetting": 0.0001309784788574575
         }
       ],
       "scientifically_accepted": false,
@@ -21262,13 +21298,13 @@
       "arm": "轨迹反馈 · K=64 · α=0.1 · replay 20%",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1905,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 0.93017578125,
+      "passes": 1.0,
       "unique_batches": 2048,
-      "progress": 0.93017578125,
-      "eta_hours": 0.05710066993578544,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -21299,6 +21335,12 @@
           "target": 1.5590145763687635,
           "retention": 2.7005905013516673,
           "forgetting": -0.0005269428458074543
+        },
+        {
+          "step": 2048,
+          "target": 1.5570107803836974,
+          "retention": 2.700878116730587,
+          "forgetting": -0.0002393274668879286
         }
       ],
       "scientifically_accepted": false,
@@ -21316,13 +21358,13 @@
       "arm": "轨迹反馈 · K=64 · α=0.1 · replay 20%",
       "lr": 0.0001,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1903,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 0.92919921875,
+      "passes": 1.0,
       "unique_batches": 2048,
-      "progress": 0.92919921875,
-      "eta_hours": 0.05782614942258483,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -21353,6 +21395,12 @@
           "target": 1.5378497064872472,
           "retention": 2.699751759265806,
           "forgetting": -0.0013656849316689978
+        },
+        {
+          "step": 2048,
+          "target": 1.5355423748352721,
+          "retention": 2.700130392763271,
+          "forgetting": -0.000987051434203856
         }
       ],
       "scientifically_accepted": false,
@@ -21850,13 +21898,13 @@
       "arm": "普通 AdamW · replay 20%",
       "lr": 3e-06,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1916,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 3.7421875,
+      "passes": 4.0,
       "unique_batches": 512,
-      "progress": 0.935546875,
-      "eta_hours": 0.05273985350349297,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -21887,6 +21935,12 @@
           "target": 1.5567262992015067,
           "retention": 2.702386867340256,
           "forgetting": 0.001269423142781001
+        },
+        {
+          "step": 2048,
+          "target": 1.5553347572718372,
+          "retention": 2.70232665584159,
+          "forgetting": 0.00120921164411536
         }
       ],
       "scientifically_accepted": false,
@@ -21904,13 +21958,13 @@
       "arm": "普通 AdamW · replay 20%",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1909,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 3.728515625,
+      "passes": 4.0,
       "unique_batches": 512,
-      "progress": 0.93212890625,
-      "eta_hours": 0.05559019215256234,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -21941,6 +21995,12 @@
           "target": 1.5365073335658557,
           "retention": 2.702390719170901,
           "forgetting": 0.0012732749734261084
+        },
+        {
+          "step": 2048,
+          "target": 1.5355367344387227,
+          "retention": 2.7024002607109425,
+          "forgetting": 0.0012828165134677327
         }
       ],
       "scientifically_accepted": false,
@@ -21958,13 +22018,13 @@
       "arm": "普通 AdamW · replay 20%",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1919,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 3.748046875,
+      "passes": 4.0,
       "unique_batches": 512,
-      "progress": 0.93701171875,
-      "eta_hours": 0.05124003807490226,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -21995,6 +22055,12 @@
           "target": 1.5257078971923912,
           "retention": 2.7071772475913756,
           "forgetting": 0.006059803393900776
+        },
+        {
+          "step": 2048,
+          "target": 1.5265394255938338,
+          "retention": 2.70757494533881,
+          "forgetting": 0.0064575011413352534
         }
       ],
       "scientifically_accepted": false,
@@ -22012,13 +22078,13 @@
       "arm": "普通 AdamW · replay 20%",
       "lr": 0.0001,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1900,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 3.7109375,
+      "passes": 4.0,
       "unique_batches": 512,
-      "progress": 0.927734375,
-      "eta_hours": 0.05950435529851044,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -22049,6 +22115,12 @@
           "target": 1.5439273491558012,
           "retention": 2.7327824893538675,
           "forgetting": 0.03166504515639268
+        },
+        {
+          "step": 2048,
+          "target": 1.5544442482289087,
+          "retention": 2.7345877149136175,
+          "forgetting": 0.033470270716142725
         }
       ],
       "scientifically_accepted": false,
@@ -22066,13 +22138,13 @@
       "arm": "轨迹反馈 · K=8 · α=0.1 · replay 20%",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1911,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 3.732421875,
+      "passes": 4.0,
       "unique_batches": 512,
-      "progress": 0.93310546875,
-      "eta_hours": 0.054525091535567,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -22103,6 +22175,12 @@
           "target": 1.5567916527940047,
           "retention": 2.702262495669823,
           "forgetting": 0.0011450514723483352
+        },
+        {
+          "step": 2048,
+          "target": 1.555391598917599,
+          "retention": 2.7022177995275323,
+          "forgetting": 0.0011003553300574787
         }
       ],
       "scientifically_accepted": false,
@@ -22120,13 +22198,13 @@
       "arm": "轨迹反馈 · K=8 · α=0.1 · replay 20%",
       "lr": 0.0001,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1899,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 3.708984375,
+      "passes": 4.0,
       "unique_batches": 512,
-      "progress": 0.92724609375,
-      "eta_hours": 0.05962562606314249,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -22157,6 +22235,12 @@
           "target": 1.536554266382859,
           "retention": 2.7022226283073576,
           "forgetting": 0.0011051841098828064
+        },
+        {
+          "step": 2048,
+          "target": 1.535596889568554,
+          "retention": 2.702251910472057,
+          "forgetting": 0.0011344662745820244
         }
       ],
       "scientifically_accepted": false,
@@ -22174,13 +22258,13 @@
       "arm": "轨迹反馈 · K=64 · α=0.1 · replay 20%",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1901,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 3.712890625,
+      "passes": 4.0,
       "unique_batches": 512,
-      "progress": 0.92822265625,
-      "eta_hours": 0.05888797128786488,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -22211,6 +22295,12 @@
           "target": 1.55878936259991,
           "retention": 2.7009225823016876,
           "forgetting": -0.0001948618957872128
+        },
+        {
+          "step": 2048,
+          "target": 1.5569523648671348,
+          "retention": 2.7012258106842286,
+          "forgetting": 0.00010836648675383032
         }
       ],
       "scientifically_accepted": false,
@@ -22228,13 +22318,13 @@
       "arm": "轨迹反馈 · K=64 · α=0.1 · replay 20%",
       "lr": 0.0001,
       "outer": "AdamW",
-      "status": "running",
-      "step": 1889,
+      "status": "trained",
+      "step": 2048,
       "horizon": 2048,
-      "passes": 3.689453125,
+      "passes": 4.0,
       "unique_batches": 512,
-      "progress": 0.92236328125,
-      "eta_hours": 0.06496065403043758,
+      "progress": 1,
+      "eta_hours": null,
       "curves": [
         {
           "step": 0,
@@ -22265,6 +22355,12 @@
           "target": 1.5386022784342333,
           "retention": 2.7005931624390187,
           "forgetting": -0.000524281758456091
+        },
+        {
+          "step": 2048,
+          "target": 1.5369701816247265,
+          "retention": 2.701072110047019,
+          "forgetting": -4.533415045582245e-05
         }
       ],
       "scientifically_accepted": false,
@@ -30429,7 +30525,7 @@
     "automatic_agent_followup": false,
     "last_agent_check_at": 1790325567.9030328,
     "last_agent_check_label": "2026-09-25 04:39 EDT",
-    "agent_check_age_minutes": 0.8703449606895447
+    "agent_check_age_minutes": 15.930861989657084
   },
   "incidents": [
     {
@@ -30450,7 +30546,7 @@
       "priority": "P0",
       "title": "CPT：能否学得更多，同时忘得更少？",
       "why": "T³ 包含训练时适应、测试与反馈的不同算法；检验它们能否超过调参的普通 CPT、replay 和固定教师蒸馏。",
-      "next": "持续CPT搜索已恢复；仅使用B，A由实验负责人安排SlowRun。新64配置：135M/360M × 一次遍历/固定数据四遍，比较8/64步轨迹反馈、普通AdamW和replay；基线覆盖名义与缩小后的有效学习率。配置已准备 64/64；运行 16，训练完成 16，失败／中断 0，待启动／确认 32。筛选相近学习下更少遗忘或相近遗忘下更多学习；当前曲线为development，尚未确认新收益。 Wave 2a：先测普通CPT是否在小数据多轮训练中过拟合。配置已准备 30/30；运行 0，训练完成 0，失败／中断 0，待启动／确认 30。18组普通LR×WD与12组own-zero；确认过拟合后才运行预训练T³算子，半径0.036/0.145/0.58/2.32。实际约32/64遍、6708更新；记录内层位移/外层更新比，只用B。当前没有新收益结论。"
+      "next": "135M的32条轨迹与192个开发集点已完成，任务成本20.677 GPU小时。K8基本等于普通LR缩小十倍；最近匹配筛选虽标记2个候选，最强容差内对照只留下K64、四遍数据、20% replay：目标域代价+0.000463、保留域改善0.001319 NLL。单seed开发集信号，尚未独立确认；正在安排候选和关键普通对照的外部评分。360M的32配置仍已准备、未提交。仅使用B，A留给SlowRun。 Wave 2a：先测普通CPT是否在小数据多轮训练中过拟合。配置已准备 30/30；运行 0，训练完成 0，失败／中断 0，待启动／确认 30。18组普通LR×WD与12组own-zero；确认过拟合后才运行预训练T³算子，半径0.036/0.145/0.58/2.32。实际约32/64遍、6708更新；记录内层位移/外层更新比，只用B。当前没有新收益结论。"
     },
     {
       "priority": "P0",
@@ -30474,7 +30570,7 @@
       "family": "trajectory_feedback",
       "why": "检验长适应轨迹是否改善学习–遗忘前沿，并排除普通步长缩小或replay的解释。",
       "design": "135M/360M × one-pass/quarter-four-pass；每个setting有8个调参普通对照和8个轨迹反馈配置。",
-      "decision": "持续CPT搜索已恢复；仅使用B，A由实验负责人安排SlowRun。新64配置：135M/360M × 一次遍历/固定数据四遍，比较8/64步轨迹反馈、普通AdamW和replay；基线覆盖名义与缩小后的有效学习率。配置已准备 64/64；运行 16，训练完成 16，失败／中断 0，待启动／确认 32。筛选相近学习下更少遗忘或相近遗忘下更多学习；当前曲线为development，尚未确认新收益。"
+      "decision": "135M的32条轨迹与192个开发集点已完成，任务成本20.677 GPU小时。K8基本等于普通LR缩小十倍；最近匹配筛选虽标记2个候选，最强容差内对照只留下K64、四遍数据、20% replay：目标域代价+0.000463、保留域改善0.001319 NLL。单seed开发集信号，尚未独立确认；正在安排候选和关键普通对照的外部评分。360M的32配置仍已准备、未提交。仅使用B，A留给SlowRun。"
     },
     {
       "priority": "P0",
