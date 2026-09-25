@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790357394.843748,
-  "generated_label": "2026-09-25 13:29 EDT",
+  "generated_at": 1790358345.9119718,
+  "generated_label": "2026-09-25 13:45 EDT",
   "slots": [
     {
       "name": "A",
@@ -14,11 +14,11 @@
     {
       "name": "B",
       "allocated": 32,
-      "ours": 1,
-      "other": 0,
-      "warm": 31,
-      "unknown": 0,
-      "next": "PENDING"
+      "ours": null,
+      "other": null,
+      "warm": null,
+      "unknown": 32,
+      "next": "UNKNOWN"
     }
   ],
   "runs": [
@@ -29436,7 +29436,7 @@
       "arm": "普通轨迹加密 · 原步骤 1024–2048",
       "lr": 1e-05,
       "outer": "AdamW",
-      "status": "failed",
+      "status": "unconfirmed",
       "step": 1056,
       "horizon": 2048,
       "passes": 0.0,
@@ -29467,13 +29467,13 @@
       "arm": "普通轨迹加密 · 原步骤 256–1024",
       "lr": 3e-05,
       "outer": "AdamW",
-      "status": "running",
-      "step": 667,
+      "status": "unconfirmed",
+      "step": 960,
       "horizon": 1024,
-      "passes": 1.302734375,
+      "passes": 0.0,
       "unique_batches": 512,
-      "progress": 0.53515625,
-      "eta_hours": 0.27355146082564413,
+      "progress": 0.9166666666666666,
+      "eta_hours": null,
       "curves": [
         {
           "step": 288,
@@ -29558,6 +29558,76 @@
           "retention": 2.4797297412267216,
           "learning": 0.10720664116025325,
           "forgetting": -0.0038535449464349725
+        },
+        {
+          "step": 672,
+          "target": 1.3436689283694814,
+          "retention": 2.479552771619148,
+          "learning": 0.10600408231118141,
+          "forgetting": -0.004030514554008491
+        },
+        {
+          "step": 704,
+          "target": 1.3433340376269283,
+          "retention": 2.479514511102891,
+          "learning": 0.10633897305373452,
+          "forgetting": -0.004068775070265485
+        },
+        {
+          "step": 736,
+          "target": 1.346350699142752,
+          "retention": 2.479724624210134,
+          "learning": 0.10332231153791072,
+          "forgetting": -0.003858661963022758
+        },
+        {
+          "step": 768,
+          "target": 1.345989473722578,
+          "retention": 2.4798541971487893,
+          "learning": 0.10368353695808485,
+          "forgetting": -0.0037290890243673047
+        },
+        {
+          "step": 800,
+          "target": 1.343094993584885,
+          "retention": 2.4796252862393775,
+          "learning": 0.10657801709577774,
+          "forgetting": -0.003957999933779099
+        },
+        {
+          "step": 832,
+          "target": 1.3432041524768121,
+          "retention": 2.479692720078755,
+          "learning": 0.10646885820385066,
+          "forgetting": -0.0038905660944017484
+        },
+        {
+          "step": 864,
+          "target": 1.3419402874492783,
+          "retention": 2.479673581512978,
+          "learning": 0.1077327232313845,
+          "forgetting": -0.003909704660178814
+        },
+        {
+          "step": 896,
+          "target": 1.3407769853067084,
+          "retention": 2.480064965965802,
+          "learning": 0.10889602537395437,
+          "forgetting": -0.0035183202073545417
+        },
+        {
+          "step": 928,
+          "target": 1.3407357749200781,
+          "retention": 2.4799221430118026,
+          "learning": 0.10893723576058467,
+          "forgetting": -0.003661143161354019
+        },
+        {
+          "step": 960,
+          "target": 1.3394607407940782,
+          "retention": 2.479609414241347,
+          "learning": 0.11021226988658461,
+          "forgetting": -0.003973871931809647
         }
       ],
       "scientifically_accepted": false,
@@ -36432,14 +36502,14 @@
   "monitoring": {
     "snapshot_refresh_seconds": 900,
     "automatic_agent_followup": false,
-    "last_agent_check_at": 1790356493.7162826,
-    "last_agent_check_label": "2026-09-25 13:14 EDT",
-    "agent_check_age_minutes": 15.018791091442107
+    "last_agent_check_at": 1790357540.5996656,
+    "last_agent_check_label": "2026-09-25 13:32 EDT",
+    "agent_check_age_minutes": 13.421871769428254
   },
   "incidents": [
     {
       "title": "自动快照与 agent 巡检分别记录",
-      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-25 13:14 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
+      "detail": "页面每15分钟自动采集任务状态。Agent最近实际巡检：2026-09-25 13:32 EDT。当前没有已安排的后台agent巡检；页面刷新不会自动分析结果或安排新实验。已提交任务的自动续跑由现有队列执行。"
     },
     {
       "title": "A 配套实验：共享调度中断",
@@ -36495,7 +36565,7 @@
       "family": "dense360_ordinary",
       "why": "排除普通checkpoint过稀导致的表面前沿优势；候选保持固定。",
       "design": "三个普通LR区间，每32步补观测，共68点；从原状态续算，已有权重点必须精确一致；全部新增点做外部评分。",
-      "decision": "配置已准备 3/3；运行 1，训练完成 1，失败／中断 1，待启动／确认 0。单seed诊断；最长轨迹32步后时间检查退出，单独90分钟修复排队；原失败保留。先挑战基线，再决定是否加seed。"
+      "decision": "配置已准备 3/3；运行 0，训练完成 1，失败／中断 0，待启动／确认 2。单seed诊断；最长轨迹32步后时间检查退出，单独90分钟修复排队；原失败保留。先挑战基线，再决定是否加seed。"
     },
     {
       "priority": "P0",
