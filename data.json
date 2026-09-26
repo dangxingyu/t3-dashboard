@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790383746.6533327,
-  "generated_label": "2026-09-25 20:49 EDT",
+  "generated_at": 1790384636.1359296,
+  "generated_label": "2026-09-25 21:03 EDT",
   "slots": [
     {
       "name": "A",
@@ -14,11 +14,11 @@
     {
       "name": "B",
       "allocated": 32,
-      "ours": null,
-      "other": null,
-      "warm": null,
-      "unknown": 32,
-      "next": "UNKNOWN"
+      "ours": 0,
+      "other": 0,
+      "warm": 32,
+      "unknown": 0,
+      "next": "PENDING"
     }
   ],
   "runs": [
@@ -38724,7 +38724,7 @@
     "automatic_agent_followup": false,
     "last_agent_check_at": 1790377986.4689732,
     "last_agent_check_label": "2026-09-25 19:13 EDT",
-    "agent_check_age_minutes": 96.0030726591746
+    "agent_check_age_minutes": 110.82778260707855
   },
   "incidents": [
     {
