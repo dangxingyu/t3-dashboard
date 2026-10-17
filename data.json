@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792214226.9794111,
-  "generated_label": "2026-10-17 01:17 EDT",
+  "generated_at": 1792215137.4000847,
+  "generated_label": "2026-10-17 01:32 EDT",
   "slots": [
     {
       "name": "A",
@@ -39060,7 +39060,7 @@
     "automatic_agent_followup": false,
     "last_agent_check_at": 1790391476.1510358,
     "last_agent_check_label": "2026-09-25 22:57 EDT",
-    "agent_check_age_minutes": 30379.180472922326
+    "agent_check_age_minutes": 30394.354150815805
   },
   "incidents": [
     {
